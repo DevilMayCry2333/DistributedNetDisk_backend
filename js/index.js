@@ -18,8 +18,8 @@ $(document).ready(function(){
 		}
 		if(username!="" && password!=""){
 			$.ajax({
-				type:"POST",
-				url:"#####",
+				type:"GET",
+				url:"/login",
 				contentType: "application/json; charset=utf-8",
 				dataType: "json",
 				data:{
