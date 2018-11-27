@@ -42,9 +42,10 @@ class FileUpload extends Controller
         $FileUploadMod =new \app\index\model\FileUploadMod();
 
         $session_user =file_get_contents('test.txt');
+        $mod_date = time();
 
-        $FileUploadMod->upload($session_user,$_FILES["file"]["name"],$_FILES["file"]["type"],$_FILES["file"]["size"] / 1024,"DistributedNetDisk/public/upload");
-        
+
+        $FileUploadMod->upload($session_user,$_FILES["file"]["name"],$_FILES["file"]["type"],$_FILES["file"]["size"] / 1024,"DistributedNetDisk/public/upload",$mod_date);
 
     }
 }

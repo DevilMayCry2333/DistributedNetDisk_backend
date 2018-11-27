@@ -14,13 +14,14 @@ use think\Model;
 class FileUploadMod extends Model
 {
     protected $table = "netdisk_userfile";
-    public function upload($username,$filename,$filetype,$filesize,$filepath){
+    public function upload($username,$filename,$filetype,$filesize,$filepath,$modtime){
         $FileUpload = new FileUploadMod();
         $FileUpload->username = $username;
         $FileUpload->filename = $filename;
         $FileUpload->size = $filesize;
         $FileUpload->type = $filetype;
         $FileUpload->abs_path = $filepath;
+        $FileUpload->mod_date = $modtime;
         $FileUpload->save();
         echo "SUCEESS";
     }
