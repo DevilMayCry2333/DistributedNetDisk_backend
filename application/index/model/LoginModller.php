@@ -26,6 +26,10 @@ class LoginModller extends Model
         $login_res = $passwordEncrypt->where('username',$username)->where('password',$passmd5)->find();
 
         if($login_res!=null){
+
+            //写入session
+            file_put_contents('test.txt', $username);
+//            echo $_SESSION["username"];
             echo "OK";
         }else{
             echo "FAIL";

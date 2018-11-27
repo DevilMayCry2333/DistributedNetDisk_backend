@@ -16,6 +16,6 @@
 //Route::get('hello/:name', 'index/hello');
 //
 //
-//return [
-//
-//];
+return [
+    'upload/[:name]' => 'index/FileUpload/upload'
+];
