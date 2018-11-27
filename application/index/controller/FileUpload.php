@@ -44,7 +44,7 @@ class FileUpload extends Controller
         $session_user =file_get_contents('test.txt');
 
         $FileUploadMod->upload($session_user,$_FILES["file"]["name"],$_FILES["file"]["type"],$_FILES["file"]["size"] / 1024,"DistributedNetDisk/public/upload");
-
+        
 
     }
 }
