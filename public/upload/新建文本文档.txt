@@ -1,0 +1,9 @@
+For i = 1 To 1 Step 1
+ Browser("THEOL网络教学综合平台-福建农林大学").Page("THEOL网络教学综合平台-福建农林大学").WebEdit("IPT_LOGINUSERNAME").Set DataTable("A",dtGlobalSheet)
+ Browser("THEOL网络教学综合平台-福建农林大学").Page("THEOL网络教学综合平台-福建农林大学").WebEdit("IPT_LOGINPASSWORD").Set DataTable("B",dtGlobalSheet)
+  Browser("THEOL网络教学综合平台-福建农林大学").Page("THEOL网络教学综合平台-福建农林大学").WebEdit("IPT_LOGINUSERNAME").CheckProperty "Value","3166016008"
+  Browser("THEOL网络教学综合平台-福建农林大学").Page("THEOL网络教学综合平台-福建农林大学").WebEdit("IPT_LOGINPASSWORD").CheckProperty "Value","YKY12345"
+ Browser("THEOL网络教学综合平台-福建农林大学").Page("THEOL网络教学综合平台-福建农林大学").WebButton("WebButton").Click
+
+ wait(1)
+Next
