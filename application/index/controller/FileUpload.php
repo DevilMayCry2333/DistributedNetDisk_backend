@@ -47,5 +47,12 @@ class FileUpload extends Controller
 
         $FileUploadMod->upload($session_user,$_FILES["file"]["name"],$_FILES["file"]["type"],$_FILES["file"]["size"] / 1024,"DistributedNetDisk/public/upload",$mod_date);
 
+        echo '<script>window.setInterval(function() 
+            { 
+                window.location.href = "http://localhost/DistributedNetDisk/public/static/login/page/netdisk/";
+            },3000);  
+
+            </script>';
+
     }
 }
