@@ -9,7 +9,39 @@
 namespace app\index\controller;
 
 
-class FileDownloadCtl
+use think\Controller;
+use ZipArchive;
+
+class FileDownloadCtl extends Controller
 {
+    public function download_file(){
+       $f_cnt = $_GET["cnt"];
+        for ($i = 1 ; $i <= $f_cnt ; $i++){
+            $filetmp[$i] = $_GET["userfile".$i];
+            $zip = new ZipArchive;
+            $zipname = "test.zip";
+            $pathname = "/Library/WebServer/Documents/DistributedNetDisk/public/upload/";
+            $relPathName = $pathname.$filetmp[$i];
+//            var_dump($pathname.$filetmp[$i]);
+            $myfile = fopen($relPathName, "r") or die("Unable to open file!");
+            $myfilecontent =  fread($myfile,filesize($relPathName));
+            fclose($myfile);
+            $res = $zip->open($zipname, ZipArchive::CREATE);
+            if ($res === TRUE) {
+
+                $zip->addFromString($filetmp[$i], $myfilecontent);
+                $zip->close();
+            } else {
+                echo 'failed';
+            }
+        }
+
+        echo $zipname;
+
+
+    }
+
+
+
 
 }
