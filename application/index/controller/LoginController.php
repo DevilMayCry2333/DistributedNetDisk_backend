@@ -28,14 +28,21 @@ class LoginController extends Controller
 
     public function login(){
         header("Content-Type: text/html;charset=utf-8");
-        $username = $_GET["username"];
-        $password = $_GET["password"];
+        header("Access-Control-Allow-Origin: * ");
+        header("Access-Control-Allow-Methods: POST, GET, OPTIONS, PUT, DELETE");
+        header('Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Connection, User-Agent, Cookie,token');
+        header("Content-Type: text/html;charset=utf-8");
+
+        $username = $_POST["username"];
+        $password = $_POST["password"];
         if($username!=null && $password!=null){
 
 
             $user_res = new \app\index\model\LoginModller();
-            $user_res->login($username,$password);
-
+            if($user_res->login($username,$password))
+                $this->redirect("http://localhost/netDisk_View/DistributedNetDisk_backend/View/page/netdisk/index.html?username=$username",302);
+            else
+               echo false;
         }
 
     }

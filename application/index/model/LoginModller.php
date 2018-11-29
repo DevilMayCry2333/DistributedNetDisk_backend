@@ -20,19 +20,24 @@ class LoginModller extends Model
         header("Content-Type: text/html;charset=utf-8");
         $passwordEncrypt = new PasswordEncryt();
 
+        $res=$this->where('username',$username)->find();
+        $passwd_right=$res['password'];
+        $salt=$res['salt'];
+        //var_dump($salt);
+        $passwdmd5 = $passwordEncrypt->md5encrypt($password,$salt);
 
-        $passmd5 = $passwordEncrypt->md5encrypt($username,$password);
-
-        $login_res = $passwordEncrypt->where('username',$username)->where('password',$passmd5)->find();
-
-        if($login_res!=null){
+        $login_res = $passwd_right==$passwdmd5;
+        //var_dump($login_res);
+        if($login_res){
 
             //写入session
             file_put_contents('test.txt', $username);
-//            echo $_SESSION["username"];
-            echo "OK";
+//           echo $_SESSION["username"];
+            //echo $username;
+            return true;
         }else{
-            echo "FAIL";
+            //echo "FAIL";
+            return false;
         }
     }
 
