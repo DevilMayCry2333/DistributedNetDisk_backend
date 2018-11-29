@@ -941,68 +941,99 @@
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="236" parent="230" name="PRIMARY">
+
+    <index id="236" parent="230" name="netdisk_user_username_uindex">
+      <ColNames>username</ColNames>
+      <Unique>1</Unique>
+      <Type>btree</Type>
+    </index>
+    <key id="237" parent="230" name="PRIMARY">
+
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id
 username</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="237" parent="231" name="id">
+
+    <key id="238" parent="230" name="netdisk_user_username_uindex">
+      <ColNames>username</ColNames>
+      <UnderlyingIndexName>netdisk_user_username_uindex</UnderlyingIndexName>
+    </key>
+    <column id="239" parent="231" name="id">
+
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="238" parent="231" name="username">
+
+    <column id="240" parent="231" name="username">
+
       <Position>2</Position>
       <DataType>varchar(60)|0s</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>&apos;&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="239" parent="231" name="parent_dir">
+
+    <column id="241" parent="231" name="parent_dir">
+
       <Position>3</Position>
       <DataType>varchar(60)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="240" parent="231" name="abs_path">
+
+    <column id="242" parent="231" name="abs_path">
+
       <Position>4</Position>
       <DataType>varchar(60)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="241" parent="231" name="type">
+
+    <column id="243" parent="231" name="type">
+
       <Position>5</Position>
       <DataType>varchar(60)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="242" parent="231" name="mod_date">
+
+    <column id="244" parent="231" name="mod_date">
+
       <Position>6</Position>
       <DataType>varchar(100)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="243" parent="231" name="ext">
+
+    <column id="245" parent="231" name="ext">
+
       <Position>7</Position>
       <DataType>varchar(60)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="244" parent="231" name="size">
+
+    <column id="246" parent="231" name="size">
+
       <Position>8</Position>
       <DataType>int(11)|0s</DataType>
       <DefaultExpression>&apos;0&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="245" parent="231" name="filename">
+
+    <column id="247" parent="231" name="filename">
+
       <Position>9</Position>
       <DataType>varchar(60)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="246" parent="231" name="crc">
+
+    <column id="248" parent="231" name="crc">
+
       <Position>10</Position>
       <DataType>varchar(60)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="247" parent="231" name="PRIMARY">
+    <key id="249" parent="231" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id
 username</ColNames>
