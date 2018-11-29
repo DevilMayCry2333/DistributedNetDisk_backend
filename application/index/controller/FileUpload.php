@@ -29,6 +29,7 @@ class FileUpload extends Controller
         echo "Size: " . ($_FILES["file"]["size"]) . " Bytes<br />";
         echo "Temp file: " . $_FILES["file"]["tmp_name"] . "<br />";
         $username = $_POST["username"];
+
         if (file_exists("upload/" . $_FILES["file"]["name"]))
         {
             echo $_FILES["file"]["name"] . " already exists. ";
