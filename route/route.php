@@ -17,5 +17,6 @@
 //
 //
 return [
-    'upload/[:name]' => 'index/FileUpload/upload'
+    'upload/[:name]' => 'index/FileUpload/upload',
+     'download_file/[:name]' => 'index/FileDownloadCtl/download_file'
 ];

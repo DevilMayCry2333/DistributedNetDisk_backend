@@ -1,0 +1,528 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.0.1.RELEASE)
+
+===2018-11-20 23:48:39.086 INFO  com.stylefeng.guns.GunsApplication Line:50  - Starting GunsApplication v1.0.0 on iZwz9c4dlvfzdxii1l63ivZ with PID 8579 (/root/express1.6/guns-admin-1.0.0.jar started by root in /root/express1.6)
+===2018-11-20 23:48:39.090 DEBUG com.stylefeng.guns.GunsApplication Line:53  - Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+===2018-11-20 23:48:39.093 INFO  com.stylefeng.guns.GunsApplication Line:663 - The following profiles are active: local
+===2018-11-20 23:48:39.173 INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext Line:590 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7e0ea639: startup date [Tue Nov 20 23:48:39 CST 2018]; root of context hierarchy
+===2018-11-20 23:48:40.695 INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory Line:824 - Overriding bean definition for bean 'error' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=defaultErrorView; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/error/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=com.stylefeng.guns.core.config.DefaultWebConfig; factoryMethodName=error; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/stylefeng/guns/core/config/DefaultWebConfig.class]]
+===2018-11-20 23:48:41.138 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:328 - Bean 'shiroConfig' of type [com.stylefeng.guns.config.web.ShiroConfig$$EnhancerBySpringCGLIB$$a94b35d1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+===2018-11-20 23:48:41.262 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:328 - Bean 'rememberMeCookie' of type [org.apache.shiro.web.servlet.SimpleCookie] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+===2018-11-20 23:48:41.327 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:328 - Bean 'rememberMeManager' of type [org.apache.shiro.web.mgt.CookieRememberMeManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+===2018-11-20 23:48:41.336 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:328 - Bean 'ehCacheConfig' of type [com.stylefeng.guns.config.EhCacheConfig$$EnhancerBySpringCGLIB$$b45ab5d9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+===2018-11-20 23:48:41.348 INFO  org.springframework.cache.ehcache.EhCacheManagerFactoryBean Line:134 - Initializing EhCache CacheManager
+===2018-11-20 23:48:41.520 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:328 - Bean 'ehcache' of type [org.springframework.cache.ehcache.EhCacheManagerFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+===2018-11-20 23:48:41.529 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:328 - Bean 'getCacheShiroManager' of type [org.apache.shiro.cache.ehcache.EhCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+===2018-11-20 23:48:41.558 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:328 - Bean 'org.springframework.boot.context.properties.ConversionServiceDeducer$Factory' of type [org.springframework.boot.context.properties.ConversionServiceDeducer$Factory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+===2018-11-20 23:48:41.575 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:328 - Bean 'gunsProperties' of type [com.stylefeng.guns.config.properties.GunsProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+===2018-11-20 23:48:41.600 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:328 - Bean 'defaultWebSessionManager' of type [org.apache.shiro.web.session.mgt.DefaultWebSessionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+===2018-11-20 23:48:41.640 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:328 - Bean 'shiroDbRealm' of type [com.stylefeng.guns.core.shiro.ShiroDbRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+===2018-11-20 23:48:41.642 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:158 - Cache with name 'com.stylefeng.guns.core.shiro.ShiroDbRealm.authorizationCache' does not yet exist.  Creating now.
+===2018-11-20 23:48:41.645 INFO  org.apache.shiro.cache.ehcache.EhCacheManager Line:165 - Added EhCache named [com.stylefeng.guns.core.shiro.ShiroDbRealm.authorizationCache]
+===2018-11-20 23:48:41.661 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:328 - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+===2018-11-20 23:48:41.675 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:328 - Bean 'methodInvokingFactoryBean' of type [org.springframework.beans.factory.config.MethodInvokingFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+===2018-11-20 23:48:41.687 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:328 - Bean 'webConfig' of type [com.stylefeng.guns.config.web.WebConfig$$EnhancerBySpringCGLIB$$432fc714] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+===2018-11-20 23:48:41.807 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:328 - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+===2018-11-20 23:48:41.820 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:328 - Bean 'druidStatPointcut' of type [org.springframework.aop.support.JdkRegexpMethodPointcut] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+===2018-11-20 23:48:41.833 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:328 - Bean 'druidStatInterceptor' of type [com.alibaba.druid.support.spring.stat.DruidStatInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+===2018-11-20 23:48:41.841 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:328 - Bean 'druidStatAdvisor' of type [org.springframework.aop.support.DefaultPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+===2018-11-20 23:48:41.928 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:328 - Bean 'org.springframework.cache.annotation.ProxyCachingConfiguration' of type [org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$e008f3b4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+===2018-11-20 23:48:42.319 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:328 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$96f6bd96] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+===2018-11-20 23:48:42.860 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:91  - Tomcat initialized with port(s): 8887 (https)
+===2018-11-20 23:48:42.880 INFO  org.apache.coyote.http11.Http11NioProtocol Line:180 - Initializing ProtocolHandler ["https-jsse-nio-8887"]
+===2018-11-20 23:48:42.898 INFO  org.apache.catalina.core.StandardService Line:180 - Starting service [Tomcat]
+===2018-11-20 23:48:42.899 INFO  org.apache.catalina.core.StandardEngine Line:180 - Starting Servlet Engine: Apache Tomcat/8.5.29
+===2018-11-20 23:48:42.918 INFO  org.apache.catalina.core.AprLifecycleListener Line:180 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+===2018-11-20 23:48:43.036 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:180 - Initializing Spring embedded WebApplicationContext
+===2018-11-20 23:48:43.036 INFO  org.springframework.web.context.ContextLoader Line:285 - Root WebApplicationContext: initialization completed in 3867 ms
+===2018-11-20 23:48:43.388 INFO  org.springframework.boot.web.servlet.ServletRegistrationBean Line:185 - Servlet statViewServlet mapped to [/druid/*]
+===2018-11-20 23:48:43.390 INFO  org.springframework.boot.web.servlet.ServletRegistrationBean Line:185 - Servlet dispatcherServlet mapped to [/]
+===2018-11-20 23:48:43.396 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:244 - Mapping filter: 'characterEncodingFilter' to: [/*]
+===2018-11-20 23:48:43.397 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:244 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+===2018-11-20 23:48:43.397 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:244 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+===2018-11-20 23:48:43.397 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:244 - Mapping filter: 'requestContextFilter' to: [/*]
+===2018-11-20 23:48:43.397 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:257 - Mapping filter: 'webStatFilter' to urls: [/*]
+===2018-11-20 23:48:43.398 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:257 - Mapping filter: 'xssFilter' to urls: [/*]
+===2018-11-20 23:48:43.398 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:244 - Mapping filter: 'shiroFilter' to: [/*]
+Logging initialized using 'class org.apache.ibatis.logging.stdout.StdOutImpl' adapter.
+Using VFS adapter com.baomidou.mybatisplus.spring.boot.starter.SpringBootVFS
+Checking to see if class com.stylefeng.guns.modular.system.model.Expense matches criteria [is assignable to Object]
+Checking to see if class com.stylefeng.guns.modular.system.model.LoginLog matches criteria [is assignable to Object]
+Checking to see if class com.stylefeng.guns.modular.system.model.Menu matches criteria [is assignable to Object]
+Checking to see if class com.stylefeng.guns.modular.system.model.Notice matches criteria [is assignable to Object]
+Checking to see if class com.stylefeng.guns.modular.system.model.OperationLog matches criteria [is assignable to Object]
+Checking to see if class com.stylefeng.guns.modular.system.model.Order matches criteria [is assignable to Object]
+Checking to see if class com.stylefeng.guns.modular.system.model.Relation matches criteria [is assignable to Object]
+Checking to see if class com.stylefeng.guns.modular.system.model.Role matches criteria [is assignable to Object]
+Checking to see if class com.stylefeng.guns.modular.system.model.User matches criteria [is assignable to Object]
+Checking to see if class com.stylefeng.guns.modular.system.model.Advertising matches criteria [is assignable to Object]
+Checking to see if class com.stylefeng.guns.modular.system.model.Dept matches criteria [is assignable to Object]
+Checking to see if class com.stylefeng.guns.modular.system.model.Dict matches criteria [is assignable to Object]
+Scanned package: 'com.stylefeng.guns.modular.system.model' for aliases
+Registered plugin: 'com.baomidou.mybatisplus.plugins.PaginationInterceptor@4007f65e'
+Registered plugin: 'com.stylefeng.guns.core.datascope.DataScopeInterceptor@673fdbce'
+Registered plugin: 'com.baomidou.mybatisplus.plugins.OptimisticLockerInterceptor@7a5ceedd'
+===2018-11-20 23:48:44.519 INFO  com.alibaba.druid.pool.DruidDataSource Line:930 - {dataSource-1} inited
+Parsed mapper file: 'URL [jar:file:/root/express1.6/guns-admin-1.0.0.jar!/BOOT-INF/classes!/com/stylefeng/guns/modular/system/dao/mapping/DictMapper.xml]'
+Parsed mapper file: 'URL [jar:file:/root/express1.6/guns-admin-1.0.0.jar!/BOOT-INF/classes!/com/stylefeng/guns/modular/system/dao/mapping/ExpenseMapper.xml]'
+Parsed mapper file: 'URL [jar:file:/root/express1.6/guns-admin-1.0.0.jar!/BOOT-INF/classes!/com/stylefeng/guns/modular/system/dao/mapping/LoginLogMapper.xml]'
+Parsed mapper file: 'URL [jar:file:/root/express1.6/guns-admin-1.0.0.jar!/BOOT-INF/classes!/com/stylefeng/guns/modular/system/dao/mapping/MenuMapper.xml]'
+Parsed mapper file: 'URL [jar:file:/root/express1.6/guns-admin-1.0.0.jar!/BOOT-INF/classes!/com/stylefeng/guns/modular/system/dao/mapping/NoticeMapper.xml]'
+Parsed mapper file: 'URL [jar:file:/root/express1.6/guns-admin-1.0.0.jar!/BOOT-INF/classes!/com/stylefeng/guns/modular/system/dao/mapping/OperationLogMapper.xml]'
+Parsed mapper file: 'URL [jar:file:/root/express1.6/guns-admin-1.0.0.jar!/BOOT-INF/classes!/com/stylefeng/guns/modular/system/dao/mapping/OrderMapper.xml]'
+Parsed mapper file: 'URL [jar:file:/root/express1.6/guns-admin-1.0.0.jar!/BOOT-INF/classes!/com/stylefeng/guns/modular/system/dao/mapping/RelationMapper.xml]'
+Parsed mapper file: 'URL [jar:file:/root/express1.6/guns-admin-1.0.0.jar!/BOOT-INF/classes!/com/stylefeng/guns/modular/system/dao/mapping/RoleMapper.xml]'
+Parsed mapper file: 'URL [jar:file:/root/express1.6/guns-admin-1.0.0.jar!/BOOT-INF/classes!/com/stylefeng/guns/modular/system/dao/mapping/UserMapper.xml]'
+Parsed mapper file: 'URL [jar:file:/root/express1.6/guns-admin-1.0.0.jar!/BOOT-INF/classes!/com/stylefeng/guns/modular/system/dao/mapping/AdvertisingMapper.xml]'
+Parsed mapper file: 'URL [jar:file:/root/express1.6/guns-admin-1.0.0.jar!/BOOT-INF/classes!/com/stylefeng/guns/modular/system/dao/mapping/DeptMapper.xml]'
+===2018-11-20 23:48:46.992 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/order/detail/{orderId}]}" onto public java.lang.Object com.stylefeng.guns.modular.system.controller.OrderController.detail(java.lang.String)
+===2018-11-20 23:48:46.994 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/order/order_unfinished_tomorrow]}" onto public java.lang.String com.stylefeng.guns.modular.system.controller.OrderController.unfinishedOrderTomorrow()
+===2018-11-20 23:48:46.994 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/order/order_finished]}" onto public java.lang.String com.stylefeng.guns.modular.system.controller.OrderController.finishedOrder()
+===2018-11-20 23:48:46.995 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/order/order_exceptional]}" onto public java.lang.String com.stylefeng.guns.modular.system.controller.OrderController.exceptionalOrder()
+===2018-11-20 23:48:46.995 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/order/order_add]}" onto public java.lang.String com.stylefeng.guns.modular.system.controller.OrderController.orderAdd()
+===2018-11-20 23:48:46.995 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/order/order_update/{orderId}]}" onto public java.lang.String com.stylefeng.guns.modular.system.controller.OrderController.orderUpdate(java.lang.String,org.springframework.ui.Model)
+===2018-11-20 23:48:46.996 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/order/unfinishedList]}" onto public java.lang.Object com.stylefeng.guns.modular.system.controller.OrderController.unfinishedList(java.lang.String,java.lang.String,java.lang.String)
+===2018-11-20 23:48:46.996 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/order/finishedList]}" onto public java.lang.Object com.stylefeng.guns.modular.system.controller.OrderController.finishedList(java.lang.String,java.lang.String,java.lang.String)
+===2018-11-20 23:48:46.997 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/order/order_unfinished]}" onto public java.lang.String com.stylefeng.guns.modular.system.controller.OrderController.unfinishedOrder()
+===2018-11-20 23:48:46.998 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/order/exceptionalList]}" onto public java.lang.Object com.stylefeng.guns.modular.system.controller.OrderController.exceptionalList(java.lang.String,java.lang.String,java.lang.String)
+===2018-11-20 23:48:46.998 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/order/waitingList]}" onto public java.lang.Object com.stylefeng.guns.modular.system.controller.OrderController.waitingList(java.lang.String,java.lang.String,java.lang.String)
+===2018-11-20 23:48:46.999 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/order/completeOrderToday]}" onto public java.lang.Object com.stylefeng.guns.modular.system.controller.OrderController.completeOrder()
+===2018-11-20 23:48:46.999 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/order/completeOrderTomorrow]}" onto public java.lang.Object com.stylefeng.guns.modular.system.controller.OrderController.completeOrderTomorrow()
+===2018-11-20 23:48:47.000 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/order/exportFinished]}" onto public void com.stylefeng.guns.modular.system.controller.OrderController.exportFinished(javax.servlet.http.HttpServletResponse) throws java.io.IOException
+===2018-11-20 23:48:47.000 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/order/exportUnFinishedToworrow]}" onto public void com.stylefeng.guns.modular.system.controller.OrderController.exportUnFinishedToworrow(javax.servlet.http.HttpServletResponse) throws java.io.IOException
+===2018-11-20 23:48:47.001 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/order/exportUnFinishedToday]}" onto public void com.stylefeng.guns.modular.system.controller.OrderController.exportUnFinishedToday(javax.servlet.http.HttpServletResponse) throws java.io.IOException
+===2018-11-20 23:48:47.001 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/order]}" onto public java.lang.String com.stylefeng.guns.modular.system.controller.OrderController.index()
+===2018-11-20 23:48:47.002 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/order/add]}" onto public java.lang.Object com.stylefeng.guns.modular.system.controller.OrderController.add(com.stylefeng.guns.modular.system.model.Order)
+===2018-11-20 23:48:47.002 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/order/update]}" onto public java.lang.Object com.stylefeng.guns.modular.system.controller.OrderController.update(com.stylefeng.guns.modular.system.model.Order)
+===2018-11-20 23:48:47.003 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/order/delete]}" onto public java.lang.Object com.stylefeng.guns.modular.system.controller.OrderController.delete(java.lang.String)
+===2018-11-20 23:48:47.003 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/order/list]}" onto public java.lang.Object com.stylefeng.guns.modular.system.controller.OrderController.list(java.lang.String,java.lang.String,java.lang.String)
+===2018-11-20 23:48:47.004 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/blackboard]}" onto public java.lang.String com.stylefeng.guns.modular.system.controller.BlackboardController.blackboard(org.springframework.ui.Model)
+===2018-11-20 23:48:47.007 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/role/view/{roleId}]}" onto public com.stylefeng.guns.core.base.tips.Tip com.stylefeng.guns.modular.system.controller.RoleController.view(java.lang.Integer)
+===2018-11-20 23:48:47.008 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/role/role_add]}" onto public java.lang.String com.stylefeng.guns.modular.system.controller.RoleController.roleAdd()
+===2018-11-20 23:48:47.008 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/role/role_edit/{roleId}]}" onto public java.lang.String com.stylefeng.guns.modular.system.controller.RoleController.roleEdit(java.lang.Integer,org.springframework.ui.Model)
+===2018-11-20 23:48:47.009 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/role/role_assign/{roleId}]}" onto public java.lang.String com.stylefeng.guns.modular.system.controller.RoleController.roleAssign(java.lang.Integer,org.springframework.ui.Model)
+===2018-11-20 23:48:47.009 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/role/edit]}" onto public com.stylefeng.guns.core.base.tips.Tip com.stylefeng.guns.modular.system.controller.RoleController.edit(com.stylefeng.guns.modular.system.model.Role,org.springframework.validation.BindingResult)
+===2018-11-20 23:48:47.010 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/role/setAuthority]}" onto public com.stylefeng.guns.core.base.tips.Tip com.stylefeng.guns.modular.system.controller.RoleController.setAuthority(java.lang.Integer,java.lang.String)
+===2018-11-20 23:48:47.011 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/role/roleTreeList]}" onto public java.util.List<com.stylefeng.guns.core.node.ZTreeNode> com.stylefeng.guns.modular.system.controller.RoleController.roleTreeList()
+===2018-11-20 23:48:47.011 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/role/roleTreeListByUserId/{userId}]}" onto public java.util.List<com.stylefeng.guns.core.node.ZTreeNode> com.stylefeng.guns.modular.system.controller.RoleController.roleTreeListByUserId(java.lang.Integer)
+===2018-11-20 23:48:47.011 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/role]}" onto public java.lang.String com.stylefeng.guns.modular.system.controller.RoleController.index()
+===2018-11-20 23:48:47.012 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/role/add]}" onto public com.stylefeng.guns.core.base.tips.Tip com.stylefeng.guns.modular.system.controller.RoleController.add(com.stylefeng.guns.modular.system.model.Role,org.springframework.validation.BindingResult)
+===2018-11-20 23:48:47.012 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/role/remove]}" onto public com.stylefeng.guns.core.base.tips.Tip com.stylefeng.guns.modular.system.controller.RoleController.remove(java.lang.Integer)
+===2018-11-20 23:48:47.013 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/role/list]}" onto public java.lang.Object com.stylefeng.guns.modular.system.controller.RoleController.list(java.lang.String)
+===2018-11-20 23:48:47.016 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/mgr/freeze]}" onto public com.stylefeng.guns.core.base.tips.Tip com.stylefeng.guns.modular.system.controller.UserMgrController.freeze(java.lang.Integer)
+===2018-11-20 23:48:47.017 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/mgr/view/{userId}]}" onto public com.stylefeng.guns.modular.system.model.User com.stylefeng.guns.modular.system.controller.UserMgrController.view(java.lang.Integer)
+===2018-11-20 23:48:47.017 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/mgr/setRole]}" onto public com.stylefeng.guns.core.base.tips.Tip com.stylefeng.guns.modular.system.controller.UserMgrController.setRole(java.lang.Integer,java.lang.String)
+===2018-11-20 23:48:47.017 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/mgr/changePwd]}" onto public java.lang.Object com.stylefeng.guns.modular.system.controller.UserMgrController.changePwd(java.lang.String,java.lang.String,java.lang.String)
+===2018-11-20 23:48:47.018 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/mgr/role_assign/{userId}]}" onto public java.lang.String com.stylefeng.guns.modular.system.controller.UserMgrController.roleAssign(java.lang.Integer,org.springframework.ui.Model)
+===2018-11-20 23:48:47.018 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/mgr/edit]}" onto public com.stylefeng.guns.core.base.tips.Tip com.stylefeng.guns.modular.system.controller.UserMgrController.edit(com.stylefeng.guns.modular.system.transfer.UserDto,org.springframework.validation.BindingResult) throws javax.naming.NoPermissionException
+===2018-11-20 23:48:47.018 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/mgr/user_add]}" onto public java.lang.String com.stylefeng.guns.modular.system.controller.UserMgrController.addView()
+===2018-11-20 23:48:47.019 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/mgr/user_edit/{userId}]}" onto public java.lang.String com.stylefeng.guns.modular.system.controller.UserMgrController.userEdit(java.lang.Integer,org.springframework.ui.Model)
+===2018-11-20 23:48:47.019 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/mgr/user_chpwd]}" onto public java.lang.String com.stylefeng.guns.modular.system.controller.UserMgrController.chPwd()
+===2018-11-20 23:48:47.019 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/mgr/unfreeze]}" onto public com.stylefeng.guns.core.base.tips.Tip com.stylefeng.guns.modular.system.controller.UserMgrController.unfreeze(java.lang.Integer)
+===2018-11-20 23:48:47.020 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/mgr/upload],methods=[POST]}" onto public java.lang.String com.stylefeng.guns.modular.system.controller.UserMgrController.upload(org.springframework.web.multipart.MultipartFile)
+===2018-11-20 23:48:47.020 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/mgr]}" onto public java.lang.String com.stylefeng.guns.modular.system.controller.UserMgrController.index()
+===2018-11-20 23:48:47.021 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/mgr/add]}" onto public com.stylefeng.guns.core.base.tips.Tip com.stylefeng.guns.modular.system.controller.UserMgrController.add(com.stylefeng.guns.modular.system.transfer.UserDto,org.springframework.validation.BindingResult)
+===2018-11-20 23:48:47.021 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/mgr/delete]}" onto public com.stylefeng.guns.core.base.tips.Tip com.stylefeng.guns.modular.system.controller.UserMgrController.delete(java.lang.Integer)
+===2018-11-20 23:48:47.021 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/mgr/list]}" onto public java.lang.Object com.stylefeng.guns.modular.system.controller.UserMgrController.list(java.lang.String,java.lang.String,java.lang.String,java.lang.Integer)
+===2018-11-20 23:48:47.022 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/mgr/reset]}" onto public com.stylefeng.guns.core.base.tips.Tip com.stylefeng.guns.modular.system.controller.UserMgrController.reset(java.lang.Integer)
+===2018-11-20 23:48:47.022 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/mgr/user_info]}" onto public java.lang.String com.stylefeng.guns.modular.system.controller.UserMgrController.userInfo(org.springframework.ui.Model)
+===2018-11-20 23:48:47.024 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/dept/detail/{deptId}]}" onto public java.lang.Object com.stylefeng.guns.modular.system.controller.DeptController.detail(java.lang.Integer)
+===2018-11-20 23:48:47.025 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/dept/dept_add]}" onto public java.lang.String com.stylefeng.guns.modular.system.controller.DeptController.deptAdd()
+===2018-11-20 23:48:47.025 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/dept/dept_update/{deptId}]}" onto public java.lang.String com.stylefeng.guns.modular.system.controller.DeptController.deptUpdate(java.lang.Integer,org.springframework.ui.Model)
+===2018-11-20 23:48:47.026 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/dept]}" onto public java.lang.String com.stylefeng.guns.modular.system.controller.DeptController.index()
+===2018-11-20 23:48:47.026 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/dept/add]}" onto public java.lang.Object com.stylefeng.guns.modular.system.controller.DeptController.add(com.stylefeng.guns.modular.system.model.Dept)
+===2018-11-20 23:48:47.026 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/dept/update]}" onto public java.lang.Object com.stylefeng.guns.modular.system.controller.DeptController.update(com.stylefeng.guns.modular.system.model.Dept)
+===2018-11-20 23:48:47.027 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/dept/delete]}" onto public java.lang.Object com.stylefeng.guns.modular.system.controller.DeptController.delete(java.lang.Integer)
+===2018-11-20 23:48:47.027 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/dept/list]}" onto public java.lang.Object com.stylefeng.guns.modular.system.controller.DeptController.list(java.lang.String)
+===2018-11-20 23:48:47.027 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/dept/tree]}" onto public java.util.List<com.stylefeng.guns.core.node.ZTreeNode> com.stylefeng.guns.modular.system.controller.DeptController.tree()
+===2018-11-20 23:48:47.029 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/dict/detail/{dictId}]}" onto public java.lang.Object com.stylefeng.guns.modular.system.controller.DictController.detail(java.lang.Integer)
+===2018-11-20 23:48:47.030 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/dict/dict_add]}" onto public java.lang.String com.stylefeng.guns.modular.system.controller.DictController.deptAdd()
+===2018-11-20 23:48:47.030 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/dict/dict_edit/{dictId}]}" onto public java.lang.String com.stylefeng.guns.modular.system.controller.DictController.deptUpdate(java.lang.Integer,org.springframework.ui.Model)
+===2018-11-20 23:48:47.031 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/dict]}" onto public java.lang.String com.stylefeng.guns.modular.system.controller.DictController.index()
+===2018-11-20 23:48:47.031 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/dict/add]}" onto public java.lang.Object com.stylefeng.guns.modular.system.controller.DictController.add(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+===2018-11-20 23:48:47.032 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/dict/update]}" onto public java.lang.Object com.stylefeng.guns.modular.system.controller.DictController.update(java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+===2018-11-20 23:48:47.032 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/dict/delete]}" onto public java.lang.Object com.stylefeng.guns.modular.system.controller.DictController.delete(java.lang.Integer)
+===2018-11-20 23:48:47.032 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/dict/list]}" onto public java.lang.Object com.stylefeng.guns.modular.system.controller.DictController.list(java.lang.String)
+===2018-11-20 23:48:47.038 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/wx/test1],methods=[GET]}" onto public com.stylefeng.guns.modular.system.model.Order com.stylefeng.guns.modular.system.controller.WXController.selectList()
+===2018-11-20 23:48:47.039 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/wx/wxadd],methods=[POST],consumes=[application/json]}" onto public java.lang.Object com.stylefeng.guns.modular.system.controller.WXController.wxadd(com.stylefeng.guns.modular.system.dto.OrderDTO)
+===2018-11-20 23:48:47.039 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/wx/wxlogin]}" onto public static java.lang.String com.stylefeng.guns.modular.system.controller.WXController.login(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException
+===2018-11-20 23:48:47.040 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/wx/wxPay],methods=[GET]}" onto public java.lang.String com.stylefeng.guns.modular.system.controller.WXController.wxPay(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException
+===2018-11-20 23:48:47.040 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/wx/PaySign],methods=[GET]}" onto public void com.stylefeng.guns.modular.system.controller.WXController.paySign(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException
+===2018-11-20 23:48:47.040 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/wx/showOrder],methods=[GET]}" onto public java.util.List<com.stylefeng.guns.modular.system.model.Order> com.stylefeng.guns.modular.system.controller.WXController.showOrder(java.lang.String)
+===2018-11-20 23:48:47.041 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/wx/wxrefund],methods=[GET]}" onto public java.lang.Object com.stylefeng.guns.modular.system.controller.WXController.refund(javax.servlet.http.HttpServletRequest)
+===2018-11-20 23:48:47.041 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/wx/jsrefund],methods=[GET]}" onto public java.lang.String com.stylefeng.guns.modular.system.controller.WXController.jsRefund(javax.servlet.http.HttpServletRequest)
+===2018-11-20 23:48:47.042 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/wx/getMerchantId],methods=[GET]}" onto public java.lang.String com.stylefeng.guns.modular.system.controller.WXController.getMerchantId(javax.servlet.http.HttpServletRequest)
+===2018-11-20 23:48:47.042 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/wx/payNotify],methods=[POST]}" onto public void com.stylefeng.guns.modular.system.controller.WXController.payNotify(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.UnsupportedEncodingException
+===2018-11-20 23:48:47.043 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/kaptcha/{pictureId}]}" onto public void com.stylefeng.guns.modular.system.controller.KaptchaController.renderPicture(java.lang.String,javax.servlet.http.HttpServletResponse)
+===2018-11-20 23:48:47.043 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/kaptcha]}" onto public void com.stylefeng.guns.modular.system.controller.KaptchaController.index(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+===2018-11-20 23:48:47.044 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/gunsApi/auth]}" onto public java.lang.Object com.stylefeng.guns.modular.api.ApiController.auth(java.lang.String,java.lang.String)
+===2018-11-20 23:48:47.044 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/gunsApi/test],methods=[POST]}" onto public java.lang.Object com.stylefeng.guns.modular.api.ApiController.test()
+===2018-11-20 23:48:47.046 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/log/detail/{id}]}" onto public java.lang.Object com.stylefeng.guns.modular.system.controller.LogController.detail(java.lang.Integer)
+===2018-11-20 23:48:47.046 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/log/delLog]}" onto public java.lang.Object com.stylefeng.guns.modular.system.controller.LogController.delLog()
+===2018-11-20 23:48:47.047 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/log]}" onto public java.lang.String com.stylefeng.guns.modular.system.controller.LogController.index()
+===2018-11-20 23:48:47.047 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/log/list]}" onto public java.lang.Object com.stylefeng.guns.modular.system.controller.LogController.list(java.lang.String,java.lang.String,java.lang.String,java.lang.Integer)
+===2018-11-20 23:48:47.048 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/code/generate],methods=[POST]}" onto public java.lang.Object com.stylefeng.guns.modular.code.controller.CodeController.generate(com.stylefeng.guns.generator.action.model.GenQo)
+===2018-11-20 23:48:47.048 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/code]}" onto public java.lang.String com.stylefeng.guns.modular.code.controller.CodeController.blackboard(org.springframework.ui.Model)
+===2018-11-20 23:48:47.049 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/login],methods=[GET]}" onto public java.lang.String com.stylefeng.guns.modular.system.controller.LoginController.login()
+===2018-11-20 23:48:47.049 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.stylefeng.guns.modular.system.controller.LoginController.loginVali()
+===2018-11-20 23:48:47.050 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/logout],methods=[GET]}" onto public java.lang.String com.stylefeng.guns.modular.system.controller.LoginController.logOut()
+===2018-11-20 23:48:47.050 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/],methods=[GET]}" onto public java.lang.String com.stylefeng.guns.modular.system.controller.LoginController.index(org.springframework.ui.Model)
+===2018-11-20 23:48:47.051 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/loginLog/delLoginLog]}" onto public java.lang.Object com.stylefeng.guns.modular.system.controller.LoginLogController.delLog()
+===2018-11-20 23:48:47.052 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/loginLog]}" onto public java.lang.String com.stylefeng.guns.modular.system.controller.LoginLogController.index()
+===2018-11-20 23:48:47.052 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/loginLog/list]}" onto public java.lang.Object com.stylefeng.guns.modular.system.controller.LoginLogController.list(java.lang.String,java.lang.String,java.lang.String)
+===2018-11-20 23:48:47.054 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/menu/view/{menuId}]}" onto public com.stylefeng.guns.core.base.tips.Tip com.stylefeng.guns.modular.system.controller.MenuController.view(java.lang.Long)
+===2018-11-20 23:48:47.055 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/menu/edit]}" onto public com.stylefeng.guns.core.base.tips.Tip com.stylefeng.guns.modular.system.controller.MenuController.edit(com.stylefeng.guns.modular.system.model.Menu,org.springframework.validation.BindingResult)
+===2018-11-20 23:48:47.055 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/menu/menuTreeList]}" onto public java.util.List<com.stylefeng.guns.core.node.ZTreeNode> com.stylefeng.guns.modular.system.controller.MenuController.menuTreeList()
+===2018-11-20 23:48:47.056 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/menu/menu_add]}" onto public java.lang.String com.stylefeng.guns.modular.system.controller.MenuController.menuAdd()
+===2018-11-20 23:48:47.056 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/menu/menu_edit/{menuId}]}" onto public java.lang.String com.stylefeng.guns.modular.system.controller.MenuController.menuEdit(java.lang.Long,org.springframework.ui.Model)
+===2018-11-20 23:48:47.057 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/menu/selectMenuTreeList]}" onto public java.util.List<com.stylefeng.guns.core.node.ZTreeNode> com.stylefeng.guns.modular.system.controller.MenuController.selectMenuTreeList()
+===2018-11-20 23:48:47.057 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/menu/menuTreeListByRoleId/{roleId}]}" onto public java.util.List<com.stylefeng.guns.core.node.ZTreeNode> com.stylefeng.guns.modular.system.controller.MenuController.menuTreeListByRoleId(java.lang.Integer)
+===2018-11-20 23:48:47.057 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/menu]}" onto public java.lang.String com.stylefeng.guns.modular.system.controller.MenuController.index()
+===2018-11-20 23:48:47.057 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/menu/add]}" onto public com.stylefeng.guns.core.base.tips.Tip com.stylefeng.guns.modular.system.controller.MenuController.add(com.stylefeng.guns.modular.system.model.Menu,org.springframework.validation.BindingResult)
+===2018-11-20 23:48:47.058 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/menu/remove]}" onto public com.stylefeng.guns.core.base.tips.Tip com.stylefeng.guns.modular.system.controller.MenuController.remove(java.lang.Long)
+===2018-11-20 23:48:47.058 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/menu/list]}" onto public java.lang.Object com.stylefeng.guns.modular.system.controller.MenuController.list(java.lang.String,java.lang.String)
+===2018-11-20 23:48:47.060 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/advertising/detail/{advertisingId}]}" onto public java.lang.Object com.stylefeng.guns.modular.system.controller.AdvertisingController.detail(java.lang.Integer)
+===2018-11-20 23:48:47.060 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/advertising/advertising_add]}" onto public java.lang.String com.stylefeng.guns.modular.system.controller.AdvertisingController.advertisingAdd()
+===2018-11-20 23:48:47.061 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/advertising/advertising_update/{advertisingId}]}" onto public java.lang.String com.stylefeng.guns.modular.system.controller.AdvertisingController.advertisingUpdate(java.lang.Integer,org.springframework.ui.Model)
+===2018-11-20 23:48:47.061 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/advertising]}" onto public java.lang.String com.stylefeng.guns.modular.system.controller.AdvertisingController.index()
+===2018-11-20 23:48:47.061 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/advertising/add]}" onto public java.lang.Object com.stylefeng.guns.modular.system.controller.AdvertisingController.add(com.stylefeng.guns.modular.system.model.Advertising)
+===2018-11-20 23:48:47.062 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/advertising/update]}" onto public java.lang.Object com.stylefeng.guns.modular.system.controller.AdvertisingController.update(com.stylefeng.guns.modular.system.model.Advertising)
+===2018-11-20 23:48:47.062 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/advertising/delete]}" onto public java.lang.Object com.stylefeng.guns.modular.system.controller.AdvertisingController.delete(java.lang.Integer)
+===2018-11-20 23:48:47.062 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/advertising/list]}" onto public java.lang.Object com.stylefeng.guns.modular.system.controller.AdvertisingController.list(java.lang.String)
+===2018-11-20 23:48:47.064 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/notice/notice_add]}" onto public java.lang.String com.stylefeng.guns.modular.system.controller.NoticeController.noticeAdd()
+===2018-11-20 23:48:47.064 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/notice/notice_update/{noticeId}]}" onto public java.lang.String com.stylefeng.guns.modular.system.controller.NoticeController.noticeUpdate(java.lang.Integer,org.springframework.ui.Model)
+===2018-11-20 23:48:47.064 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/notice/hello]}" onto public java.lang.String com.stylefeng.guns.modular.system.controller.NoticeController.hello()
+===2018-11-20 23:48:47.065 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/notice]}" onto public java.lang.String com.stylefeng.guns.modular.system.controller.NoticeController.index()
+===2018-11-20 23:48:47.065 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/notice/add]}" onto public java.lang.Object com.stylefeng.guns.modular.system.controller.NoticeController.add(com.stylefeng.guns.modular.system.model.Notice)
+===2018-11-20 23:48:47.066 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/notice/update]}" onto public java.lang.Object com.stylefeng.guns.modular.system.controller.NoticeController.update(com.stylefeng.guns.modular.system.model.Notice)
+===2018-11-20 23:48:47.066 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/notice/delete]}" onto public java.lang.Object com.stylefeng.guns.modular.system.controller.NoticeController.delete(java.lang.Integer)
+===2018-11-20 23:48:47.066 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/notice/list]}" onto public java.lang.Object com.stylefeng.guns.modular.system.controller.NoticeController.list(java.lang.String)
+===2018-11-20 23:48:47.067 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/global/error]}" onto public java.lang.String com.stylefeng.guns.core.base.controller.GlobalController.errorPage()
+===2018-11-20 23:48:47.068 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/global/sessionError]}" onto public java.lang.String com.stylefeng.guns.core.base.controller.GlobalController.errorPageInfo(org.springframework.ui.Model)
+===2018-11-20 23:48:47.071 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+===2018-11-20 23:48:47.071 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+===2018-11-20 23:48:47.072 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+===2018-11-20 23:48:47.076 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+===2018-11-20 23:48:47.077 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:547 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+===2018-11-20 23:48:47.369 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+===2018-11-20 23:48:48.125 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter Line:574 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7e0ea639: startup date [Tue Nov 20 23:48:39 CST 2018]; root of context hierarchy
+===2018-11-20 23:48:48.388 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping Line:373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+===2018-11-20 23:48:48.493 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping Line:373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+===2018-11-20 23:48:48.494 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping Line:373 - Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+===2018-11-20 23:48:48.494 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping Line:373 - Mapped URL path [/swagger-ui.html] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+===2018-11-20 23:48:48.562 INFO  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver Line:288 - Detected @ExceptionHandler methods in globalExceptionHandler
+===2018-11-20 23:48:49.320 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:433 - Registering beans for JMX exposure on startup
+===2018-11-20 23:48:49.338 INFO  org.springframework.context.support.DefaultLifecycleProcessor Line:351 - Starting beans in phase 2147483647
+===2018-11-20 23:48:49.338 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:160 - Context refreshed
+===2018-11-20 23:48:49.375 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:163 - Found 1 custom documentation plugin(s)
+===2018-11-20 23:48:49.430 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  - Scanning for api listing references
+===2018-11-20 23:48:49.645 INFO  org.apache.coyote.http11.Http11NioProtocol Line:180 - Starting ProtocolHandler ["https-jsse-nio-8887"]
+===2018-11-20 23:48:50.425 INFO  org.apache.tomcat.util.net.NioSelectorPool Line:180 - Using a shared selector for servlet write/read
+===2018-11-20 23:48:50.443 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:206 - Tomcat started on port(s): 8887 (https) with context path ''
+===2018-11-20 23:48:50.448 INFO  com.stylefeng.guns.GunsApplication Line:59  - Started GunsApplication in 12.139 seconds (JVM running for 12.781)
+===2018-11-20 23:48:50.452 INFO  com.stylefeng.guns.GunsApplication Line:23  - GunsApplication is success!
+===2018-11-20 23:50:41.966 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:180 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+===2018-11-20 23:50:41.967 INFO  org.springframework.web.servlet.DispatcherServlet Line:494 - FrameworkServlet 'dispatcherServlet': initialization started
+===2018-11-20 23:50:41.993 INFO  org.springframework.web.servlet.DispatcherServlet Line:509 - FrameworkServlet 'dispatcherServlet': initialization completed in 26 ms
+===2018-11-20 23:50:42.010 INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager Line:233 - Enabling session validation scheduler...
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@36fecc84] was not registered for synchronization because synchronization is not active
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1b897033] will not be managed by Spring
+==>  Preparing: SELECT m1.id AS id, m1.icon AS icon, ( CASE WHEN (m2.id = 0 OR m2.id IS NULL) THEN 0 ELSE m2.id END ) AS parentId, m1.NAME as name, m1.url as url, m1.levels as levels, m1.ismenu as ismenu, m1.num as num FROM sys_menu m1 LEFT join sys_menu m2 ON m1.pcode = m2. CODE INNER JOIN ( SELECT ID FROM sys_menu WHERE ID IN ( SELECT menuid FROM sys_relation rela WHERE rela.roleid IN ( ? ) ) ) m3 ON m1.id = m3.id where m1.ismenu = 1 order by levels,num asc 
+==> Parameters: 1(Integer)
+<==    Columns: id, icon, parentId, name, url, levels, ismenu, num
+<==        Row: 145, fa-rocket, 0, ??, /notice/hello, 1, 1, 1
+<==        Row: 105, fa-user, 0, ????, #, 1, 1, 4
+<==        Row: 171, , 0, ????, /order, 1, 1, 5
+<==        Row: 177, , 0, ????, /order, 1, 1, 6
+<==        Row: 178, , 0, ????, /order, 1, 1, 7
+<==        Row: 106, , 105, ????, /mgr, 2, 1, 1
+<==        Row: 172, , 171, ?????, /order/order_unfinished, 2, 1, 1
+<==        Row: 114, null, 105, ????, /role, 2, 1, 2
+<==        Row: 175, , 171, ?????, /order/order_finished, 2, 1, 2
+<==        Row: 176, , 171, ????, /order/order_exceptional, 2, 1, 3
+<==        Row: 119, null, 105, ????, /menu, 2, 1, 4
+<==        Row: 132, null, 105, ????, /dict, 2, 1, 4
+<==        Row: 128, null, 105, ????, /log, 2, 1, 6
+<==        Row: 133, null, 105, ????, /loginLog, 2, 1, 6
+<==        Row: 130, null, 105, ????, /druid, 2, 1, 7
+<==        Row: 141, null, 105, ????, /notice, 2, 1, 9
+<==        Row: 173, , 172, ????, /order/order_unfinished, 3, 1, 2
+<==        Row: 174, , 172, ????, order/order_unfinished_tomorrow, 3, 1, 4
+<==      Total: 18
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@36fecc84]
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@21768460] was not registered for synchronization because synchronization is not active
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1b897033] will not be managed by Spring
+==>  Preparing: SELECT id AS id,avatar,account,`password`,salt,`name`,birthday,sex,email,phone,roleid,deptid,`status`,createtime,version FROM sys_user WHERE id=? 
+==> Parameters: 1(Integer)
+<==    Columns: id, avatar, account, password, salt, name, birthday, sex, email, phone, roleid, deptid, status, createtime, version
+<==        Row: 1, girl.gif, admin, ecfadcde9305f8891bcfe5a1e28c253e, 8pgby, ???, 2017-05-05 00:00:00, 2, sn93@qq.com, 18558888114, 1, 27, 1, 2016-01-29 08:49:53, 25
+<==      Total: 1
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@21768460]
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7472e60d] was not registered for synchronization because synchronization is not active
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1b897033] will not be managed by Spring
+==>  Preparing: select * from sys_notice order by createtime DESC 
+==> Parameters: 
+<==    Columns: id, title, type, content, createtime, creater
+<==        Row: 8, ??, null, <<BLOB>>, 2017-05-10 19:28:57, 1
+<==        Row: 6, ??, 10, <<BLOB>>, 2017-01-11 08:53:20, 1
+<==      Total: 2
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7472e60d]
+===2018-11-20 23:50:43.338 ERROR com.stylefeng.guns.core.util.FileUtil Line:25  - 文件未找到！/tmpgirl.gif
+08157ZfI07hxZh20jSfI0sG2gI057ZfM
+null--->[HTTP/1.1 200 OK]
+Connection--->[keep-alive]
+Content-Length--->[83]
+Date--->[Tue, 20 Nov 2018 15:50:59 GMT]
+Content-Type--->[text/plain]
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1038d66d] was not registered for synchronization because synchronization is not active
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1b897033] will not be managed by Spring
+==>  Preparing: SELECT Id AS Id,customer_name AS customerName,customer_telephone AS customerTelephone,expressage_company AS expressageCompany,customer_place AS customerPlace,expressage_arrive_time AS expressageArriveTime,expressage_description AS expressageDescription,expressage_code AS expressageCode,expressage_status AS expressageStatus,recipients,order_time AS orderTime,specification,`timestamp`,pay,price,totalprice,expect_time AS expectTime,userid,payid,nickname,isPay AS payFlag FROM sys_order WHERE (userid = ? AND expressage_status NOT LIKE ? AND isPay = ?) ORDER BY order_time DESC 
+==> Parameters: oqa7H5Y17NbRqhBrlPvsCHV0jwV0(String), %4%(String), 1(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1038d66d]
+======>[]
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1816db88] was not registered for synchronization because synchronization is not active
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1b897033] will not be managed by Spring
+==>  Preparing: SELECT Id AS Id,customer_name AS customerName,customer_telephone AS customerTelephone,expressage_company AS expressageCompany,customer_place AS customerPlace,expressage_arrive_time AS expressageArriveTime,expressage_description AS expressageDescription,expressage_code AS expressageCode,expressage_status AS expressageStatus,recipients,order_time AS orderTime,specification,`timestamp`,pay,price,totalprice,expect_time AS expectTime,userid,payid,nickname,isPay AS payFlag FROM sys_order WHERE (userid = ? AND expressage_status NOT LIKE ? AND isPay = ?) ORDER BY order_time DESC 
+==> Parameters: oqa7H5Y17NbRqhBrlPvsCHV0jwV0(String), %4%(String), 1(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1816db88]
+===tmpStr===
+appid=wx89b1d5f76f5c87dd&body=Express&mch_id=1517608931&nonce_str=0.8060389898328629&notify_url=https://xcx.gaoxiao114.cn:8887/wx/payNotify&openid=oqa7H5Y17NbRqhBrlPvsCHV0jwV0&out_trade_no=5894527290010&spbill_create_ip=47.107.123.175&total_fee=400&trade_type=JSAPI
+<xml><return_code><![CDATA[SUCCESS]]></return_code><return_msg><![CDATA[OK]]></return_msg><appid><![CDATA[wx89b1d5f76f5c87dd]]></appid><mch_id><![CDATA[1517608931]]></mch_id><nonce_str><![CDATA[HcuSNu6CmfWoIM0N]]></nonce_str><sign><![CDATA[8153C32025412200BF092DD2E8F687C2]]></sign><result_code><![CDATA[SUCCESS]]></result_code><prepay_id><![CDATA[wx2023512484304447673f08eb3919831476]]></prepay_id><trade_type><![CDATA[JSAPI]]></trade_type></xml>
+xml
+9
+Creating a new SqlSession
+Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4bb4b004]
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1b897033] will be managed by Spring
+==>  Preparing: INSERT INTO sys_order ( Id, customer_name, customer_telephone, expressage_company, customer_place, expressage_arrive_time, expressage_description, expressage_code, expressage_status, recipients, specification, `timestamp`, pay, price, totalprice, expect_time, userid, payid, nickname ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+==> Parameters: 5894527290010(String), Joker(String), 137(String), ??(String), ?1#777(String), 2018-11-20(String), 213(String), 666(String), 2(Integer), ??1(String), 0(Integer), 1970-01-19(Date), 0.0(Double), 2.0(Double), 4.0(Double), 2018-11-21(String), oqa7H5Y17NbRqhBrlPvsCHV0jwV0(String), wx2023512484304447673f08eb3919831476(String), Joker(String)
+<==    Updates: 1
+Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4bb4b004]
+Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4bb4b004]
+Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4bb4b004]
+Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4bb4b004]
+Creating a new SqlSession
+Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@478fdef]
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1b897033] will be managed by Spring
+==>  Preparing: INSERT INTO sys_order ( Id, customer_name, customer_telephone, expressage_company, customer_place, expressage_arrive_time, expressage_description, expressage_code, expressage_status, recipients, specification, `timestamp`, pay, price, totalprice, expect_time, userid, payid, nickname ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+==> Parameters: 5894527290011(String), Joker(String), 137(String), ??(String), ?1#777(String), 2018-11-20(String), 213(String), 666(String), 2(Integer), ??2(String), 0(Integer), 1970-01-19(Date), 0.0(Double), 2.0(Double), 4.0(Double), 2018-11-21(String), oqa7H5Y17NbRqhBrlPvsCHV0jwV0(String), wx2023512484304447673f08eb3919831476(String), Joker(String)
+<==    Updates: 1
+Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@478fdef]
+Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@478fdef]
+Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@478fdef]
+Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@478fdef]
+appId=wx89b1d5f76f5c87dd&nonceStr=xiaoliewang&package=prepay_id=wx2023512484304447673f08eb3919831476&signType=MD5&timeStamp=1542729085548&key=xiaoliewang0425xiaoliewang0425xx
+xml
+#text===>
+
+#text===>
+
+#text===>
+
+#text===>
+
+#text===>
+
+#text===>
+
+#text===>
+
+#text===>
+
+#text===>
+
+#text===>
+
+#text===>
+
+#text===>
+
+#text===>
+
+#text===>
+
+#text===>
+
+#text===>
+
+#text===>
+
+#text===>
+
+#text===>
+
+#text===>
+
+new_sign=70731FE66F3013B5BE0F50769227E921
+old_sign=null
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1402a86c] was not registered for synchronization because synchronization is not active
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1b897033] will not be managed by Spring
+==>  Preparing: SELECT Id AS Id,customer_name AS customerName,customer_telephone AS customerTelephone,expressage_company AS expressageCompany,customer_place AS customerPlace,expressage_arrive_time AS expressageArriveTime,expressage_description AS expressageDescription,expressage_code AS expressageCode,expressage_status AS expressageStatus,recipients,order_time AS orderTime,specification,`timestamp`,pay,price,totalprice,expect_time AS expectTime,userid,payid,nickname,isPay AS payFlag FROM sys_order WHERE (userid = ? AND expressage_status NOT LIKE ? AND isPay = ?) ORDER BY order_time DESC 
+==> Parameters: oqa7H5Y17NbRqhBrlPvsCHV0jwV0(String), %4%(String), 1(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1402a86c]
+======>[]
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ecaf8b8] was not registered for synchronization because synchronization is not active
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1b897033] will not be managed by Spring
+==>  Preparing: SELECT Id AS Id,customer_name AS customerName,customer_telephone AS customerTelephone,expressage_company AS expressageCompany,customer_place AS customerPlace,expressage_arrive_time AS expressageArriveTime,expressage_description AS expressageDescription,expressage_code AS expressageCode,expressage_status AS expressageStatus,recipients,order_time AS orderTime,specification,`timestamp`,pay,price,totalprice,expect_time AS expectTime,userid,payid,nickname,isPay AS payFlag FROM sys_order WHERE (userid = ? AND expressage_status NOT LIKE ? AND isPay = ?) ORDER BY order_time DESC 
+==> Parameters: oqa7H5Y17NbRqhBrlPvsCHV0jwV0(String), %4%(String), 1(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ecaf8b8]
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5b37b843] was not registered for synchronization because synchronization is not active
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1b897033] will not be managed by Spring
+==>  Preparing: SELECT Id AS Id,customer_name AS customerName,customer_telephone AS customerTelephone,expressage_company AS expressageCompany,customer_place AS customerPlace,expressage_arrive_time AS expressageArriveTime,expressage_description AS expressageDescription,expressage_code AS expressageCode,expressage_status AS expressageStatus,recipients,order_time AS orderTime,specification,`timestamp`,pay,price,totalprice,expect_time AS expectTime,userid,payid,nickname,isPay AS payFlag FROM sys_order WHERE (userid = ? AND expressage_status NOT LIKE ? AND isPay = ?) ORDER BY order_time DESC 
+==> Parameters: oqa7H5Y17NbRqhBrlPvsCHV0jwV0(String), %4%(String), 1(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5b37b843]
+======>[]
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@30e5d736] was not registered for synchronization because synchronization is not active
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1b897033] will not be managed by Spring
+==>  Preparing: SELECT Id AS Id,customer_name AS customerName,customer_telephone AS customerTelephone,expressage_company AS expressageCompany,customer_place AS customerPlace,expressage_arrive_time AS expressageArriveTime,expressage_description AS expressageDescription,expressage_code AS expressageCode,expressage_status AS expressageStatus,recipients,order_time AS orderTime,specification,`timestamp`,pay,price,totalprice,expect_time AS expectTime,userid,payid,nickname,isPay AS payFlag FROM sys_order WHERE (userid = ? AND expressage_status NOT LIKE ? AND isPay = ?) ORDER BY order_time DESC 
+==> Parameters: oqa7H5Y17NbRqhBrlPvsCHV0jwV0(String), %4%(String), 1(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@30e5d736]
+xml
+#text===>
+
+#text===>
+
+#text===>
+
+#text===>
+
+#text===>
+
+#text===>
+
+#text===>
+
+#text===>
+
+#text===>
+
+#text===>
+
+#text===>
+
+#text===>
+
+#text===>
+
+#text===>
+
+#text===>
+
+#text===>
+
+#text===>
+
+#text===>
+
+#text===>
+
+#text===>
+
+new_sign=70731FE66F3013B5BE0F50769227E921
+old_sign=null
+xml
+#text===>
+
+#text===>
+
+#text===>
+
+#text===>
+
+#text===>
+
+#text===>
+
+#text===>
+
+#text===>
+
+#text===>
+
+#text===>
+
+#text===>
+
+#text===>
+
+#text===>
+
+#text===>
+
+#text===>
+
+#text===>
+
+#text===>
+
+#text===>
+
+#text===>
+
+#text===>
+
+new_sign=70731FE66F3013B5BE0F50769227E921
+old_sign=null
+xml
+#text===>
+
+#text===>
+
+#text===>
+
+#text===>
+
+#text===>
+
+#text===>
+
+#text===>
+
+#text===>
+
+#text===>
+
+#text===>
+
+#text===>
+
+#text===>
+
+#text===>
+
+#text===>
+
+#text===>
+
+#text===>
+
+#text===>
+
+#text===>
+
+#text===>
+
+#text===>
+
+new_sign=70731FE66F3013B5BE0F50769227E921
+old_sign=null
