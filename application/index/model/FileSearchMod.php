@@ -26,9 +26,20 @@ class FileSearchMod extends Model
         } catch (DbException $e) {
         }
        $decode_res = json_decode($res,true);
+//        var_dump($decode_res);
+        $pageNum = count($decode_res,0);
+        $pageId = 1;
+
+        $array = [
+            "username" => "awei",
+            "pageNum" => $pageNum,
+            "pageId" => $pageId,
+            "directory"=>[],
+        ];
         for ($i = 0 ; $i < count($decode_res,0) ; $i++){
-            echo $decode_res[$i]["filename"]."<br/>";
+            $array["directory"][$i] = $decode_res[$i];
         }
+        echo json_encode($array);
     }
 
 }

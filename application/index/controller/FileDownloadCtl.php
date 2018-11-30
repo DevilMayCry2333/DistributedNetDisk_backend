@@ -16,12 +16,13 @@ class FileDownloadCtl extends Controller
 {
     public function download_file(){
        $f_cnt = $_GET["cnt"];
+       $username = $_GET["username"];
         for ($i = 1 ; $i <= $f_cnt ; $i++){
             $filetmp[$i] = $_GET["userfile".$i];
             $zip = new ZipArchive;
             $zipname = "test.zip";
             $pathname = "/Library/WebServer/Documents/DistributedNetDisk/public/upload/";
-            $relPathName = $pathname.$filetmp[$i];
+            $relPathName = $pathname.$username."/".$filetmp[$i];
 //            var_dump($pathname.$filetmp[$i]);
             $myfile = fopen($relPathName, "r") or die("Unable to open file!");
             $myfilecontent =  fread($myfile,filesize($relPathName));
