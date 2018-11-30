@@ -1,92 +1,97 @@
+var json_uersfile={};
+var userdir="";
+var userJson;
+
 
 var json_uersfile={
-  "username":"awei",
-  "pageNum":1,
-  "pageid":1,
-  "directory":[
-    {
-      "name":"NewFolder",
-      "type":"dir",
-      "extension":"",
-      "size":"-",
-      "date":"2018-8-19 20:16:59"
+    "username":"awei",
+    "pageNum":1,
+    "pageid":1,
+    "directory":[
+        {
+            "name":"NewFolder",
+            "type":"dir",
+            "extension":"",
+            "size":"-",
+            "date":"2018-8-19 20:16:59"
 
-    },
-    {
-      "name":"Movies",
-      "type":"dir",
-      "extension":"",
-      "size":"-",
-      "date":"2018-8-19 20:16:59"
-    },
-    {
-      "name":"THe Hell Song",
-      "type":"mus",
-      "extension":".mp3",
-      "size":"2.5M",
-      "crc":"",
-      "date":"2018-8-19 20:16:59"
-    },
-    {
-      "name":"逃学威龙",
-      "type":"mov",
-      "extension":".avi",
-      "size":"465.5M",
-      "crc":"",
-      "date":"2018-8-19 20:16:59"
-    },
-    {
-      "name":"readme",
-      "type":"doc",
-      "extension":".txt",
-      "size":"1.5K",
-      "crc":"",
-      "date":"2018-8-19 20:16:59"
-    },
-    {
-      "name":"springMVC",
-      "type":"com",
-      "extension":".rar",
-      "size":"54.6K",
-      "crc":"",
-      "date":"2018-8-19 20:16:59"
-    },
-    {
-      "name":"springMVC",
-      "type":"com",
-      "extension":".rar",
-      "size":"54.6K",
-      "crc":"",
-      "date":"2018-8-19 20:16:59"
-    },
-    {
-      "name":"springMVC",
-      "type":"com",
-      "extension":".rar",
-      "size":"54.6K",
-      "crc":"",
-      "date":"2018-8-19 20:16:59"
-    },
-    {
-      "name":"springMVC",
-      "type":"com",
-      "extension":".rar",
-      "size":"54.6K",
-      "crc":"",
-      "date":"2018-8-19 20:16:59"
-    },
-    {
-      "name":"spring",
-      "type":"pic",
-      "extension":".png",
-      "size":"54.6K",
-      "crc":"",
-      "date":"2018-8-19 20:16:59"
-    },
-  ],
+        },
+        {
+            "name":"Movies",
+            "type":"dir",
+            "extension":"",
+            "size":"-",
+            "date":"2018-8-19 20:16:59"
+        },
+        {
+            "name":"THe Hell Song",
+            "type":"mus",
+            "extension":".mp3",
+            "size":"2.5M",
+            "crc":"",
+            "date":"2018-8-19 20:16:59"
+        },
+        {
+            "name":"逃学威龙",
+            "type":"mov",
+            "extension":".avi",
+            "size":"465.5M",
+            "crc":"",
+            "date":"2018-8-19 20:16:59"
+        },
+        {
+            "name":"readme",
+            "type":"doc",
+            "extension":".txt",
+            "size":"1.5K",
+            "crc":"",
+            "date":"2018-8-19 20:16:59"
+        },
+        {
+            "name":"springMVC",
+            "type":"com",
+            "extension":".rar",
+            "size":"54.6K",
+            "crc":"",
+            "date":"2018-8-19 20:16:59"
+        },
+        {
+            "name":"springMVC",
+            "type":"com",
+            "extension":".rar",
+            "size":"54.6K",
+            "crc":"",
+            "date":"2018-8-19 20:16:59"
+        },
+        {
+            "name":"springMVC",
+            "type":"com",
+            "extension":".rar",
+            "size":"54.6K",
+            "crc":"",
+            "date":"2018-8-19 20:16:59"
+        },
+        {
+            "name":"springMVC",
+            "type":"com",
+            "extension":".rar",
+            "size":"54.6K",
+            "crc":"",
+            "date":"2018-8-19 20:16:59"
+        },
+        {
+            "name":"spring",
+            "type":"pic",
+            "extension":".png",
+            "size":"54.6K",
+            "crc":"",
+            "date":"2018-8-19 20:16:59"
+        },
+    ],
 
 };
-var userJson;
+
+
 function showList(userJson){
   var html="";
   for(let i=0;i<userJson.directory.length;i++){
@@ -168,14 +173,16 @@ function getPic(){
     alert(1);
     $.ajax({
     type:"GET",
-    url:"http://172.29.66.141/DistributedNetDisk/public/index.php?s=index/index/showPic&&username=awei",
+    url:"http://localhost/DistributedNetDisk/public/index.php?s=index/index/showPic",
     contentType: "application/json; charset=utf-8",
     dataType: "json",
     data:{
-      //"username":username,
+      "username":"awei",
     },
     success:function (res) {
-        console.log("Success" + res);
+        console.log(res);
+        json_uersfile=res;
+        showList(res);
 
     },complete:function (res) {
 
@@ -186,82 +193,32 @@ function getPic(){
 }
 
 
-$(function(){
-
-    // test 的点击事件
-    $("#button_save").click(function(){
-        $.ajax({
-            type:"GET",
-            url:"http://localhost/DistributedNetDisk/public/index.php/download_file",
-            contentType: "application/json; charset=utf-8",
-            dataType: "json",
-            async:false,
-            data:{
-              "cnt": "2",
-              "userfile1":"timg.jpeg",
-                "userfile2":"test.JPG"
-            },
-            success:function (res) {
-                console.log("Success" + res);
-                window.location.href="../../../../test.zip";
-                alert("成功");
-            },complete:function (res) {
-
-                // window.location.href="localhost/DistributedNetDisk/public/test.zip";
-                window.location.href="../../../../test.zip";
-                console.log("Complete"+res);
-                alert("完成");
-
-            }
-        });
-
-
-    });
-
-
-
-    // 调用 test 的点击事件的两种方法
-    // $("#button_save").trigger("click");
-    // $("#button_save").click()
-})
-
-
-
-
-
-
-
-
-
-
 
 $(document).ready(function(){
+//  alert(json_uersfile);
+    showList(json_uersfile);
+//   $.ajax({
+//     type:"GET",
+//     url:"http://localhost/DistributedNetDisk/public/index.php?s=index/index/showDefault",
+//     contentType: "application/json; charset=utf-8",
+//     dataType: "json",
+//     data:{
+//       "username":"awei",
+//     },
+//     success:function (res) {
+//         console.log("Success" + res);
+//         showList(res);
+//
+//     },complete:function (res) {
+//
+//         console.log("Complete" + res.responseText);
+//
+//     }
+// });
 
-
-    fileStack=[];//存放图片文件的数组
-
-
-    
-  $.ajax({
-    type:"GET",
-    url:"http://localhost/DistributedNetDisk/public/index.php?s=index/index/showpage",
-    contentType: "application/json; charset=utf-8",
-    dataType: "json",
-    data:{
-    },
-    success:function (res) {
-        console.log("Success" + res);
-
-    },complete:function (res) {
-
-        console.log("Complete" + res.responseText);
-
-    }
-});
-
-  userJson=json_uersfile;
-  var f1=json_uersfile;
-  showList(f1);
+  // userJson=json_uersfile;
+  // var f1=json_uersfile;
+  // showList(f1);
   $("#control_checkbox").on("click", function(){
     if($(this).is(":checked")){
       allCheck();
@@ -272,4 +229,11 @@ $(document).ready(function(){
   });
 
 
-})
+
+
+
+
+
+
+
+});

@@ -1,1991 +1,232 @@
 ---------------------------------------------------------------
-[ 2018-11-29T16:46:40+08:00 ] ::1 GET localhost/DistributedNetDisk/public/index.php/index/index/showDefault
-[运行时间：1.658361s] [吞吐率：0.60req/s] [内存消耗：2,478.34kb] [文件加载：71]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
+[ 2018-11-29T23:11:28+08:00 ] 127.0.0.1 GET localhost:63342/DistributedNetDisk/public/index.php?_ijt=m2bgcsqnen08gijccsf7dtol4e
+[运行时间：0.036416s] [吞吐率：27.46req/s] [内存消耗：1,696.50kb] [文件加载：57]
+[ info ] [ LANG ] /Library/WebServer/Documents/DistributedNetDisk/thinkphp/lang/zh-cn.php
 [ info ] [ ROUTE ] array (
 )
 [ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-  'cookie' => 'TL_lastTestPlanForUserID_1=17; TL_execSetResults_tpn_view_status=0; TL_execSetResults_bn_view_status=0; TL_execSetResults_platform_notes_view_status=0; TL_execSetResults_tsdetails_view_status=0; pgv_pvi=4291347456; Phpstorm-786a4b17=9e64e3af-b27f-4ce7-88bd-1b65f5ea4871',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ DB ] INIT mysql
-[ sql ] [ DB ] CONNECT:[ UseTime:0.254683s ] mysql:host=hifafu.com;port=3306;dbname=DisNetDisk;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `netdisk_userfile` [ RunTime:0.092793s ]
-[ sql ] [ SQL ] SELECT * FROM `netdisk_userfile` WHERE  `username` = 'admin' [ RunTime:0.090637s ]
----------------------------------------------------------------
-[ 2018-11-29T16:47:51+08:00 ] ::1 GET localhost/DistributedNetDisk/public/index.php/index/index/showDefault
-[运行时间：0.360186s] [吞吐率：2.78req/s] [内存消耗：2,478.88kb] [文件加载：71]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-  'cookie' => 'TL_lastTestPlanForUserID_1=17; TL_execSetResults_tpn_view_status=0; TL_execSetResults_bn_view_status=0; TL_execSetResults_platform_notes_view_status=0; TL_execSetResults_tsdetails_view_status=0; pgv_pvi=4291347456; Phpstorm-786a4b17=9e64e3af-b27f-4ce7-88bd-1b65f5ea4871',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ DB ] INIT mysql
-[ sql ] [ DB ] CONNECT:[ UseTime:0.135214s ] mysql:host=hifafu.com;port=3306;dbname=DisNetDisk;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `netdisk_userfile` [ RunTime:0.089884s ]
-[ sql ] [ SQL ] SELECT * FROM `netdisk_userfile` WHERE  `username` = 'admin' [ RunTime:0.089703s ]
----------------------------------------------------------------
-[ 2018-11-29T16:49:38+08:00 ] ::1 GET localhost/DistributedNetDisk/public/index.php/index/index/showDefault
-[运行时间：0.347129s] [吞吐率：2.88req/s] [内存消耗：2,478.88kb] [文件加载：71]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-  'cookie' => 'TL_lastTestPlanForUserID_1=17; TL_execSetResults_tpn_view_status=0; TL_execSetResults_bn_view_status=0; TL_execSetResults_platform_notes_view_status=0; TL_execSetResults_tsdetails_view_status=0; pgv_pvi=4291347456; Phpstorm-786a4b17=9e64e3af-b27f-4ce7-88bd-1b65f5ea4871',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ DB ] INIT mysql
-[ sql ] [ DB ] CONNECT:[ UseTime:0.133131s ] mysql:host=hifafu.com;port=3306;dbname=DisNetDisk;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `netdisk_userfile` [ RunTime:0.089361s ]
-[ sql ] [ SQL ] SELECT * FROM `netdisk_userfile` WHERE  `username` = 'admin' [ RunTime:0.088937s ]
----------------------------------------------------------------
-[ 2018-11-29T16:52:49+08:00 ] ::1 GET localhost/DistributedNetDisk/public/index.php/index/index/showDefault
-[运行时间：0.358340s] [吞吐率：2.79req/s] [内存消耗：2,479.56kb] [文件加载：71]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-  'cookie' => 'TL_lastTestPlanForUserID_1=17; TL_execSetResults_tpn_view_status=0; TL_execSetResults_bn_view_status=0; TL_execSetResults_platform_notes_view_status=0; TL_execSetResults_tsdetails_view_status=0; pgv_pvi=4291347456; Phpstorm-786a4b17=9e64e3af-b27f-4ce7-88bd-1b65f5ea4871',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ DB ] INIT mysql
-[ sql ] [ DB ] CONNECT:[ UseTime:0.135095s ] mysql:host=hifafu.com;port=3306;dbname=DisNetDisk;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `netdisk_userfile` [ RunTime:0.089995s ]
-[ sql ] [ SQL ] SELECT * FROM `netdisk_userfile` WHERE  `username` = 'admin' [ RunTime:0.090106s ]
----------------------------------------------------------------
-[ 2018-11-29T16:57:20+08:00 ] ::1 GET localhost/DistributedNetDisk/public/index.php/index/index/showDefault
-[运行时间：1.751048s] [吞吐率：0.57req/s] [内存消耗：2,479.98kb] [文件加载：71]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-  'cookie' => 'TL_lastTestPlanForUserID_1=17; TL_execSetResults_tpn_view_status=0; TL_execSetResults_bn_view_status=0; TL_execSetResults_platform_notes_view_status=0; TL_execSetResults_tsdetails_view_status=0; pgv_pvi=4291347456; Phpstorm-786a4b17=9e64e3af-b27f-4ce7-88bd-1b65f5ea4871',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ DB ] INIT mysql
-[ sql ] [ DB ] CONNECT:[ UseTime:1.516196s ] mysql:host=hifafu.com;port=3306;dbname=DisNetDisk;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `netdisk_userfile` [ RunTime:0.085668s ]
-[ sql ] [ SQL ] SELECT * FROM `netdisk_userfile` WHERE  `username` = 'admin' [ RunTime:0.086136s ]
----------------------------------------------------------------
-[ 2018-11-29T16:58:27+08:00 ] ::1 GET localhost/DistributedNetDisk/public/index.php/index/index/showDefault
-[运行时间：0.355672s] [吞吐率：2.81req/s] [内存消耗：2,479.98kb] [文件加载：71]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-  'cookie' => 'TL_lastTestPlanForUserID_1=17; TL_execSetResults_tpn_view_status=0; TL_execSetResults_bn_view_status=0; TL_execSetResults_platform_notes_view_status=0; TL_execSetResults_tsdetails_view_status=0; pgv_pvi=4291347456; Phpstorm-786a4b17=9e64e3af-b27f-4ce7-88bd-1b65f5ea4871',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ DB ] INIT mysql
-[ sql ] [ DB ] CONNECT:[ UseTime:0.135008s ] mysql:host=hifafu.com;port=3306;dbname=DisNetDisk;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `netdisk_userfile` [ RunTime:0.090181s ]
-[ sql ] [ SQL ] SELECT * FROM `netdisk_userfile` WHERE  `username` = 'admin' [ RunTime:0.091266s ]
----------------------------------------------------------------
-[ 2018-11-29T16:59:15+08:00 ] ::1 GET localhost/DistributedNetDisk/public/index.php/index/index/showDefault
-[运行时间：0.350981s] [吞吐率：2.85req/s] [内存消耗：2,479.98kb] [文件加载：71]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-  'cookie' => 'TL_lastTestPlanForUserID_1=17; TL_execSetResults_tpn_view_status=0; TL_execSetResults_bn_view_status=0; TL_execSetResults_platform_notes_view_status=0; TL_execSetResults_tsdetails_view_status=0; pgv_pvi=4291347456; Phpstorm-786a4b17=9e64e3af-b27f-4ce7-88bd-1b65f5ea4871',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ DB ] INIT mysql
-[ sql ] [ DB ] CONNECT:[ UseTime:0.134804s ] mysql:host=hifafu.com;port=3306;dbname=DisNetDisk;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `netdisk_userfile` [ RunTime:0.090575s ]
-[ sql ] [ SQL ] SELECT * FROM `netdisk_userfile` WHERE  `username` = 'admin' [ RunTime:0.089990s ]
----------------------------------------------------------------
-[ 2018-11-29T16:59:52+08:00 ] ::1 GET localhost/DistributedNetDisk/public/index.php/index/index/showDefault
-[运行时间：0.375906s] [吞吐率：2.66req/s] [内存消耗：2,479.98kb] [文件加载：71]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-  'cookie' => 'TL_lastTestPlanForUserID_1=17; TL_execSetResults_tpn_view_status=0; TL_execSetResults_bn_view_status=0; TL_execSetResults_platform_notes_view_status=0; TL_execSetResults_tsdetails_view_status=0; pgv_pvi=4291347456; Phpstorm-786a4b17=9e64e3af-b27f-4ce7-88bd-1b65f5ea4871',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ DB ] INIT mysql
-[ sql ] [ DB ] CONNECT:[ UseTime:0.140261s ] mysql:host=hifafu.com;port=3306;dbname=DisNetDisk;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `netdisk_userfile` [ RunTime:0.093562s ]
-[ sql ] [ SQL ] SELECT * FROM `netdisk_userfile` WHERE  `username` = 'admin' [ RunTime:0.093460s ]
----------------------------------------------------------------
-[ 2018-11-29T17:01:45+08:00 ] ::1 GET localhost/DistributedNetDisk/public/index.php/index/index/showDefault
-[运行时间：0.345264s] [吞吐率：2.90req/s] [内存消耗：2,496.05kb] [文件加载：71]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-  'cookie' => 'TL_lastTestPlanForUserID_1=17; TL_execSetResults_tpn_view_status=0; TL_execSetResults_bn_view_status=0; TL_execSetResults_platform_notes_view_status=0; TL_execSetResults_tsdetails_view_status=0; pgv_pvi=4291347456; Phpstorm-786a4b17=9e64e3af-b27f-4ce7-88bd-1b65f5ea4871',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ DB ] INIT mysql
-[ sql ] [ DB ] CONNECT:[ UseTime:0.133838s ] mysql:host=hifafu.com;port=3306;dbname=DisNetDisk;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `netdisk_userfile` [ RunTime:0.088757s ]
-[ sql ] [ SQL ] SELECT * FROM `netdisk_userfile` WHERE  `username` = 'admin' [ RunTime:0.088686s ]
----------------------------------------------------------------
-[ 2018-11-29T17:02:41+08:00 ] ::1 GET localhost/DistributedNetDisk/public/index.php/index/index/showDefault
-[运行时间：0.578475s] [吞吐率：1.73req/s] [内存消耗：2,532.42kb] [文件加载：74]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-  'cookie' => 'TL_lastTestPlanForUserID_1=17; TL_execSetResults_tpn_view_status=0; TL_execSetResults_bn_view_status=0; TL_execSetResults_platform_notes_view_status=0; TL_execSetResults_tsdetails_view_status=0; pgv_pvi=4291347456; Phpstorm-786a4b17=9e64e3af-b27f-4ce7-88bd-1b65f5ea4871',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ DB ] INIT mysql
-[ sql ] [ DB ] CONNECT:[ UseTime:0.138685s ] mysql:host=hifafu.com;port=3306;dbname=DisNetDisk;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `netdisk_userfile` [ RunTime:0.092184s ]
-[ sql ] [ SQL ] SELECT * FROM `netdisk_userfile` WHERE  `username` = 'admin' [ RunTime:0.093089s ]
-[ error ] [0]variable type error： array[D:\xampp\htdocs\DistributedNetDisk\thinkphp\library\think\Response.php:403]
----------------------------------------------------------------
-[ 2018-11-29T17:03:10+08:00 ] ::1 GET localhost/DistributedNetDisk/public/index.php/index/index/showDefault
-[运行时间：0.372212s] [吞吐率：2.69req/s] [内存消耗：2,496.10kb] [文件加载：71]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-  'cookie' => 'TL_lastTestPlanForUserID_1=17; TL_execSetResults_tpn_view_status=0; TL_execSetResults_bn_view_status=0; TL_execSetResults_platform_notes_view_status=0; TL_execSetResults_tsdetails_view_status=0; pgv_pvi=4291347456; Phpstorm-786a4b17=9e64e3af-b27f-4ce7-88bd-1b65f5ea4871',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ DB ] INIT mysql
-[ sql ] [ DB ] CONNECT:[ UseTime:0.143631s ] mysql:host=hifafu.com;port=3306;dbname=DisNetDisk;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `netdisk_userfile` [ RunTime:0.096279s ]
-[ sql ] [ SQL ] SELECT * FROM `netdisk_userfile` WHERE  `username` = 'admin' [ RunTime:0.096263s ]
----------------------------------------------------------------
-[ 2018-11-29T17:05:04+08:00 ] ::1 GET localhost/DistributedNetDisk/public/index.php/index/index/showDefault
-[运行时间：0.122731s] [吞吐率：8.15req/s] [内存消耗：1,444.16kb] [文件加载：61]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-  'cookie' => 'TL_lastTestPlanForUserID_1=17; TL_execSetResults_tpn_view_status=0; TL_execSetResults_bn_view_status=0; TL_execSetResults_platform_notes_view_status=0; TL_execSetResults_tsdetails_view_status=0; pgv_pvi=4291347456; Phpstorm-786a4b17=9e64e3af-b27f-4ce7-88bd-1b65f5ea4871',
-)
-[ info ] [ PARAM ] array (
-)
-[ error ] [0]语法解析错误: syntax error, unexpected 'return' (T_RETURN)[D:\xampp\htdocs\DistributedNetDisk\application\index\model\DistModller.php:53]
----------------------------------------------------------------
-[ 2018-11-29T17:05:17+08:00 ] ::1 GET localhost/DistributedNetDisk/public/index.php/index/index/showDefault
-[运行时间：0.488047s] [吞吐率：2.05req/s] [内存消耗：2,538.06kb] [文件加载：76]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-  'cookie' => 'TL_lastTestPlanForUserID_1=17; TL_execSetResults_tpn_view_status=0; TL_execSetResults_bn_view_status=0; TL_execSetResults_platform_notes_view_status=0; TL_execSetResults_tsdetails_view_status=0; pgv_pvi=4291347456; Phpstorm-786a4b17=9e64e3af-b27f-4ce7-88bd-1b65f5ea4871',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ DB ] INIT mysql
-[ sql ] [ DB ] CONNECT:[ UseTime:0.130210s ] mysql:host=hifafu.com;port=3306;dbname=DisNetDisk;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `netdisk_userfile` [ RunTime:0.086050s ]
-[ sql ] [ SQL ] SELECT * FROM `netdisk_userfile` WHERE  `username` = 'admin' [ RunTime:0.090132s ]
-[ error ] [2]json_decode() expects parameter 1 to be string, array given[D:\xampp\htdocs\DistributedNetDisk\application\index\model\DistModller.php:53]
----------------------------------------------------------------
-[ 2018-11-29T17:06:02+08:00 ] ::1 GET localhost/DistributedNetDisk/public/index.php/index/index/showDefault
-[运行时间：0.359071s] [吞吐率：2.78req/s] [内存消耗：2,532.64kb] [文件加载：74]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-  'cookie' => 'TL_lastTestPlanForUserID_1=17; TL_execSetResults_tpn_view_status=0; TL_execSetResults_bn_view_status=0; TL_execSetResults_platform_notes_view_status=0; TL_execSetResults_tsdetails_view_status=0; pgv_pvi=4291347456; Phpstorm-786a4b17=9e64e3af-b27f-4ce7-88bd-1b65f5ea4871',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ DB ] INIT mysql
-[ sql ] [ DB ] CONNECT:[ UseTime:0.135555s ] mysql:host=hifafu.com;port=3306;dbname=DisNetDisk;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `netdisk_userfile` [ RunTime:0.090520s ]
-[ sql ] [ SQL ] SELECT * FROM `netdisk_userfile` WHERE  `username` = 'admin' [ RunTime:0.091023s ]
-[ error ] [0]variable type error： object[D:\xampp\htdocs\DistributedNetDisk\thinkphp\library\think\Response.php:403]
----------------------------------------------------------------
-[ 2018-11-29T17:07:11+08:00 ] ::1 GET localhost/DistributedNetDisk/public/index.php/index/index/showDefault
-[运行时间：1.398736s] [吞吐率：0.71req/s] [内存消耗：2,538.06kb] [文件加载：76]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-  'cookie' => 'TL_lastTestPlanForUserID_1=17; TL_execSetResults_tpn_view_status=0; TL_execSetResults_bn_view_status=0; TL_execSetResults_platform_notes_view_status=0; TL_execSetResults_tsdetails_view_status=0; pgv_pvi=4291347456; Phpstorm-786a4b17=9e64e3af-b27f-4ce7-88bd-1b65f5ea4871',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ DB ] INIT mysql
-[ sql ] [ DB ] CONNECT:[ UseTime:1.169203s ] mysql:host=hifafu.com;port=3306;dbname=DisNetDisk;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `netdisk_userfile` [ RunTime:0.096775s ]
-[ sql ] [ SQL ] SELECT * FROM `netdisk_userfile` WHERE  `username` = 'admin' [ RunTime:0.096725s ]
-[ error ] [2]json_decode() expects parameter 1 to be string, array given[D:\xampp\htdocs\DistributedNetDisk\application\index\model\DistModller.php:52]
----------------------------------------------------------------
-[ 2018-11-29T17:16:59+08:00 ] ::1 GET localhost/DistributedNetDisk/public/index.php/index/index/showDefault
-[运行时间：0.488011s] [吞吐率：2.05req/s] [内存消耗：2,496.10kb] [文件加载：71]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-  'cookie' => 'TL_lastTestPlanForUserID_1=17; TL_execSetResults_tpn_view_status=0; TL_execSetResults_bn_view_status=0; TL_execSetResults_platform_notes_view_status=0; TL_execSetResults_tsdetails_view_status=0; pgv_pvi=4291347456; Phpstorm-786a4b17=9e64e3af-b27f-4ce7-88bd-1b65f5ea4871',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ DB ] INIT mysql
-[ sql ] [ DB ] CONNECT:[ UseTime:0.283572s ] mysql:host=hifafu.com;port=3306;dbname=DisNetDisk;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `netdisk_userfile` [ RunTime:0.083965s ]
-[ sql ] [ SQL ] SELECT * FROM `netdisk_userfile` WHERE  `username` = 'admin' [ RunTime:0.082486s ]
----------------------------------------------------------------
-[ 2018-11-29T17:17:08+08:00 ] ::1 GET localhost/DistributedNetDisk/public/index.php/index/index/showDefault
-[运行时间：0.339600s] [吞吐率：2.94req/s] [内存消耗：2,496.05kb] [文件加载：71]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-  'cookie' => 'TL_lastTestPlanForUserID_1=17; TL_execSetResults_tpn_view_status=0; TL_execSetResults_bn_view_status=0; TL_execSetResults_platform_notes_view_status=0; TL_execSetResults_tsdetails_view_status=0; pgv_pvi=4291347456; Phpstorm-786a4b17=9e64e3af-b27f-4ce7-88bd-1b65f5ea4871',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ DB ] INIT mysql
-[ sql ] [ DB ] CONNECT:[ UseTime:0.130040s ] mysql:host=hifafu.com;port=3306;dbname=DisNetDisk;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `netdisk_userfile` [ RunTime:0.086845s ]
-[ sql ] [ SQL ] SELECT * FROM `netdisk_userfile` WHERE  `username` = 'admin' [ RunTime:0.086762s ]
----------------------------------------------------------------
-[ 2018-11-29T19:22:05+08:00 ] ::1 OPTIONS localhost/DistributedNetDisk/public/index.php?s=index/index/showPic&username=awei
-[运行时间：0.565234s] [吞吐率：1.77req/s] [内存消耗：1,402.39kb] [文件加载：57]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'access-control-request-method' => 'GET',
-  'origin' => 'null',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'access-control-request-headers' => 'content-type',
-  'accept' => '*/*',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-)
-[ info ] [ PARAM ] array (
-  'username' => 'awei',
-)
----------------------------------------------------------------
-[ 2018-11-29T19:23:37+08:00 ] ::1 OPTIONS localhost/DistributedNetDisk/public/index.php?s=index/index/showPic&username=awei
-[运行时间：0.029672s] [吞吐率：33.70req/s] [内存消耗：1,402.39kb] [文件加载：57]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'access-control-request-method' => 'GET',
-  'origin' => 'null',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'access-control-request-headers' => 'content-type',
-  'accept' => '*/*',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-)
-[ info ] [ PARAM ] array (
-  'username' => 'awei',
-)
----------------------------------------------------------------
-[ 2018-11-29T19:34:31+08:00 ] ::1 GET localhost/DistributedNetDisk/public/index.php?s=index/register/regist&username=&password=
-[运行时间：0.247285s] [吞吐率：4.04req/s] [内存消耗：1,402.39kb] [文件加载：59]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'accept' => '*/*',
-  'origin' => 'null',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-)
-[ info ] [ PARAM ] array (
-  'username' => '',
-  'password' => '',
-)
----------------------------------------------------------------
-[ 2018-11-29T19:34:35+08:00 ] ::1 GET localhost/DistributedNetDisk/public/index.php?s=index/register/regist&username=123&password=123
-[运行时间：0.025468s] [吞吐率：39.27req/s] [内存消耗：1,402.41kb] [文件加载：59]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'accept' => '*/*',
-  'origin' => 'null',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-)
-[ info ] [ PARAM ] array (
-  'username' => '123',
-  'password' => '123',
-)
----------------------------------------------------------------
-[ 2018-11-29T19:34:37+08:00 ] ::1 GET localhost/DistributedNetDisk/public/index.php?s=index/register/regist&username=123&password=asd
-[运行时间：0.033313s] [吞吐率：30.02req/s] [内存消耗：1,402.41kb] [文件加载：59]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'accept' => '*/*',
-  'origin' => 'null',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-)
-[ info ] [ PARAM ] array (
-  'username' => '123',
-  'password' => 'asd',
-)
----------------------------------------------------------------
-[ 2018-11-29T19:40:59+08:00 ] ::1 GET localhost/DistributedNetDisk/public/index.php/index/index/showDefault
-[运行时间：0.690499s] [吞吐率：1.45req/s] [内存消耗：2,496.05kb] [文件加载：71]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-  'cookie' => 'TL_lastTestPlanForUserID_1=17; TL_execSetResults_tpn_view_status=0; TL_execSetResults_bn_view_status=0; TL_execSetResults_platform_notes_view_status=0; TL_execSetResults_tsdetails_view_status=0; pgv_pvi=4291347456; Phpstorm-786a4b17=9e64e3af-b27f-4ce7-88bd-1b65f5ea4871',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ DB ] INIT mysql
-[ sql ] [ DB ] CONNECT:[ UseTime:0.212235s ] mysql:host=hifafu.com;port=3306;dbname=DisNetDisk;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `netdisk_userfile` [ RunTime:0.089654s ]
-[ sql ] [ SQL ] SELECT * FROM `netdisk_userfile` WHERE  `username` = 'admin' [ RunTime:0.089791s ]
----------------------------------------------------------------
-[ 2018-11-29T19:47:27+08:00 ] ::1 GET localhost/DistributedNetDisk/public/index.php/index/LoginController/login?password=admin
-[运行时间：0.075976s] [吞吐率：13.16req/s] [内存消耗：1,445.34kb] [文件加载：62]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'accept' => '*/*',
-  'x-requested-with' => 'XMLHttpRequest',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'referer' => 'http://localhost/netDisk_View/DistributedNetDisk_backend/View/page/login/index.html?',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-  'cookie' => 'TL_lastTestPlanForUserID_1=17; TL_execSetResults_tpn_view_status=0; TL_execSetResults_bn_view_status=0; TL_execSetResults_platform_notes_view_status=0; TL_execSetResults_tsdetails_view_status=0; pgv_pvi=4291347456; Phpstorm-786a4b17=9e64e3af-b27f-4ce7-88bd-1b65f5ea4871',
-)
-[ info ] [ PARAM ] array (
-  'password' => 'admin',
-)
-[ error ] [8]未定义数组索引: username[D:\xampp\htdocs\DistributedNetDisk\application\index\controller\LoginController.php:31]
----------------------------------------------------------------
-[ 2018-11-29T19:48:21+08:00 ] ::1 GET localhost/DistributedNetDisk/public/index.php/index/LoginController/login?username=admin&password=admin
-[运行时间：0.022502s] [吞吐率：44.44req/s] [内存消耗：1,445.38kb] [文件加载：62]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'accept' => '*/*',
-  'x-requested-with' => 'XMLHttpRequest',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'referer' => 'http://localhost/netDisk_View/DistributedNetDisk_backend/View/page/login/index.html?',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-  'cookie' => 'TL_lastTestPlanForUserID_1=17; TL_execSetResults_tpn_view_status=0; TL_execSetResults_bn_view_status=0; TL_execSetResults_platform_notes_view_status=0; TL_execSetResults_tsdetails_view_status=0; pgv_pvi=4291347456; Phpstorm-786a4b17=9e64e3af-b27f-4ce7-88bd-1b65f5ea4871',
-)
-[ info ] [ PARAM ] array (
-  'username' => 'admin',
-  'password' => 'admin',
-)
-[ error ] [8]未定义数组索引: username[D:\xampp\htdocs\DistributedNetDisk\application\index\controller\LoginController.php:31]
----------------------------------------------------------------
-[ 2018-11-29T19:49:24+08:00 ] ::1 POST localhost/DistributedNetDisk/public/index.php/index/LoginController/login
-[运行时间：0.490182s] [吞吐率：2.04req/s] [内存消耗：2,420.86kb] [文件加载：70]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'content-length' => '29',
-  'accept' => '*/*',
-  'origin' => 'http://localhost',
-  'x-requested-with' => 'XMLHttpRequest',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
-  'referer' => 'http://localhost/netDisk_View/DistributedNetDisk_backend/View/page/login/index.html?',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-  'cookie' => 'TL_lastTestPlanForUserID_1=17; TL_execSetResults_tpn_view_status=0; TL_execSetResults_bn_view_status=0; TL_execSetResults_platform_notes_view_status=0; TL_execSetResults_tsdetails_view_status=0; pgv_pvi=4291347456; Phpstorm-786a4b17=9e64e3af-b27f-4ce7-88bd-1b65f5ea4871',
-)
-[ info ] [ PARAM ] array (
-  'username' => 'admin',
-  'password' => 'admin',
-)
-[ info ] [ DB ] INIT mysql
-[ sql ] [ DB ] CONNECT:[ UseTime:0.138070s ] mysql:host=hifafu.com;port=3306;dbname=DisNetDisk;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `netdisk_user` [ RunTime:0.090825s ]
-[ sql ] [ SQL ] SELECT `salt` FROM `netdisk_user` WHERE  `username` = 'admin' [ RunTime:0.090410s ]
-[ sql ] [ SQL ] SELECT * FROM `netdisk_user` WHERE  `username` = 'admin'  AND `password` = '99feb0c9809cbbe1ca471d45a6d555e4' LIMIT 1 [ RunTime:0.090680s ]
----------------------------------------------------------------
-[ 2018-11-29T19:52:49+08:00 ] ::1 POST localhost/DistributedNetDisk/public/index.php/index/LoginController/login
-[运行时间：0.526130s] [吞吐率：1.90req/s] [内存消耗：2,420.84kb] [文件加载：70]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'content-length' => '29',
-  'accept' => '*/*',
-  'origin' => 'http://localhost',
-  'x-requested-with' => 'XMLHttpRequest',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
-  'referer' => 'http://localhost/netDisk_View/DistributedNetDisk_backend/View/page/login/index.html?',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-  'cookie' => 'TL_lastTestPlanForUserID_1=17; TL_execSetResults_tpn_view_status=0; TL_execSetResults_bn_view_status=0; TL_execSetResults_platform_notes_view_status=0; TL_execSetResults_tsdetails_view_status=0; pgv_pvi=4291347456; Phpstorm-786a4b17=9e64e3af-b27f-4ce7-88bd-1b65f5ea4871',
-)
-[ info ] [ PARAM ] array (
-  'username' => 'admin',
-  'password' => 'admin',
-)
-[ info ] [ DB ] INIT mysql
-[ sql ] [ DB ] CONNECT:[ UseTime:0.206739s ] mysql:host=hifafu.com;port=3306;dbname=DisNetDisk;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `netdisk_user` [ RunTime:0.091713s ]
-[ sql ] [ SQL ] SELECT `salt` FROM `netdisk_user` WHERE  `username` = 'admin' [ RunTime:0.091780s ]
-[ sql ] [ SQL ] SELECT * FROM `netdisk_user` WHERE  `username` = 'admin'  AND `password` = '99feb0c9809cbbe1ca471d45a6d555e4' LIMIT 1 [ RunTime:0.091913s ]
----------------------------------------------------------------
-[ 2018-11-29T20:17:43+08:00 ] ::1 POST localhost/DistributedNetDisk/public/index.php/index/LoginController/login
-[运行时间：0.631226s] [吞吐率：1.58req/s] [内存消耗：2,447.33kb] [文件加载：72]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'content-length' => '29',
-  'accept' => '*/*',
-  'origin' => 'http://localhost',
-  'x-requested-with' => 'XMLHttpRequest',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
-  'referer' => 'http://localhost/netDisk_View/DistributedNetDisk_backend/View/page/login/index.html?',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-  'cookie' => 'TL_lastTestPlanForUserID_1=17; TL_execSetResults_tpn_view_status=0; TL_execSetResults_bn_view_status=0; TL_execSetResults_platform_notes_view_status=0; TL_execSetResults_tsdetails_view_status=0; pgv_pvi=4291347456; Phpstorm-786a4b17=9e64e3af-b27f-4ce7-88bd-1b65f5ea4871',
-)
-[ info ] [ PARAM ] array (
-  'username' => 'admin',
-  'password' => 'admin',
-)
-[ info ] [ DB ] INIT mysql
-[ sql ] [ DB ] CONNECT:[ UseTime:0.293939s ] mysql:host=hifafu.com;port=3306;dbname=DisNetDisk;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `netdisk_user` [ RunTime:0.083885s ]
-[ sql ] [ SQL ] SELECT `salt` FROM `netdisk_user` WHERE  `username` = 'admin' [ RunTime:0.083686s ]
-[ sql ] [ SQL ] SELECT * FROM `netdisk_user` WHERE  `username` = 'admin'  AND `password` = '99feb0c9809cbbe1ca471d45a6d555e4' LIMIT 1 [ RunTime:0.083882s ]
----------------------------------------------------------------
-[ 2018-11-29T20:18:42+08:00 ] ::1 POST localhost/DistributedNetDisk/public/index.php/index/LoginController/login
-[运行时间：0.461033s] [吞吐率：2.17req/s] [内存消耗：2,447.33kb] [文件加载：72]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'content-length' => '29',
-  'accept' => '*/*',
-  'origin' => 'http://localhost',
-  'x-requested-with' => 'XMLHttpRequest',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
-  'referer' => 'http://localhost/netDisk_View/DistributedNetDisk_backend/View/page/login/index.html?',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-  'cookie' => 'TL_lastTestPlanForUserID_1=17; TL_execSetResults_tpn_view_status=0; TL_execSetResults_bn_view_status=0; TL_execSetResults_platform_notes_view_status=0; TL_execSetResults_tsdetails_view_status=0; pgv_pvi=4291347456; Phpstorm-786a4b17=9e64e3af-b27f-4ce7-88bd-1b65f5ea4871',
-)
-[ info ] [ PARAM ] array (
-  'username' => 'admin',
-  'password' => 'admin',
-)
-[ info ] [ DB ] INIT mysql
-[ sql ] [ DB ] CONNECT:[ UseTime:0.139399s ] mysql:host=hifafu.com;port=3306;dbname=DisNetDisk;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `netdisk_user` [ RunTime:0.092544s ]
-[ sql ] [ SQL ] SELECT `salt` FROM `netdisk_user` WHERE  `username` = 'admin' [ RunTime:0.092637s ]
-[ sql ] [ SQL ] SELECT * FROM `netdisk_user` WHERE  `username` = 'admin'  AND `password` = '99feb0c9809cbbe1ca471d45a6d555e4' LIMIT 1 [ RunTime:0.092284s ]
----------------------------------------------------------------
-[ 2018-11-29T20:21:30+08:00 ] ::1 POST localhost/DistributedNetDisk/public/index.php/index/LoginController/login
-[运行时间：0.447279s] [吞吐率：2.24req/s] [内存消耗：2,447.33kb] [文件加载：72]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'content-length' => '29',
-  'accept' => '*/*',
-  'origin' => 'http://localhost',
-  'x-requested-with' => 'XMLHttpRequest',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
-  'referer' => 'http://localhost/netDisk_View/DistributedNetDisk_backend/View/page/login/index.html?',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-  'cookie' => 'TL_lastTestPlanForUserID_1=17; TL_execSetResults_tpn_view_status=0; TL_execSetResults_bn_view_status=0; TL_execSetResults_platform_notes_view_status=0; TL_execSetResults_tsdetails_view_status=0; pgv_pvi=4291347456; Phpstorm-786a4b17=9e64e3af-b27f-4ce7-88bd-1b65f5ea4871',
-)
-[ info ] [ PARAM ] array (
-  'username' => 'admin',
-  'password' => 'admin',
-)
-[ info ] [ DB ] INIT mysql
-[ sql ] [ DB ] CONNECT:[ UseTime:0.130367s ] mysql:host=hifafu.com;port=3306;dbname=DisNetDisk;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `netdisk_user` [ RunTime:0.083354s ]
-[ sql ] [ SQL ] SELECT `salt` FROM `netdisk_user` WHERE  `username` = 'admin' [ RunTime:0.083375s ]
-[ sql ] [ SQL ] SELECT * FROM `netdisk_user` WHERE  `username` = 'admin'  AND `password` = '99feb0c9809cbbe1ca471d45a6d555e4' LIMIT 1 [ RunTime:0.084009s ]
----------------------------------------------------------------
-[ 2018-11-29T20:24:34+08:00 ] ::1 POST localhost/DistributedNetDisk/public/index.php/index/LoginController/login
-[运行时间：0.425171s] [吞吐率：2.35req/s] [内存消耗：2,445.27kb] [文件加载：72]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'content-length' => '29',
-  'accept' => '*/*',
-  'origin' => 'null',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-)
-[ info ] [ PARAM ] array (
-  'username' => 'admin',
-  'password' => 'admin',
-)
-[ info ] [ DB ] INIT mysql
-[ sql ] [ DB ] CONNECT:[ UseTime:0.127929s ] mysql:host=hifafu.com;port=3306;dbname=DisNetDisk;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `netdisk_user` [ RunTime:0.083612s ]
-[ sql ] [ SQL ] SELECT `salt` FROM `netdisk_user` WHERE  `username` = 'admin' [ RunTime:0.083952s ]
-[ sql ] [ SQL ] SELECT * FROM `netdisk_user` WHERE  `username` = 'admin'  AND `password` = '99feb0c9809cbbe1ca471d45a6d555e4' LIMIT 1 [ RunTime:0.083897s ]
----------------------------------------------------------------
-[ 2018-11-29T20:24:40+08:00 ] ::1 POST localhost/DistributedNetDisk/public/index.php/index/LoginController/login
-[运行时间：0.418742s] [吞吐率：2.39req/s] [内存消耗：2,445.27kb] [文件加载：72]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'content-length' => '29',
-  'accept' => '*/*',
-  'origin' => 'null',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-)
-[ info ] [ PARAM ] array (
-  'username' => 'admin',
-  'password' => 'admin',
-)
-[ info ] [ DB ] INIT mysql
-[ sql ] [ DB ] CONNECT:[ UseTime:0.126693s ] mysql:host=hifafu.com;port=3306;dbname=DisNetDisk;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `netdisk_user` [ RunTime:0.084590s ]
-[ sql ] [ SQL ] SELECT `salt` FROM `netdisk_user` WHERE  `username` = 'admin' [ RunTime:0.084596s ]
-[ sql ] [ SQL ] SELECT * FROM `netdisk_user` WHERE  `username` = 'admin'  AND `password` = '99feb0c9809cbbe1ca471d45a6d555e4' LIMIT 1 [ RunTime:0.084254s ]
----------------------------------------------------------------
-[ 2018-11-29T20:25:35+08:00 ] ::1 POST localhost/DistributedNetDisk/public/index.php/index/LoginController/login
-[运行时间：0.454336s] [吞吐率：2.20req/s] [内存消耗：2,446.09kb] [文件加载：72]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'content-length' => '29',
-  'accept' => '*/*',
-  'origin' => 'null',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-)
-[ info ] [ PARAM ] array (
-  'username' => 'admin',
-  'password' => 'admin',
-)
-[ info ] [ DB ] INIT mysql
-[ sql ] [ DB ] CONNECT:[ UseTime:0.132572s ] mysql:host=hifafu.com;port=3306;dbname=DisNetDisk;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `netdisk_user` [ RunTime:0.089261s ]
-[ sql ] [ SQL ] SELECT `salt` FROM `netdisk_user` WHERE  `username` = 'admin' [ RunTime:0.088758s ]
-[ sql ] [ SQL ] SELECT * FROM `netdisk_user` WHERE  `username` = 'admin'  AND `password` = '99feb0c9809cbbe1ca471d45a6d555e4' LIMIT 1 [ RunTime:0.087623s ]
----------------------------------------------------------------
-[ 2018-11-29T20:30:25+08:00 ] ::1 POST localhost/DistributedNetDisk/public/index.php/index/LoginController/login
-[运行时间：0.023981s] [吞吐率：41.70req/s] [内存消耗：1,618.14kb] [文件加载：64]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'content-length' => '29',
-  'accept' => '*/*',
-  'origin' => 'null',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-)
-[ info ] [ PARAM ] array (
-  'username' => 'admin',
-  'password' => 'admin',
-)
----------------------------------------------------------------
-[ 2018-11-29T20:30:36+08:00 ] ::1 POST localhost/DistributedNetDisk/public/index.php/index/LoginController/login
-[运行时间：0.026900s] [吞吐率：37.17req/s] [内存消耗：1,386.45kb] [文件加载：57]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'content-length' => '19',
-  'accept' => '*/*',
-  'origin' => 'null',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-)
-[ info ] [ PARAM ] array (
-  'username' => '',
-  'password' => '',
-)
----------------------------------------------------------------
-[ 2018-11-29T20:32:04+08:00 ] ::1 POST localhost/DistributedNetDisk/public/index.php/index/LoginController/login
-[运行时间：0.036576s] [吞吐率：27.34req/s] [内存消耗：1,618.14kb] [文件加载：64]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'content-length' => '25',
-  'accept' => '*/*',
-  'origin' => 'null',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-)
-[ info ] [ PARAM ] array (
-  'username' => '123',
-  'password' => '123',
-)
----------------------------------------------------------------
-[ 2018-11-29T20:32:14+08:00 ] ::1 GET localhost/DistributedNetDisk/public/index.php/index/LoginController/login
-[运行时间：0.045792s] [吞吐率：21.84req/s] [内存消耗：1,445.00kb] [文件加载：62]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-  'cookie' => 'TL_lastTestPlanForUserID_1=17; TL_execSetResults_tpn_view_status=0; TL_execSetResults_bn_view_status=0; TL_execSetResults_platform_notes_view_status=0; TL_execSetResults_tsdetails_view_status=0; pgv_pvi=4291347456; Phpstorm-786a4b17=9e64e3af-b27f-4ce7-88bd-1b65f5ea4871',
-)
-[ info ] [ PARAM ] array (
-)
-[ error ] [8]未定义数组索引: username[D:\xampp\htdocs\DistributedNetDisk\application\index\controller\LoginController.php:36]
----------------------------------------------------------------
-[ 2018-11-29T20:33:58+08:00 ] ::1 POST localhost/DistributedNetDisk/public/index.php/index/LoginController/login
-[运行时间：0.040275s] [吞吐率：24.83req/s] [内存消耗：1,618.16kb] [文件加载：64]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'content-length' => '25',
-  'accept' => '*/*',
-  'origin' => 'null',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-)
-[ info ] [ PARAM ] array (
-  'username' => '123',
-  'password' => '123',
-)
----------------------------------------------------------------
-[ 2018-11-29T20:35:00+08:00 ] ::1 POST localhost/DistributedNetDisk/public/index.php/index/LoginController/login
-[运行时间：0.032874s] [吞吐率：30.42req/s] [内存消耗：1,618.16kb] [文件加载：64]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'content-length' => '25',
-  'accept' => '*/*',
-  'origin' => 'null',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-)
-[ info ] [ PARAM ] array (
-  'username' => '123',
-  'password' => '123',
-)
----------------------------------------------------------------
-[ 2018-11-29T20:35:00+08:00 ] ::1 POST localhost/DistributedNetDisk/public/index.php/index/LoginController/login
-[运行时间：0.050099s] [吞吐率：19.96req/s] [内存消耗：1,445.37kb] [文件加载：62]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
   'content-length' => '0',
-  'cache-control' => 'max-age=0',
+  'cookie' => 'Phpstorm-f61eee2e=88fb9e94-06ed-48b3-aaaa-398aa6992bce; _ga=GA1.1.1287743122.1539181421; TESTLINK197TL_execSetResults_tpn_view_status=0; TESTLINK197TL_execSetResults_bn_view_status=0; TESTLINK197TL_execSetResults_platform_notes_view_status=0; TL_lastTestProjectForUserID_2=158; TESTLINK197TL_lastTestPlanForUserID_1=384; pgv_pvi=9072234496; Phpstorm-f61eee2f=dd821aeb-91da-46ea-930c-68ade6a24419; pgv_si=s8234663936; PHPSESSID=6fa7spjo302u60g7ld7c0un6pv; TESTLINK_USER_AUTH_COOKIE=6cdc2b1fb695c3d567db19836f5f6cd4776a5bae782af6cbc5cdfbb999e57836; TCEditPopupWidth=938; TCEditPopupHeight=613; ys-edit_tc_tproject_id_158_ext-comp-1001=a%3As%253A/158/207/211/212%5Es%253A/158/207/229/230%5Es%253A/158/207/211/219',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
   'upgrade-insecure-requests' => '1',
-  'origin' => 'null',
-  'content-type' => 'application/x-www-form-urlencoded',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'host' => 'localhost:63342',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  '_ijt' => 'm2bgcsqnen08gijccsf7dtol4e',
+)
+---------------------------------------------------------------
+[ 2018-11-29T23:12:32+08:00 ] ::1 GET localhost/DistributedNetDisk/public/index.php/index/Register/register
+[运行时间：0.031916s] [吞吐率：31.33req/s] [内存消耗：1,618.04kb] [文件加载：62]
+[ info ] [ LANG ] /Library/WebServer/Documents/DistributedNetDisk/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'dnt' => '1',
   'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
   'accept-encoding' => 'gzip, deflate, br',
   'accept-language' => 'zh-CN,zh;q=0.9',
-  'cookie' => 'TL_lastTestPlanForUserID_1=17; TL_execSetResults_tpn_view_status=0; TL_execSetResults_bn_view_status=0; TL_execSetResults_platform_notes_view_status=0; TL_execSetResults_tsdetails_view_status=0; pgv_pvi=4291347456',
+  'cookie' => 'Phpstorm-f61eee2e=88fb9e94-06ed-48b3-aaaa-398aa6992bce; _ga=GA1.1.1287743122.1539181421; TESTLINK197TL_execSetResults_tpn_view_status=0; TESTLINK197TL_execSetResults_bn_view_status=0; TESTLINK197TL_execSetResults_platform_notes_view_status=0; TL_lastTestProjectForUserID_2=158; TESTLINK197TL_lastTestPlanForUserID_1=384; pgv_pvi=9072234496; Phpstorm-f61eee2f=dd821aeb-91da-46ea-930c-68ade6a24419; pgv_si=s8234663936; PHPSESSID=6fa7spjo302u60g7ld7c0un6pv; TESTLINK_USER_AUTH_COOKIE=6cdc2b1fb695c3d567db19836f5f6cd4776a5bae782af6cbc5cdfbb999e57836; TCEditPopupWidth=938; TCEditPopupHeight=613; ys-edit_tc_tproject_id_158_ext-comp-1001=a%3As%253A/158/207/211/212%5Es%253A/158/207/229/230%5Es%253A/158/207/211/219',
 )
 [ info ] [ PARAM ] array (
 )
-[ error ] [8]未定义数组索引: username[D:\xampp\htdocs\DistributedNetDisk\application\index\controller\LoginController.php:36]
+[ error ] [8]未定义数组索引: username[/Library/WebServer/Documents/DistributedNetDisk/application/index/controller/Register.php:19]
 ---------------------------------------------------------------
-[ 2018-11-29T20:35:49+08:00 ] ::1 POST localhost/DistributedNetDisk/public/index.php/index/LoginController/login
-[运行时间：0.024635s] [吞吐率：40.59req/s] [内存消耗：1,618.16kb] [文件加载：64]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
+[ 2018-11-29T23:12:50+08:00 ] ::1 GET localhost/DistributedNetDisk/public/index.php/index/Register/register?username=joker&password=joker
+[运行时间：0.633261s] [吞吐率：1.58req/s] [内存消耗：2,787.95kb] [文件加载：72]
+[ info ] [ LANG ] /Library/WebServer/Documents/DistributedNetDisk/thinkphp/lang/zh-cn.php
 [ info ] [ ROUTE ] array (
 )
 [ info ] [ HEADER ] array (
   'host' => 'localhost',
   'connection' => 'keep-alive',
-  'content-length' => '25',
-  'accept' => '*/*',
-  'origin' => 'null',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
   'accept-encoding' => 'gzip, deflate, br',
   'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-f61eee2e=88fb9e94-06ed-48b3-aaaa-398aa6992bce; _ga=GA1.1.1287743122.1539181421; TESTLINK197TL_execSetResults_tpn_view_status=0; TESTLINK197TL_execSetResults_bn_view_status=0; TESTLINK197TL_execSetResults_platform_notes_view_status=0; TL_lastTestProjectForUserID_2=158; TESTLINK197TL_lastTestPlanForUserID_1=384; pgv_pvi=9072234496; Phpstorm-f61eee2f=dd821aeb-91da-46ea-930c-68ade6a24419; pgv_si=s8234663936; PHPSESSID=6fa7spjo302u60g7ld7c0un6pv; TESTLINK_USER_AUTH_COOKIE=6cdc2b1fb695c3d567db19836f5f6cd4776a5bae782af6cbc5cdfbb999e57836; TCEditPopupWidth=938; TCEditPopupHeight=613; ys-edit_tc_tproject_id_158_ext-comp-1001=a%3As%253A/158/207/211/212%5Es%253A/158/207/229/230%5Es%253A/158/207/211/219',
 )
 [ info ] [ PARAM ] array (
-  'username' => '123',
-  'password' => '123',
+  'username' => 'joker',
+  'password' => 'joker',
 )
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.218782s ] mysql:host=hifafu.com;port=3306;dbname=DisNetDisk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `netdisk_user` [ RunTime:0.091545s ]
+[ sql ] [ SQL ] SELECT * FROM `netdisk_user` WHERE  `username` = 'joker' LIMIT 1 [ RunTime:0.091047s ]
+[ sql ] [ SQL ] INSERT INTO `netdisk_user` (`username` , `password` , `salt`) VALUES ('joker' , 'b55045ee3c1247e14bdff0e35a1b226d' , '66fcdea81f5ebefeb08595a180ea3081') [ RunTime:0.099307s ]
 ---------------------------------------------------------------
-[ 2018-11-29T20:35:49+08:00 ] ::1 POST localhost/DistributedNetDisk/public/index.php/index/LoginController/login
-[运行时间：0.046149s] [吞吐率：21.67req/s] [内存消耗：1,445.37kb] [文件加载：62]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
+[ 2018-11-29T23:23:34+08:00 ] 127.0.0.1 GET localhost:63342/DistributedNetDisk/public/index.php?_ijt=om2t4h0m1dh8ct7qjdkngvbgaa
+[运行时间：0.042061s] [吞吐率：23.78req/s] [内存消耗：1,696.50kb] [文件加载：57]
+[ info ] [ LANG ] /Library/WebServer/Documents/DistributedNetDisk/thinkphp/lang/zh-cn.php
 [ info ] [ ROUTE ] array (
 )
 [ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
   'content-length' => '0',
-  'cache-control' => 'max-age=0',
-  'upgrade-insecure-requests' => '1',
-  'origin' => 'null',
-  'content-type' => 'application/x-www-form-urlencoded',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'cookie' => 'Phpstorm-f61eee2e=88fb9e94-06ed-48b3-aaaa-398aa6992bce; _ga=GA1.1.1287743122.1539181421; TESTLINK197TL_execSetResults_tpn_view_status=0; TESTLINK197TL_execSetResults_bn_view_status=0; TESTLINK197TL_execSetResults_platform_notes_view_status=0; TL_lastTestProjectForUserID_2=158; TESTLINK197TL_lastTestPlanForUserID_1=384; pgv_pvi=9072234496; Phpstorm-f61eee2f=dd821aeb-91da-46ea-930c-68ade6a24419; pgv_si=s8234663936; PHPSESSID=6fa7spjo302u60g7ld7c0un6pv; TESTLINK_USER_AUTH_COOKIE=6cdc2b1fb695c3d567db19836f5f6cd4776a5bae782af6cbc5cdfbb999e57836; TCEditPopupWidth=938; TCEditPopupHeight=613; ys-edit_tc_tproject_id_158_ext-comp-1001=a%3As%253A/158/207/211/212%5Es%253A/158/207/229/230%5Es%253A/158/207/211/219',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
   'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-  'cookie' => 'TL_lastTestPlanForUserID_1=17; TL_execSetResults_tpn_view_status=0; TL_execSetResults_bn_view_status=0; TL_execSetResults_platform_notes_view_status=0; TL_execSetResults_tsdetails_view_status=0; pgv_pvi=4291347456',
-)
-[ info ] [ PARAM ] array (
-)
-[ error ] [8]未定义数组索引: username[D:\xampp\htdocs\DistributedNetDisk\application\index\controller\LoginController.php:36]
----------------------------------------------------------------
-[ 2018-11-29T20:36:49+08:00 ] ::1 POST localhost/DistributedNetDisk/public/index.php/index/LoginController/login
-[运行时间：0.028253s] [吞吐率：35.39req/s] [内存消耗：1,618.16kb] [文件加载：64]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'content-length' => '25',
-  'accept' => '*/*',
-  'origin' => 'null',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-)
-[ info ] [ PARAM ] array (
-  'username' => '123',
-  'password' => '123',
-)
----------------------------------------------------------------
-[ 2018-11-29T20:36:49+08:00 ] ::1 POST localhost/DistributedNetDisk/public/index.php/index/LoginController/login
-[运行时间：0.038177s] [吞吐率：26.19req/s] [内存消耗：1,619.63kb] [文件加载：64]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'content-length' => '25',
-  'cache-control' => 'max-age=0',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
   'upgrade-insecure-requests' => '1',
-  'origin' => 'null',
-  'content-type' => 'application/x-www-form-urlencoded',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-  'cookie' => 'TL_lastTestPlanForUserID_1=17; TL_execSetResults_tpn_view_status=0; TL_execSetResults_bn_view_status=0; TL_execSetResults_platform_notes_view_status=0; TL_execSetResults_tsdetails_view_status=0; pgv_pvi=4291347456',
+  'host' => 'localhost:63342',
+  'content-type' => '',
 )
 [ info ] [ PARAM ] array (
-  'username' => '123',
-  'password' => '123',
+  '_ijt' => 'om2t4h0m1dh8ct7qjdkngvbgaa',
 )
 ---------------------------------------------------------------
-[ 2018-11-29T20:37:34+08:00 ] ::1 POST localhost/DistributedNetDisk/public/index.php/index/LoginController/login
-[运行时间：0.032193s] [吞吐率：31.06req/s] [内存消耗：1,648.84kb] [文件加载：66]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
+[ 2018-11-29T23:23:41+08:00 ] ::1 GET localhost/DistributedNetDisk/public/index.php?s=index/LoginController/login&username=joker&password=joker
+[运行时间：0.028314s] [吞吐率：35.32req/s] [内存消耗：1,620.67kb] [文件加载：62]
+[ info ] [ LANG ] /Library/WebServer/Documents/DistributedNetDisk/thinkphp/lang/zh-cn.php
 [ info ] [ ROUTE ] array (
 )
 [ info ] [ HEADER ] array (
   'host' => 'localhost',
   'connection' => 'keep-alive',
-  'content-length' => '25',
-  'accept' => '*/*',
-  'origin' => 'null',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'dnt' => '1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'content-type' => 'application/json; charset=utf-8',
+  'referer' => 'http://localhost/DistributedNetDisk/public/static/login/index.html',
   'accept-encoding' => 'gzip, deflate, br',
   'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-f61eee2e=88fb9e94-06ed-48b3-aaaa-398aa6992bce; _ga=GA1.1.1287743122.1539181421; TESTLINK197TL_execSetResults_tpn_view_status=0; TESTLINK197TL_execSetResults_bn_view_status=0; TESTLINK197TL_execSetResults_platform_notes_view_status=0; TL_lastTestProjectForUserID_2=158; TESTLINK197TL_lastTestPlanForUserID_1=384; pgv_pvi=9072234496; Phpstorm-f61eee2f=dd821aeb-91da-46ea-930c-68ade6a24419; pgv_si=s8234663936; PHPSESSID=6fa7spjo302u60g7ld7c0un6pv; TESTLINK_USER_AUTH_COOKIE=6cdc2b1fb695c3d567db19836f5f6cd4776a5bae782af6cbc5cdfbb999e57836; TCEditPopupWidth=938; TCEditPopupHeight=613; ys-edit_tc_tproject_id_158_ext-comp-1001=a%3As%253A/158/207/211/212%5Es%253A/158/207/229/230%5Es%253A/158/207/211/219',
 )
 [ info ] [ PARAM ] array (
-  'username' => '123',
-  'password' => '123',
+  'username' => 'joker',
+  'password' => 'joker',
 )
+[ error ] [8]未定义数组索引: username[/Library/WebServer/Documents/DistributedNetDisk/application/index/controller/LoginController.php:36]
 ---------------------------------------------------------------
-[ 2018-11-29T20:37:34+08:00 ] ::1 POST localhost/DistributedNetDisk/public/index.php/index/LoginController/login
-[运行时间：0.038595s] [吞吐率：25.91req/s] [内存消耗：1,650.31kb] [文件加载：66]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
+[ 2018-11-29T23:25:26+08:00 ] ::1 GET localhost/DistributedNetDisk/public/index.php?s=index/LoginController/login&username=admin&password=admin
+[运行时间：0.023647s] [吞吐率：42.29req/s] [内存消耗：1,620.67kb] [文件加载：62]
+[ info ] [ LANG ] /Library/WebServer/Documents/DistributedNetDisk/thinkphp/lang/zh-cn.php
 [ info ] [ ROUTE ] array (
 )
 [ info ] [ HEADER ] array (
   'host' => 'localhost',
   'connection' => 'keep-alive',
-  'content-length' => '25',
-  'cache-control' => 'max-age=0',
-  'upgrade-insecure-requests' => '1',
-  'origin' => 'null',
-  'content-type' => 'application/x-www-form-urlencoded',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'dnt' => '1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'content-type' => 'application/json; charset=utf-8',
+  'referer' => 'http://localhost/DistributedNetDisk/public/static/login/index.html?',
   'accept-encoding' => 'gzip, deflate, br',
   'accept-language' => 'zh-CN,zh;q=0.9',
-  'cookie' => 'TL_lastTestPlanForUserID_1=17; TL_execSetResults_tpn_view_status=0; TL_execSetResults_bn_view_status=0; TL_execSetResults_platform_notes_view_status=0; TL_execSetResults_tsdetails_view_status=0; pgv_pvi=4291347456',
+  'cookie' => 'Phpstorm-f61eee2e=88fb9e94-06ed-48b3-aaaa-398aa6992bce; _ga=GA1.1.1287743122.1539181421; TESTLINK197TL_execSetResults_tpn_view_status=0; TESTLINK197TL_execSetResults_bn_view_status=0; TESTLINK197TL_execSetResults_platform_notes_view_status=0; TL_lastTestProjectForUserID_2=158; TESTLINK197TL_lastTestPlanForUserID_1=384; pgv_pvi=9072234496; Phpstorm-f61eee2f=dd821aeb-91da-46ea-930c-68ade6a24419; pgv_si=s8234663936; PHPSESSID=6fa7spjo302u60g7ld7c0un6pv; TESTLINK_USER_AUTH_COOKIE=6cdc2b1fb695c3d567db19836f5f6cd4776a5bae782af6cbc5cdfbb999e57836; TCEditPopupWidth=938; TCEditPopupHeight=613; ys-edit_tc_tproject_id_158_ext-comp-1001=a%3As%253A/158/207/211/212%5Es%253A/158/207/229/230%5Es%253A/158/207/211/219',
 )
 [ info ] [ PARAM ] array (
-  'username' => '123',
-  'password' => '123',
+  'username' => 'admin',
+  'password' => 'admin',
 )
+[ error ] [8]未定义数组索引: username[/Library/WebServer/Documents/DistributedNetDisk/application/index/controller/LoginController.php:36]
 ---------------------------------------------------------------
-[ 2018-11-29T20:41:14+08:00 ] ::1 POST localhost/DistributedNetDisk/public/index.php/index/LoginController/login
-[运行时间：0.537454s] [吞吐率：1.86req/s] [内存消耗：2,472.51kb] [文件加载：73]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
+[ 2018-11-29T23:27:19+08:00 ] ::1 GET localhost/DistributedNetDisk/public/index.php?s=index/LoginController/login&username=admin&password=admin
+[运行时间：0.042033s] [吞吐率：23.79req/s] [内存消耗：1,620.67kb] [文件加载：62]
+[ info ] [ LANG ] /Library/WebServer/Documents/DistributedNetDisk/thinkphp/lang/zh-cn.php
 [ info ] [ ROUTE ] array (
 )
 [ info ] [ HEADER ] array (
   'host' => 'localhost',
   'connection' => 'keep-alive',
-  'content-length' => '29',
-  'accept' => '*/*',
-  'origin' => 'null',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'dnt' => '1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'content-type' => 'application/json; charset=utf-8',
+  'referer' => 'http://localhost/DistributedNetDisk/public/static/login/index.html?',
   'accept-encoding' => 'gzip, deflate, br',
   'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-f61eee2e=88fb9e94-06ed-48b3-aaaa-398aa6992bce; _ga=GA1.1.1287743122.1539181421; TESTLINK197TL_execSetResults_tpn_view_status=0; TESTLINK197TL_execSetResults_bn_view_status=0; TESTLINK197TL_execSetResults_platform_notes_view_status=0; TL_lastTestProjectForUserID_2=158; TESTLINK197TL_lastTestPlanForUserID_1=384; pgv_pvi=9072234496; Phpstorm-f61eee2f=dd821aeb-91da-46ea-930c-68ade6a24419; pgv_si=s8234663936; PHPSESSID=6fa7spjo302u60g7ld7c0un6pv; TESTLINK_USER_AUTH_COOKIE=6cdc2b1fb695c3d567db19836f5f6cd4776a5bae782af6cbc5cdfbb999e57836; TCEditPopupWidth=938; TCEditPopupHeight=613; ys-edit_tc_tproject_id_158_ext-comp-1001=a%3As%253A/158/207/211/212%5Es%253A/158/207/229/230%5Es%253A/158/207/211/219',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin',
+)
+[ error ] [8]未定义数组索引: username[/Library/WebServer/Documents/DistributedNetDisk/application/index/controller/LoginController.php:36]
+---------------------------------------------------------------
+[ 2018-11-29T23:27:33+08:00 ] ::1 GET localhost/DistributedNetDisk/public/index.php?s=index/LoginController/login&username=admin&password=admin
+[运行时间：0.037095s] [吞吐率：26.96req/s] [内存消耗：1,620.67kb] [文件加载：62]
+[ info ] [ LANG ] /Library/WebServer/Documents/DistributedNetDisk/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'dnt' => '1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'content-type' => 'application/json; charset=utf-8',
+  'referer' => 'http://localhost/DistributedNetDisk/public/static/login/index.html?',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-f61eee2e=88fb9e94-06ed-48b3-aaaa-398aa6992bce; _ga=GA1.1.1287743122.1539181421; TESTLINK197TL_execSetResults_tpn_view_status=0; TESTLINK197TL_execSetResults_bn_view_status=0; TESTLINK197TL_execSetResults_platform_notes_view_status=0; TL_lastTestProjectForUserID_2=158; TESTLINK197TL_lastTestPlanForUserID_1=384; pgv_pvi=9072234496; Phpstorm-f61eee2f=dd821aeb-91da-46ea-930c-68ade6a24419; pgv_si=s8234663936; PHPSESSID=6fa7spjo302u60g7ld7c0un6pv; TESTLINK_USER_AUTH_COOKIE=6cdc2b1fb695c3d567db19836f5f6cd4776a5bae782af6cbc5cdfbb999e57836; TCEditPopupWidth=938; TCEditPopupHeight=613; ys-edit_tc_tproject_id_158_ext-comp-1001=a%3As%253A/158/207/211/212%5Es%253A/158/207/229/230%5Es%253A/158/207/211/219',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin',
+)
+[ error ] [8]未定义数组索引: username[/Library/WebServer/Documents/DistributedNetDisk/application/index/controller/LoginController.php:36]
+---------------------------------------------------------------
+[ 2018-11-29T23:28:08+08:00 ] ::1 GET localhost/DistributedNetDisk/public/index.php?s=index/LoginController/login&username=admin&password=admin
+[运行时间：0.703941s] [吞吐率：1.42req/s] [内存消耗：2,824.89kb] [文件加载：72]
+[ info ] [ LANG ] /Library/WebServer/Documents/DistributedNetDisk/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'dnt' => '1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'content-type' => 'application/json; charset=utf-8',
+  'referer' => 'http://localhost/DistributedNetDisk/public/static/login/index.html?',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-f61eee2e=88fb9e94-06ed-48b3-aaaa-398aa6992bce; _ga=GA1.1.1287743122.1539181421; TESTLINK197TL_execSetResults_tpn_view_status=0; TESTLINK197TL_execSetResults_bn_view_status=0; TESTLINK197TL_execSetResults_platform_notes_view_status=0; TL_lastTestProjectForUserID_2=158; TESTLINK197TL_lastTestPlanForUserID_1=384; pgv_pvi=9072234496; Phpstorm-f61eee2f=dd821aeb-91da-46ea-930c-68ade6a24419; pgv_si=s8234663936; PHPSESSID=6fa7spjo302u60g7ld7c0un6pv; TESTLINK_USER_AUTH_COOKIE=6cdc2b1fb695c3d567db19836f5f6cd4776a5bae782af6cbc5cdfbb999e57836; TCEditPopupWidth=938; TCEditPopupHeight=613; ys-edit_tc_tproject_id_158_ext-comp-1001=a%3As%253A/158/207/211/212%5Es%253A/158/207/229/230%5Es%253A/158/207/211/219',
 )
 [ info ] [ PARAM ] array (
   'username' => 'admin',
   'password' => 'admin',
 )
 [ info ] [ DB ] INIT mysql
-[ sql ] [ DB ] CONNECT:[ UseTime:0.231862s ] mysql:host=hifafu.com;port=3306;dbname=DisNetDisk;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `netdisk_user` [ RunTime:0.085450s ]
-[ sql ] [ SQL ] SELECT `salt` FROM `netdisk_user` WHERE  `username` = 'admin' [ RunTime:0.085523s ]
-[ sql ] [ SQL ] SELECT * FROM `netdisk_user` WHERE  `username` = 'admin'  AND `password` = '99feb0c9809cbbe1ca471d45a6d555e4' LIMIT 1 [ RunTime:0.084968s ]
-[ error ] [0]variable type error： boolean[D:\xampp\htdocs\DistributedNetDisk\thinkphp\library\think\Response.php:403]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.412286s ] mysql:host=hifafu.com;port=3306;dbname=DisNetDisk;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `netdisk_user` [ RunTime:0.101731s ]
+[ sql ] [ SQL ] SELECT * FROM `netdisk_user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.100889s ]
 ---------------------------------------------------------------
-[ 2018-11-29T20:41:15+08:00 ] ::1 POST localhost/DistributedNetDisk/public/index.php/index/LoginController/login
-[运行时间：0.466513s] [吞吐率：2.14req/s] [内存消耗：2,474.23kb] [文件加载：73]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
+[ 2018-11-29T23:30:04+08:00 ] ::1 GET localhost/DistributedNetDisk/public/index.php?s=index/index/showpage
+[运行时间：0.042317s] [吞吐率：23.63req/s] [内存消耗：1,568.84kb] [文件加载：58]
+[ info ] [ LANG ] /Library/WebServer/Documents/DistributedNetDisk/thinkphp/lang/zh-cn.php
 [ info ] [ ROUTE ] array (
 )
 [ info ] [ HEADER ] array (
   'host' => 'localhost',
   'connection' => 'keep-alive',
-  'content-length' => '29',
-  'cache-control' => 'max-age=0',
-  'upgrade-insecure-requests' => '1',
-  'origin' => 'null',
-  'content-type' => 'application/x-www-form-urlencoded',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'dnt' => '1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'content-type' => 'application/json; charset=utf-8',
+  'referer' => 'http://localhost/DistributedNetDisk/public/static/login/page/netdisk/',
   'accept-encoding' => 'gzip, deflate, br',
   'accept-language' => 'zh-CN,zh;q=0.9',
-  'cookie' => 'TL_lastTestPlanForUserID_1=17; TL_execSetResults_tpn_view_status=0; TL_execSetResults_bn_view_status=0; TL_execSetResults_platform_notes_view_status=0; TL_execSetResults_tsdetails_view_status=0; pgv_pvi=4291347456',
-)
-[ info ] [ PARAM ] array (
-  'username' => 'admin',
-  'password' => 'admin',
-)
-[ info ] [ DB ] INIT mysql
-[ sql ] [ DB ] CONNECT:[ UseTime:0.139517s ] mysql:host=hifafu.com;port=3306;dbname=DisNetDisk;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `netdisk_user` [ RunTime:0.090972s ]
-[ sql ] [ SQL ] SELECT `salt` FROM `netdisk_user` WHERE  `username` = 'admin' [ RunTime:0.090538s ]
-[ sql ] [ SQL ] SELECT * FROM `netdisk_user` WHERE  `username` = 'admin'  AND `password` = '99feb0c9809cbbe1ca471d45a6d555e4' LIMIT 1 [ RunTime:0.090733s ]
-[ error ] [0]variable type error： boolean[D:\xampp\htdocs\DistributedNetDisk\thinkphp\library\think\Response.php:403]
----------------------------------------------------------------
-[ 2018-11-29T20:41:48+08:00 ] ::1 POST localhost/DistributedNetDisk/public/index.php/index/LoginController/login
-[运行时间：0.446216s] [吞吐率：2.24req/s] [内存消耗：2,446.21kb] [文件加载：72]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'content-length' => '29',
-  'accept' => '*/*',
-  'origin' => 'null',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-)
-[ info ] [ PARAM ] array (
-  'username' => 'admin',
-  'password' => 'admin',
-)
-[ info ] [ DB ] INIT mysql
-[ sql ] [ DB ] CONNECT:[ UseTime:0.131188s ] mysql:host=hifafu.com;port=3306;dbname=DisNetDisk;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `netdisk_user` [ RunTime:0.087429s ]
-[ sql ] [ SQL ] SELECT `salt` FROM `netdisk_user` WHERE  `username` = 'admin' [ RunTime:0.088063s ]
-[ sql ] [ SQL ] SELECT * FROM `netdisk_user` WHERE  `username` = 'admin'  AND `password` = '99feb0c9809cbbe1ca471d45a6d555e4' LIMIT 1 [ RunTime:0.087552s ]
----------------------------------------------------------------
-[ 2018-11-29T20:41:48+08:00 ] ::1 POST localhost/DistributedNetDisk/public/index.php/index/LoginController/login
-[运行时间：0.478184s] [吞吐率：2.09req/s] [内存消耗：2,447.93kb] [文件加载：72]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'content-length' => '29',
-  'cache-control' => 'max-age=0',
-  'upgrade-insecure-requests' => '1',
-  'origin' => 'null',
-  'content-type' => 'application/x-www-form-urlencoded',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-  'cookie' => 'TL_lastTestPlanForUserID_1=17; TL_execSetResults_tpn_view_status=0; TL_execSetResults_bn_view_status=0; TL_execSetResults_platform_notes_view_status=0; TL_execSetResults_tsdetails_view_status=0; pgv_pvi=4291347456',
-)
-[ info ] [ PARAM ] array (
-  'username' => 'admin',
-  'password' => 'admin',
-)
-[ info ] [ DB ] INIT mysql
-[ sql ] [ DB ] CONNECT:[ UseTime:0.143977s ] mysql:host=hifafu.com;port=3306;dbname=DisNetDisk;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `netdisk_user` [ RunTime:0.095291s ]
-[ sql ] [ SQL ] SELECT `salt` FROM `netdisk_user` WHERE  `username` = 'admin' [ RunTime:0.095531s ]
-[ sql ] [ SQL ] SELECT * FROM `netdisk_user` WHERE  `username` = 'admin'  AND `password` = '99feb0c9809cbbe1ca471d45a6d555e4' LIMIT 1 [ RunTime:0.095639s ]
----------------------------------------------------------------
-[ 2018-11-29T20:42:21+08:00 ] ::1 POST localhost/DistributedNetDisk/public/index.php/index/LoginController/login
-[运行时间：0.461224s] [吞吐率：2.17req/s] [内存消耗：2,446.21kb] [文件加载：72]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'content-length' => '29',
-  'accept' => '*/*',
-  'origin' => 'null',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-)
-[ info ] [ PARAM ] array (
-  'username' => 'admin',
-  'password' => 'admin',
-)
-[ info ] [ DB ] INIT mysql
-[ sql ] [ DB ] CONNECT:[ UseTime:0.141970s ] mysql:host=hifafu.com;port=3306;dbname=DisNetDisk;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `netdisk_user` [ RunTime:0.093730s ]
-[ sql ] [ SQL ] SELECT `salt` FROM `netdisk_user` WHERE  `username` = 'admin' [ RunTime:0.094485s ]
-[ sql ] [ SQL ] SELECT * FROM `netdisk_user` WHERE  `username` = 'admin'  AND `password` = '99feb0c9809cbbe1ca471d45a6d555e4' LIMIT 1 [ RunTime:0.093144s ]
----------------------------------------------------------------
-[ 2018-11-29T20:42:22+08:00 ] ::1 POST localhost/DistributedNetDisk/public/index.php/index/LoginController/login
-[运行时间：0.484622s] [吞吐率：2.06req/s] [内存消耗：2,447.93kb] [文件加载：72]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'content-length' => '29',
-  'cache-control' => 'max-age=0',
-  'upgrade-insecure-requests' => '1',
-  'origin' => 'null',
-  'content-type' => 'application/x-www-form-urlencoded',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-  'cookie' => 'TL_lastTestPlanForUserID_1=17; TL_execSetResults_tpn_view_status=0; TL_execSetResults_bn_view_status=0; TL_execSetResults_platform_notes_view_status=0; TL_execSetResults_tsdetails_view_status=0; pgv_pvi=4291347456',
-)
-[ info ] [ PARAM ] array (
-  'username' => 'admin',
-  'password' => 'admin',
-)
-[ info ] [ DB ] INIT mysql
-[ sql ] [ DB ] CONNECT:[ UseTime:0.140668s ] mysql:host=hifafu.com;port=3306;dbname=DisNetDisk;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `netdisk_user` [ RunTime:0.093420s ]
-[ sql ] [ SQL ] SELECT `salt` FROM `netdisk_user` WHERE  `username` = 'admin' [ RunTime:0.093365s ]
-[ sql ] [ SQL ] SELECT * FROM `netdisk_user` WHERE  `username` = 'admin'  AND `password` = '99feb0c9809cbbe1ca471d45a6d555e4' LIMIT 1 [ RunTime:0.093551s ]
----------------------------------------------------------------
-[ 2018-11-29T21:57:03+08:00 ] ::1 GET localhost/DistributedNetDisk/public/index.php/index/Register/register%EF%BC%9Fusername=awei&&password=123
-[运行时间：0.041542s] [吞吐率：24.07req/s] [内存消耗：1,440.81kb] [文件加载：61]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-  'cookie' => 'TL_lastTestPlanForUserID_1=17; TL_execSetResults_tpn_view_status=0; TL_execSetResults_bn_view_status=0; TL_execSetResults_platform_notes_view_status=0; TL_execSetResults_tsdetails_view_status=0; pgv_pvi=4291347456; Phpstorm-786a4b17=9e64e3af-b27f-4ce7-88bd-1b65f5ea4871',
+  'cookie' => 'Phpstorm-f61eee2e=88fb9e94-06ed-48b3-aaaa-398aa6992bce; _ga=GA1.1.1287743122.1539181421; TESTLINK197TL_execSetResults_tpn_view_status=0; TESTLINK197TL_execSetResults_bn_view_status=0; TESTLINK197TL_execSetResults_platform_notes_view_status=0; TL_lastTestProjectForUserID_2=158; TESTLINK197TL_lastTestPlanForUserID_1=384; pgv_pvi=9072234496; Phpstorm-f61eee2f=dd821aeb-91da-46ea-930c-68ade6a24419; pgv_si=s8234663936; PHPSESSID=6fa7spjo302u60g7ld7c0un6pv; TESTLINK_USER_AUTH_COOKIE=6cdc2b1fb695c3d567db19836f5f6cd4776a5bae782af6cbc5cdfbb999e57836; TCEditPopupWidth=938; TCEditPopupHeight=613; ys-edit_tc_tproject_id_158_ext-comp-1001=a%3As%253A/158/207/211/212%5Es%253A/158/207/229/230%5Es%253A/158/207/211/219',
 )
 [ info ] [ PARAM ] array (
 )
----------------------------------------------------------------
-[ 2018-11-29T21:57:14+08:00 ] ::1 GET localhost/DistributedNetDisk/public/index.php/index/Register/register?username=awei&&password=123
-[运行时间：0.400239s] [吞吐率：2.50req/s] [内存消耗：2,471.69kb] [文件加载：74]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-  'cookie' => 'TL_lastTestPlanForUserID_1=17; TL_execSetResults_tpn_view_status=0; TL_execSetResults_bn_view_status=0; TL_execSetResults_platform_notes_view_status=0; TL_execSetResults_tsdetails_view_status=0; pgv_pvi=4291347456; Phpstorm-786a4b17=9e64e3af-b27f-4ce7-88bd-1b65f5ea4871',
-)
-[ info ] [ PARAM ] array (
-  'username' => 'awei',
-  'password' => '123',
-)
-[ info ] [ DB ] INIT mysql
-[ sql ] [ DB ] CONNECT:[ UseTime:0.234030s ] mysql:host=hifafu.com;port=3306;dbname=DisNetDisk;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `netdisk_user` [ RunTime:0.091115s ]
-[ error ] [0]数据表字段不存在:[usernaem][D:\xampp\htdocs\DistributedNetDisk\thinkphp\library\think\db\Builder.php:138]
----------------------------------------------------------------
-[ 2018-11-29T21:57:32+08:00 ] ::1 GET localhost/DistributedNetDisk/public/index.php/index/Register/register?username=awei&&password=123
-[运行时间：0.368056s] [吞吐率：2.72req/s] [内存消耗：2,409.94kb] [文件加载：72]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-  'cookie' => 'TL_lastTestPlanForUserID_1=17; TL_execSetResults_tpn_view_status=0; TL_execSetResults_bn_view_status=0; TL_execSetResults_platform_notes_view_status=0; TL_execSetResults_tsdetails_view_status=0; pgv_pvi=4291347456; Phpstorm-786a4b17=9e64e3af-b27f-4ce7-88bd-1b65f5ea4871',
-)
-[ info ] [ PARAM ] array (
-  'username' => 'awei',
-  'password' => '123',
-)
-[ info ] [ DB ] INIT mysql
-[ sql ] [ DB ] CONNECT:[ UseTime:0.137026s ] mysql:host=hifafu.com;port=3306;dbname=DisNetDisk;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `netdisk_user` [ RunTime:0.091167s ]
-[ sql ] [ SQL ] INSERT INTO `netdisk_user` (`username` , `password` , `salt`) VALUES ('awei' , '1408506cd15b816e66ffc8631acc66f2' , 'a7c65df8a88073e3cd4f040fbe93c790') [ RunTime:0.097702s ]
----------------------------------------------------------------
-[ 2018-11-29T21:57:52+08:00 ] ::1 POST localhost/DistributedNetDisk/public/index.php/index/LoginController/login
-[运行时间：0.380219s] [吞吐率：2.63req/s] [内存消耗：2,472.86kb] [文件加载：73]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'content-length' => '26',
-  'cache-control' => 'max-age=0',
-  'origin' => 'http://localhost',
-  'upgrade-insecure-requests' => '1',
-  'content-type' => 'application/x-www-form-urlencoded',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-  'referer' => 'http://localhost/netDisk_View/DistributedNetDisk_backend/View/page/login/index.html',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-  'cookie' => 'TL_lastTestPlanForUserID_1=17; TL_execSetResults_tpn_view_status=0; TL_execSetResults_bn_view_status=0; TL_execSetResults_platform_notes_view_status=0; TL_execSetResults_tsdetails_view_status=0; pgv_pvi=4291347456; Phpstorm-786a4b17=9e64e3af-b27f-4ce7-88bd-1b65f5ea4871',
-)
-[ info ] [ PARAM ] array (
-  'username' => 'awei',
-  'password' => '123',
-)
-[ info ] [ DB ] INIT mysql
-[ sql ] [ DB ] CONNECT:[ UseTime:0.147254s ] mysql:host=hifafu.com;port=3306;dbname=DisNetDisk;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `netdisk_user` [ RunTime:0.097313s ]
-[ sql ] [ SQL ] SELECT * FROM `netdisk_user` WHERE  `username` = 'awei'  AND `password` = '0cfa64a4f3dcecbcc1e1425e9aa3b1af' LIMIT 1 [ RunTime:0.096947s ]
-[ error ] [0]variable type error： boolean[D:\xampp\htdocs\DistributedNetDisk\thinkphp\library\think\Response.php:403]
----------------------------------------------------------------
-[ 2018-11-29T22:06:16+08:00 ] ::1 POST localhost/DistributedNetDisk/public/index.php/index/LoginController/login
-[运行时间：0.405436s] [吞吐率：2.47req/s] [内存消耗：2,473.66kb] [文件加载：73]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'content-length' => '26',
-  'cache-control' => 'max-age=0',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'origin' => 'http://localhost',
-  'content-type' => 'application/x-www-form-urlencoded',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-  'referer' => 'http://localhost/netDisk_View/DistributedNetDisk_backend/View/page/login/index.html',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-  'cookie' => 'TL_lastTestPlanForUserID_1=17; TL_execSetResults_tpn_view_status=0; TL_execSetResults_bn_view_status=0; TL_execSetResults_platform_notes_view_status=0; TL_execSetResults_tsdetails_view_status=0; pgv_pvi=4291347456; Phpstorm-786a4b17=9e64e3af-b27f-4ce7-88bd-1b65f5ea4871',
-)
-[ info ] [ PARAM ] array (
-  'username' => 'awei',
-  'password' => '123',
-)
-[ info ] [ DB ] INIT mysql
-[ sql ] [ DB ] CONNECT:[ UseTime:0.124460s ] mysql:host=hifafu.com;port=3306;dbname=DisNetDisk;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `netdisk_user` [ RunTime:0.081562s ]
-[ sql ] [ SQL ] SELECT * FROM `netdisk_user` WHERE  `username` = 'awei' LIMIT 1 [ RunTime:0.082625s ]
-[ sql ] [ SQL ] SELECT * FROM `netdisk_user` WHERE  `username` = 'awei'  AND `password` = '0cfa64a4f3dcecbcc1e1425e9aa3b1af' LIMIT 1 [ RunTime:0.081641s ]
-[ error ] [0]variable type error： boolean[D:\xampp\htdocs\DistributedNetDisk\thinkphp\library\think\Response.php:403]
----------------------------------------------------------------
-[ 2018-11-29T22:06:36+08:00 ] ::1 POST localhost/DistributedNetDisk/public/index.php/index/LoginController/login
-[运行时间：0.470727s] [吞吐率：2.12req/s] [内存消耗：2,473.79kb] [文件加载：73]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'content-length' => '26',
-  'cache-control' => 'max-age=0',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'origin' => 'http://localhost',
-  'content-type' => 'application/x-www-form-urlencoded',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-  'referer' => 'http://localhost/netDisk_View/DistributedNetDisk_backend/View/page/login/index.html',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-  'cookie' => 'TL_lastTestPlanForUserID_1=17; TL_execSetResults_tpn_view_status=0; TL_execSetResults_bn_view_status=0; TL_execSetResults_platform_notes_view_status=0; TL_execSetResults_tsdetails_view_status=0; pgv_pvi=4291347456; Phpstorm-786a4b17=9e64e3af-b27f-4ce7-88bd-1b65f5ea4871',
-)
-[ info ] [ PARAM ] array (
-  'username' => 'awei',
-  'password' => '123',
-)
-[ info ] [ DB ] INIT mysql
-[ sql ] [ DB ] CONNECT:[ UseTime:0.137527s ] mysql:host=hifafu.com;port=3306;dbname=DisNetDisk;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `netdisk_user` [ RunTime:0.091504s ]
-[ sql ] [ SQL ] SELECT * FROM `netdisk_user` WHERE  `username` = 'awei' LIMIT 1 [ RunTime:0.092054s ]
-[ sql ] [ SQL ] SELECT * FROM `netdisk_user` WHERE  `username` = 'awei'  AND `password` = '0cfa64a4f3dcecbcc1e1425e9aa3b1af' LIMIT 1 [ RunTime:0.091525s ]
-[ error ] [0]variable type error： boolean[D:\xampp\htdocs\DistributedNetDisk\thinkphp\library\think\Response.php:403]
----------------------------------------------------------------
-[ 2018-11-29T22:09:14+08:00 ] ::1 POST localhost/DistributedNetDisk/public/index.php/index/LoginController/login
-[运行时间：0.462538s] [吞吐率：2.16req/s] [内存消耗：2,446.44kb] [文件加载：72]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'content-length' => '26',
-  'cache-control' => 'max-age=0',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'origin' => 'http://localhost',
-  'content-type' => 'application/x-www-form-urlencoded',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-  'referer' => 'http://localhost/netDisk_View/DistributedNetDisk_backend/View/page/login/index.html',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-  'cookie' => 'TL_lastTestPlanForUserID_1=17; TL_execSetResults_tpn_view_status=0; TL_execSetResults_bn_view_status=0; TL_execSetResults_platform_notes_view_status=0; TL_execSetResults_tsdetails_view_status=0; pgv_pvi=4291347456; Phpstorm-786a4b17=9e64e3af-b27f-4ce7-88bd-1b65f5ea4871',
-)
-[ info ] [ PARAM ] array (
-  'username' => 'awei',
-  'password' => '123',
-)
-[ info ] [ DB ] INIT mysql
-[ sql ] [ DB ] CONNECT:[ UseTime:0.235105s ] mysql:host=hifafu.com;port=3306;dbname=DisNetDisk;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `netdisk_user` [ RunTime:0.100227s ]
-[ sql ] [ SQL ] SELECT * FROM `netdisk_user` WHERE  `username` = 'awei' LIMIT 1 [ RunTime:0.095946s ]
----------------------------------------------------------------
-[ 2018-11-29T22:09:21+08:00 ] ::1 POST localhost/DistributedNetDisk/public/index.php/index/LoginController/login
-[运行时间：0.367927s] [吞吐率：2.72req/s] [内存消耗：2,446.44kb] [文件加载：72]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'content-length' => '26',
-  'cache-control' => 'max-age=0',
-  'origin' => 'http://localhost',
-  'upgrade-insecure-requests' => '1',
-  'content-type' => 'application/x-www-form-urlencoded',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-  'referer' => 'http://localhost/netDisk_View/DistributedNetDisk_backend/View/page/login/index.html',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-  'cookie' => 'TL_lastTestPlanForUserID_1=17; TL_execSetResults_tpn_view_status=0; TL_execSetResults_bn_view_status=0; TL_execSetResults_platform_notes_view_status=0; TL_execSetResults_tsdetails_view_status=0; pgv_pvi=4291347456; Phpstorm-786a4b17=9e64e3af-b27f-4ce7-88bd-1b65f5ea4871',
-)
-[ info ] [ PARAM ] array (
-  'username' => 'awei',
-  'password' => '123',
-)
-[ info ] [ DB ] INIT mysql
-[ sql ] [ DB ] CONNECT:[ UseTime:0.141390s ] mysql:host=hifafu.com;port=3306;dbname=DisNetDisk;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `netdisk_user` [ RunTime:0.093640s ]
-[ sql ] [ SQL ] SELECT * FROM `netdisk_user` WHERE  `username` = 'awei' LIMIT 1 [ RunTime:0.093637s ]
----------------------------------------------------------------
-[ 2018-11-29T22:09:26+08:00 ] ::1 POST localhost/DistributedNetDisk/public/index.php/index/LoginController/login
-[运行时间：0.331060s] [吞吐率：3.02req/s] [内存消耗：2,472.71kb] [文件加载：73]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'content-length' => '26',
-  'cache-control' => 'max-age=0',
-  'origin' => 'http://localhost',
-  'upgrade-insecure-requests' => '1',
-  'content-type' => 'application/x-www-form-urlencoded',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-  'referer' => 'http://localhost/netDisk_View/DistributedNetDisk_backend/View/page/login/index.html',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-  'cookie' => 'TL_lastTestPlanForUserID_1=17; TL_execSetResults_tpn_view_status=0; TL_execSetResults_bn_view_status=0; TL_execSetResults_platform_notes_view_status=0; TL_execSetResults_tsdetails_view_status=0; pgv_pvi=4291347456; Phpstorm-786a4b17=9e64e3af-b27f-4ce7-88bd-1b65f5ea4871',
-)
-[ info ] [ PARAM ] array (
-  'username' => 'awei',
-  'password' => '222',
-)
-[ info ] [ DB ] INIT mysql
-[ sql ] [ DB ] CONNECT:[ UseTime:0.126714s ] mysql:host=hifafu.com;port=3306;dbname=DisNetDisk;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `netdisk_user` [ RunTime:0.084004s ]
-[ sql ] [ SQL ] SELECT * FROM `netdisk_user` WHERE  `username` = 'awei' LIMIT 1 [ RunTime:0.084787s ]
-[ error ] [0]variable type error： boolean[D:\xampp\htdocs\DistributedNetDisk\thinkphp\library\think\Response.php:403]
----------------------------------------------------------------
-[ 2018-11-29T22:10:14+08:00 ] ::1 POST localhost/DistributedNetDisk/public/index.php/index/LoginController/login
-[运行时间：0.352036s] [吞吐率：2.84req/s] [内存消耗：2,472.71kb] [文件加载：73]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'content-length' => '26',
-  'cache-control' => 'max-age=0',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'origin' => 'http://localhost',
-  'content-type' => 'application/x-www-form-urlencoded',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-  'referer' => 'http://localhost/netDisk_View/DistributedNetDisk_backend/View/page/login/index.html',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-  'cookie' => 'TL_lastTestPlanForUserID_1=17; TL_execSetResults_tpn_view_status=0; TL_execSetResults_bn_view_status=0; TL_execSetResults_platform_notes_view_status=0; TL_execSetResults_tsdetails_view_status=0; pgv_pvi=4291347456; Phpstorm-786a4b17=9e64e3af-b27f-4ce7-88bd-1b65f5ea4871',
-)
-[ info ] [ PARAM ] array (
-  'username' => 'awei',
-  'password' => '222',
-)
-[ info ] [ DB ] INIT mysql
-[ sql ] [ DB ] CONNECT:[ UseTime:0.134501s ] mysql:host=hifafu.com;port=3306;dbname=DisNetDisk;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `netdisk_user` [ RunTime:0.089725s ]
-[ sql ] [ SQL ] SELECT * FROM `netdisk_user` WHERE  `username` = 'awei' LIMIT 1 [ RunTime:0.089782s ]
-[ error ] [0]variable type error： boolean[D:\xampp\htdocs\DistributedNetDisk\thinkphp\library\think\Response.php:403]
----------------------------------------------------------------
-[ 2018-11-29T22:12:21+08:00 ] ::1 POST localhost/DistributedNetDisk/public/index.php/index/LoginController/login
-[运行时间：0.370591s] [吞吐率：2.70req/s] [内存消耗：2,420.14kb] [文件加载：70]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'content-length' => '26',
-  'cache-control' => 'max-age=0',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'origin' => 'http://localhost',
-  'content-type' => 'application/x-www-form-urlencoded',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-  'referer' => 'http://localhost/netDisk_View/DistributedNetDisk_backend/View/page/login/index.html',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-  'cookie' => 'TL_lastTestPlanForUserID_1=17; TL_execSetResults_tpn_view_status=0; TL_execSetResults_bn_view_status=0; TL_execSetResults_platform_notes_view_status=0; TL_execSetResults_tsdetails_view_status=0; pgv_pvi=4291347456; Phpstorm-786a4b17=9e64e3af-b27f-4ce7-88bd-1b65f5ea4871',
-)
-[ info ] [ PARAM ] array (
-  'username' => 'awei',
-  'password' => '222',
-)
-[ info ] [ DB ] INIT mysql
-[ sql ] [ DB ] CONNECT:[ UseTime:0.137662s ] mysql:host=hifafu.com;port=3306;dbname=DisNetDisk;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `netdisk_user` [ RunTime:0.091863s ]
-[ sql ] [ SQL ] SELECT * FROM `netdisk_user` WHERE  `username` = 'awei' LIMIT 1 [ RunTime:0.092243s ]
----------------------------------------------------------------
-[ 2018-11-29T22:12:56+08:00 ] ::1 POST localhost/DistributedNetDisk/public/index.php/index/LoginController/login
-[运行时间：0.364349s] [吞吐率：2.74req/s] [内存消耗：2,420.09kb] [文件加载：70]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'content-length' => '26',
-  'cache-control' => 'max-age=0',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'origin' => 'http://localhost',
-  'content-type' => 'application/x-www-form-urlencoded',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-  'referer' => 'http://localhost/netDisk_View/DistributedNetDisk_backend/View/page/login/index.html',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-  'cookie' => 'TL_lastTestPlanForUserID_1=17; TL_execSetResults_tpn_view_status=0; TL_execSetResults_bn_view_status=0; TL_execSetResults_platform_notes_view_status=0; TL_execSetResults_tsdetails_view_status=0; pgv_pvi=4291347456; Phpstorm-786a4b17=9e64e3af-b27f-4ce7-88bd-1b65f5ea4871',
-)
-[ info ] [ PARAM ] array (
-  'username' => 'awei',
-  'password' => '222',
-)
-[ info ] [ DB ] INIT mysql
-[ sql ] [ DB ] CONNECT:[ UseTime:0.135303s ] mysql:host=hifafu.com;port=3306;dbname=DisNetDisk;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `netdisk_user` [ RunTime:0.090241s ]
-[ sql ] [ SQL ] SELECT * FROM `netdisk_user` WHERE  `username` = 'awei' LIMIT 1 [ RunTime:0.090300s ]
----------------------------------------------------------------
-[ 2018-11-29T22:13:10+08:00 ] ::1 POST localhost/DistributedNetDisk/public/index.php/index/LoginController/login
-[运行时间：0.339998s] [吞吐率：2.94req/s] [内存消耗：2,420.09kb] [文件加载：70]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'content-length' => '26',
-  'cache-control' => 'max-age=0',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'origin' => 'http://localhost',
-  'content-type' => 'application/x-www-form-urlencoded',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-  'referer' => 'http://localhost/netDisk_View/DistributedNetDisk_backend/View/page/login/index.html',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-  'cookie' => 'TL_lastTestPlanForUserID_1=17; TL_execSetResults_tpn_view_status=0; TL_execSetResults_bn_view_status=0; TL_execSetResults_platform_notes_view_status=0; TL_execSetResults_tsdetails_view_status=0; pgv_pvi=4291347456; Phpstorm-786a4b17=9e64e3af-b27f-4ce7-88bd-1b65f5ea4871',
-)
-[ info ] [ PARAM ] array (
-  'username' => 'awei',
-  'password' => '222',
-)
-[ info ] [ DB ] INIT mysql
-[ sql ] [ DB ] CONNECT:[ UseTime:0.125144s ] mysql:host=hifafu.com;port=3306;dbname=DisNetDisk;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `netdisk_user` [ RunTime:0.083921s ]
-[ sql ] [ SQL ] SELECT * FROM `netdisk_user` WHERE  `username` = 'awei' LIMIT 1 [ RunTime:0.083387s ]
----------------------------------------------------------------
-[ 2018-11-29T22:13:25+08:00 ] ::1 POST localhost/DistributedNetDisk/public/index.php/index/LoginController/login
-[运行时间：0.381694s] [吞吐率：2.62req/s] [内存消耗：2,419.77kb] [文件加载：70]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'content-length' => '26',
-  'cache-control' => 'max-age=0',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'origin' => 'http://localhost',
-  'content-type' => 'application/x-www-form-urlencoded',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-  'referer' => 'http://localhost/netDisk_View/DistributedNetDisk_backend/View/page/login/index.html',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-  'cookie' => 'TL_lastTestPlanForUserID_1=17; TL_execSetResults_tpn_view_status=0; TL_execSetResults_bn_view_status=0; TL_execSetResults_platform_notes_view_status=0; TL_execSetResults_tsdetails_view_status=0; pgv_pvi=4291347456; Phpstorm-786a4b17=9e64e3af-b27f-4ce7-88bd-1b65f5ea4871',
-)
-[ info ] [ PARAM ] array (
-  'username' => 'awei',
-  'password' => '222',
-)
-[ info ] [ DB ] INIT mysql
-[ sql ] [ DB ] CONNECT:[ UseTime:0.144682s ] mysql:host=hifafu.com;port=3306;dbname=DisNetDisk;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `netdisk_user` [ RunTime:0.096826s ]
-[ sql ] [ SQL ] SELECT * FROM `netdisk_user` WHERE  `username` = 'awei' LIMIT 1 [ RunTime:0.096513s ]
----------------------------------------------------------------
-[ 2018-11-29T22:14:26+08:00 ] ::1 POST localhost/DistributedNetDisk/public/index.php/index/LoginController/login
-[运行时间：0.357309s] [吞吐率：2.80req/s] [内存消耗：2,446.08kb] [文件加载：72]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'content-length' => '26',
-  'cache-control' => 'max-age=0',
-  'origin' => 'http://localhost',
-  'upgrade-insecure-requests' => '1',
-  'content-type' => 'application/x-www-form-urlencoded',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-  'referer' => 'http://localhost/netDisk_View/DistributedNetDisk_backend/View/page/login/index.html',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-  'cookie' => 'TL_lastTestPlanForUserID_1=17; TL_execSetResults_tpn_view_status=0; TL_execSetResults_bn_view_status=0; TL_execSetResults_platform_notes_view_status=0; TL_execSetResults_tsdetails_view_status=0; pgv_pvi=4291347456; Phpstorm-786a4b17=9e64e3af-b27f-4ce7-88bd-1b65f5ea4871',
-)
-[ info ] [ PARAM ] array (
-  'username' => 'awei',
-  'password' => '123',
-)
-[ info ] [ DB ] INIT mysql
-[ sql ] [ DB ] CONNECT:[ UseTime:0.130735s ] mysql:host=hifafu.com;port=3306;dbname=DisNetDisk;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `netdisk_user` [ RunTime:0.086966s ]
-[ sql ] [ SQL ] SELECT * FROM `netdisk_user` WHERE  `username` = 'awei' LIMIT 1 [ RunTime:0.087332s ]
----------------------------------------------------------------
-[ 2018-11-29T22:15:33+08:00 ] ::1 GET localhost/DistributedNetDisk/public/index.php/index/Register/register?username=awei&&password=123
-[运行时间：0.382762s] [吞吐率：2.61req/s] [内存消耗：2,409.41kb] [文件加载：72]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-  'cookie' => 'TL_lastTestPlanForUserID_1=17; TL_execSetResults_tpn_view_status=0; TL_execSetResults_bn_view_status=0; TL_execSetResults_platform_notes_view_status=0; TL_execSetResults_tsdetails_view_status=0; pgv_pvi=4291347456; Phpstorm-786a4b17=9e64e3af-b27f-4ce7-88bd-1b65f5ea4871',
-)
-[ info ] [ PARAM ] array (
-  'username' => 'awei',
-  'password' => '123',
-)
-[ info ] [ DB ] INIT mysql
-[ sql ] [ DB ] CONNECT:[ UseTime:0.144130s ] mysql:host=hifafu.com;port=3306;dbname=DisNetDisk;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `netdisk_user` [ RunTime:0.096032s ]
-[ sql ] [ SQL ] INSERT INTO `netdisk_user` (`username` , `password` , `salt`) VALUES ('awei' , '70fc327983c30d094efafb1fb249300a' , '077fbadbb67ac7669844e632c01ad8cc') [ RunTime:0.105456s ]
----------------------------------------------------------------
-[ 2018-11-29T22:20:08+08:00 ] ::1 GET localhost/DistributedNetDisk/public/index.php/index/Register/register?username=awei&&password=123
-[运行时间：0.608802s] [吞吐率：1.64req/s] [内存消耗：2,443.45kb] [文件加载：76]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-  'cookie' => 'TL_lastTestPlanForUserID_1=17; TL_execSetResults_tpn_view_status=0; TL_execSetResults_bn_view_status=0; TL_execSetResults_platform_notes_view_status=0; TL_execSetResults_tsdetails_view_status=0; pgv_pvi=4291347456; Phpstorm-786a4b17=9e64e3af-b27f-4ce7-88bd-1b65f5ea4871',
-)
-[ info ] [ PARAM ] array (
-  'username' => 'awei',
-  'password' => '123',
-)
-[ info ] [ DB ] INIT mysql
-[ sql ] [ DB ] CONNECT:[ UseTime:0.210647s ] mysql:host=hifafu.com;port=3306;dbname=DisNetDisk;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `netdisk_user` [ RunTime:0.080715s ]
-[ error ] [10501]SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'awei' for key 'netdisk_user_username_uindex'[D:\xampp\htdocs\DistributedNetDisk\thinkphp\library\think\db\Connection.php:764]
----------------------------------------------------------------
-[ 2018-11-29T22:20:48+08:00 ] ::1 GET localhost/DistributedNetDisk/public/index.php/index/Register/register?username=awei&&password=123
-[运行时间：0.391726s] [吞吐率：2.55req/s] [内存消耗：2,443.98kb] [文件加载：76]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-  'cookie' => 'TL_lastTestPlanForUserID_1=17; TL_execSetResults_tpn_view_status=0; TL_execSetResults_bn_view_status=0; TL_execSetResults_platform_notes_view_status=0; TL_execSetResults_tsdetails_view_status=0; pgv_pvi=4291347456; Phpstorm-786a4b17=9e64e3af-b27f-4ce7-88bd-1b65f5ea4871',
-)
-[ info ] [ PARAM ] array (
-  'username' => 'awei',
-  'password' => '123',
-)
-[ info ] [ DB ] INIT mysql
-[ sql ] [ DB ] CONNECT:[ UseTime:0.142936s ] mysql:host=hifafu.com;port=3306;dbname=DisNetDisk;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `netdisk_user` [ RunTime:0.094728s ]
-[ error ] [10501]SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'awei' for key 'netdisk_user_username_uindex'[D:\xampp\htdocs\DistributedNetDisk\thinkphp\library\think\db\Connection.php:764]
----------------------------------------------------------------
-[ 2018-11-29T22:20:54+08:00 ] ::1 GET localhost/DistributedNetDisk/public/index.php/index/Register/register?username=awei&&password=123
-[运行时间：0.379014s] [吞吐率：2.64req/s] [内存消耗：2,443.98kb] [文件加载：76]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-  'cookie' => 'TL_lastTestPlanForUserID_1=17; TL_execSetResults_tpn_view_status=0; TL_execSetResults_bn_view_status=0; TL_execSetResults_platform_notes_view_status=0; TL_execSetResults_tsdetails_view_status=0; pgv_pvi=4291347456; Phpstorm-786a4b17=9e64e3af-b27f-4ce7-88bd-1b65f5ea4871',
-)
-[ info ] [ PARAM ] array (
-  'username' => 'awei',
-  'password' => '123',
-)
-[ info ] [ DB ] INIT mysql
-[ sql ] [ DB ] CONNECT:[ UseTime:0.137966s ] mysql:host=hifafu.com;port=3306;dbname=DisNetDisk;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `netdisk_user` [ RunTime:0.092267s ]
-[ error ] [10501]SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'awei' for key 'netdisk_user_username_uindex'[D:\xampp\htdocs\DistributedNetDisk\thinkphp\library\think\db\Connection.php:764]
----------------------------------------------------------------
-[ 2018-11-29T22:21:04+08:00 ] ::1 GET localhost/DistributedNetDisk/public/index.php/index/Register/register?username=admin&&password=123
-[运行时间：0.379178s] [吞吐率：2.64req/s] [内存消耗：2,443.45kb] [文件加载：76]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-  'cookie' => 'TL_lastTestPlanForUserID_1=17; TL_execSetResults_tpn_view_status=0; TL_execSetResults_bn_view_status=0; TL_execSetResults_platform_notes_view_status=0; TL_execSetResults_tsdetails_view_status=0; pgv_pvi=4291347456; Phpstorm-786a4b17=9e64e3af-b27f-4ce7-88bd-1b65f5ea4871',
-)
-[ info ] [ PARAM ] array (
-  'username' => 'admin',
-  'password' => '123',
-)
-[ info ] [ DB ] INIT mysql
-[ sql ] [ DB ] CONNECT:[ UseTime:0.141289s ] mysql:host=hifafu.com;port=3306;dbname=DisNetDisk;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `netdisk_user` [ RunTime:0.092764s ]
-[ error ] [10501]SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'admin' for key 'netdisk_user_username_uindex'[D:\xampp\htdocs\DistributedNetDisk\thinkphp\library\think\db\Connection.php:764]
----------------------------------------------------------------
-[ 2018-11-29T22:23:57+08:00 ] ::1 GET localhost/DistributedNetDisk/public/index.php/index/Register/register?username=admin&&password=123
-[运行时间：0.327896s] [吞吐率：3.05req/s] [内存消耗：2,435.67kb] [文件加载：71]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-  'cookie' => 'TL_lastTestPlanForUserID_1=17; TL_execSetResults_tpn_view_status=0; TL_execSetResults_bn_view_status=0; TL_execSetResults_platform_notes_view_status=0; TL_execSetResults_tsdetails_view_status=0; pgv_pvi=4291347456; Phpstorm-786a4b17=9e64e3af-b27f-4ce7-88bd-1b65f5ea4871',
-)
-[ info ] [ PARAM ] array (
-  'username' => 'admin',
-  'password' => '123',
-)
-[ info ] [ DB ] INIT mysql
-[ sql ] [ DB ] CONNECT:[ UseTime:0.124396s ] mysql:host=hifafu.com;port=3306;dbname=DisNetDisk;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `netdisk_user` [ RunTime:0.083402s ]
-[ sql ] [ SQL ] SELECT * FROM `netdisk_user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.083373s ]
----------------------------------------------------------------
-[ 2018-11-29T22:24:21+08:00 ] ::1 GET localhost/DistributedNetDisk/public/index.php/index/Register/register?username=awei&&password=123
-[运行时间：0.344000s] [吞吐率：2.91req/s] [内存消耗：2,435.67kb] [文件加载：71]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-  'cookie' => 'TL_lastTestPlanForUserID_1=17; TL_execSetResults_tpn_view_status=0; TL_execSetResults_bn_view_status=0; TL_execSetResults_platform_notes_view_status=0; TL_execSetResults_tsdetails_view_status=0; pgv_pvi=4291347456; Phpstorm-786a4b17=9e64e3af-b27f-4ce7-88bd-1b65f5ea4871',
-)
-[ info ] [ PARAM ] array (
-  'username' => 'awei',
-  'password' => '123',
-)
-[ info ] [ DB ] INIT mysql
-[ sql ] [ DB ] CONNECT:[ UseTime:0.130596s ] mysql:host=hifafu.com;port=3306;dbname=DisNetDisk;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `netdisk_user` [ RunTime:0.087757s ]
-[ sql ] [ SQL ] SELECT * FROM `netdisk_user` WHERE  `username` = 'awei' LIMIT 1 [ RunTime:0.087759s ]
----------------------------------------------------------------
-[ 2018-11-29T22:26:06+08:00 ] ::1 GET localhost/DistributedNetDisk/public/index.php/index/Register/register%EF%BC%9Fusername=awei&&password=123
-[运行时间：0.026167s] [吞吐率：38.22req/s] [内存消耗：1,441.50kb] [文件加载：61]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-  'cookie' => 'TL_lastTestPlanForUserID_1=17; TL_execSetResults_tpn_view_status=0; TL_execSetResults_bn_view_status=0; TL_execSetResults_platform_notes_view_status=0; TL_execSetResults_tsdetails_view_status=0; pgv_pvi=4291347456; Phpstorm-786a4b17=9e64e3af-b27f-4ce7-88bd-1b65f5ea4871',
-)
-[ info ] [ PARAM ] array (
-)
----------------------------------------------------------------
-[ 2018-11-29T22:26:15+08:00 ] ::1 GET localhost/DistributedNetDisk/public/index.php/index/Register/register?username=awei&&password=123
-[运行时间：0.351383s] [吞吐率：2.85req/s] [内存消耗：2,408.84kb] [文件加载：69]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-  'cookie' => 'TL_lastTestPlanForUserID_1=17; TL_execSetResults_tpn_view_status=0; TL_execSetResults_bn_view_status=0; TL_execSetResults_platform_notes_view_status=0; TL_execSetResults_tsdetails_view_status=0; pgv_pvi=4291347456; Phpstorm-786a4b17=9e64e3af-b27f-4ce7-88bd-1b65f5ea4871',
-)
-[ info ] [ PARAM ] array (
-  'username' => 'awei',
-  'password' => '123',
-)
-[ info ] [ DB ] INIT mysql
-[ sql ] [ DB ] CONNECT:[ UseTime:0.136741s ] mysql:host=hifafu.com;port=3306;dbname=DisNetDisk;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `netdisk_user` [ RunTime:0.090678s ]
-[ sql ] [ SQL ] SELECT * FROM `netdisk_user` WHERE  `username` = 'awei' LIMIT 1 [ RunTime:0.090656s ]
----------------------------------------------------------------
-[ 2018-11-29T22:26:30+08:00 ] ::1 GET localhost/DistributedNetDisk/public/index.php/index/Register/register?username=awei&&password=123
-[运行时间：0.347002s] [吞吐率：2.88req/s] [内存消耗：2,408.84kb] [文件加载：69]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-  'cookie' => 'TL_lastTestPlanForUserID_1=17; TL_execSetResults_tpn_view_status=0; TL_execSetResults_bn_view_status=0; TL_execSetResults_platform_notes_view_status=0; TL_execSetResults_tsdetails_view_status=0; pgv_pvi=4291347456; Phpstorm-786a4b17=9e64e3af-b27f-4ce7-88bd-1b65f5ea4871',
-)
-[ info ] [ PARAM ] array (
-  'username' => 'awei',
-  'password' => '123',
-)
-[ info ] [ DB ] INIT mysql
-[ sql ] [ DB ] CONNECT:[ UseTime:0.135561s ] mysql:host=hifafu.com;port=3306;dbname=DisNetDisk;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `netdisk_user` [ RunTime:0.089729s ]
-[ sql ] [ SQL ] SELECT * FROM `netdisk_user` WHERE  `username` = 'awei' LIMIT 1 [ RunTime:0.089821s ]
----------------------------------------------------------------
-[ 2018-11-29T22:29:43+08:00 ] ::1 GET localhost/DistributedNetDisk/public/index.php/index/Register/register?username=awei&&password=123
-[运行时间：0.386715s] [吞吐率：2.59req/s] [内存消耗：2,409.43kb] [文件加载：69]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-  'cookie' => 'TL_lastTestPlanForUserID_1=17; TL_execSetResults_tpn_view_status=0; TL_execSetResults_bn_view_status=0; TL_execSetResults_platform_notes_view_status=0; TL_execSetResults_tsdetails_view_status=0; pgv_pvi=4291347456; Phpstorm-786a4b17=9e64e3af-b27f-4ce7-88bd-1b65f5ea4871',
-)
-[ info ] [ PARAM ] array (
-  'username' => 'awei',
-  'password' => '123',
-)
-[ info ] [ DB ] INIT mysql
-[ sql ] [ DB ] CONNECT:[ UseTime:0.150774s ] mysql:host=hifafu.com;port=3306;dbname=DisNetDisk;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `netdisk_user` [ RunTime:0.099681s ]
-[ sql ] [ SQL ] SELECT * FROM `netdisk_user` WHERE  `username` = 'awei' LIMIT 1 [ RunTime:0.099785s ]
----------------------------------------------------------------
-[ 2018-11-29T22:30:22+08:00 ] ::1 GET localhost/DistributedNetDisk/public/index.php/index/Register/register?username=awei&&password=123
-[运行时间：0.453691s] [吞吐率：2.20req/s] [内存消耗：2,409.43kb] [文件加载：69]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-  'cookie' => 'TL_lastTestPlanForUserID_1=17; TL_execSetResults_tpn_view_status=0; TL_execSetResults_bn_view_status=0; TL_execSetResults_platform_notes_view_status=0; TL_execSetResults_tsdetails_view_status=0; pgv_pvi=4291347456; Phpstorm-786a4b17=9e64e3af-b27f-4ce7-88bd-1b65f5ea4871',
-)
-[ info ] [ PARAM ] array (
-  'username' => 'awei',
-  'password' => '123',
-)
-[ info ] [ DB ] INIT mysql
-[ sql ] [ DB ] CONNECT:[ UseTime:0.222249s ] mysql:host=hifafu.com;port=3306;dbname=DisNetDisk;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `netdisk_user` [ RunTime:0.097234s ]
-[ sql ] [ SQL ] SELECT * FROM `netdisk_user` WHERE  `username` = 'awei' LIMIT 1 [ RunTime:0.097381s ]
----------------------------------------------------------------
-[ 2018-11-29T22:31:32+08:00 ] ::1 GET localhost/DistributedNetDisk/public/index.php/index/Register/register?username=awei&&password=123
-[运行时间：0.572783s] [吞吐率：1.75req/s] [内存消耗：2,410.91kb] [文件加载：72]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-  'cookie' => 'TL_lastTestPlanForUserID_1=17; TL_execSetResults_tpn_view_status=0; TL_execSetResults_bn_view_status=0; TL_execSetResults_platform_notes_view_status=0; TL_execSetResults_tsdetails_view_status=0; pgv_pvi=4291347456; Phpstorm-786a4b17=9e64e3af-b27f-4ce7-88bd-1b65f5ea4871',
-)
-[ info ] [ PARAM ] array (
-  'username' => 'awei',
-  'password' => '123',
-)
-[ info ] [ DB ] INIT mysql
-[ sql ] [ DB ] CONNECT:[ UseTime:0.144360s ] mysql:host=hifafu.com;port=3306;dbname=DisNetDisk;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `netdisk_user` [ RunTime:0.095640s ]
-[ sql ] [ SQL ] SELECT * FROM `netdisk_user` WHERE  `username` = 'awei' LIMIT 1 [ RunTime:0.095354s ]
-[ sql ] [ SQL ] INSERT INTO `netdisk_user` (`username` , `password` , `salt`) VALUES ('awei' , 'c4c74b7c3dedff33b46d59260f298acd' , 'db951c206bfbd3315b264bebf853ce08') [ RunTime:0.099404s ]
----------------------------------------------------------------
-[ 2018-11-29T22:33:01+08:00 ] ::1 POST localhost/DistributedNetDisk/public/index.php/index/LoginController/login
-[运行时间：0.394279s] [吞吐率：2.54req/s] [内存消耗：2,446.08kb] [文件加载：72]
-[ info ] [ LANG ] D:\xampp\htdocs\DistributedNetDisk\thinkphp\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-)
-[ info ] [ HEADER ] array (
-  'host' => 'localhost',
-  'connection' => 'keep-alive',
-  'content-length' => '29',
-  'cache-control' => 'max-age=0',
-  'origin' => 'http://localhost',
-  'upgrade-insecure-requests' => '1',
-  'content-type' => 'application/x-www-form-urlencoded',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-  'referer' => 'http://localhost/netDisk_View/DistributedNetDisk_backend/View/page/login/index.html',
-  'accept-encoding' => 'gzip, deflate, br',
-  'accept-language' => 'zh-CN,zh;q=0.9',
-  'cookie' => 'TL_lastTestPlanForUserID_1=17; TL_execSetResults_tpn_view_status=0; TL_execSetResults_bn_view_status=0; TL_execSetResults_platform_notes_view_status=0; TL_execSetResults_tsdetails_view_status=0; pgv_pvi=4291347456; Phpstorm-786a4b17=9e64e3af-b27f-4ce7-88bd-1b65f5ea4871',
-)
-[ info ] [ PARAM ] array (
-  'username' => 'admin',
-  'password' => 'admin',
-)
-[ info ] [ DB ] INIT mysql
-[ sql ] [ DB ] CONNECT:[ UseTime:0.148045s ] mysql:host=hifafu.com;port=3306;dbname=DisNetDisk;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `netdisk_user` [ RunTime:0.098665s ]
-[ sql ] [ SQL ] SELECT * FROM `netdisk_user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.098753s ]
