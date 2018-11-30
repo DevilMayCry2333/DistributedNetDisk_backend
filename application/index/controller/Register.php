@@ -19,12 +19,10 @@ class Register extends  Controller
         $username = $_GET["username"];
         $password = $_GET["password"];
         $model = new \app\index\model\RegisterModller();
-
-
         if( $model->register($username,$password)){
 
             mkdir("upload/".$username);
-            $this->redirect("http://localhost/netDisk_View/DistributedNetDisk_backend/View/page/login/index.html",302);
+            $this->redirect("http://localhost/DistributedNetDisk/public/static/login/page/login/index.html",302);
         }
         else{
            echo false;

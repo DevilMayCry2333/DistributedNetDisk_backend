@@ -40,7 +40,7 @@ class LoginController extends Controller
 
             $user_res = new \app\index\model\LoginModller();
             if($user_res->login($username,$password))
-                $this->redirect("http://localhost/netDisk_View/DistributedNetDisk_backend/View/page/netdisk/index.html?username=$username",302);
+                $this->redirect("http://localhost/DistributedNetDisk/public/static/login/page/netdisk/index.html?username=$username",302);
             else
                echo false;
         }
