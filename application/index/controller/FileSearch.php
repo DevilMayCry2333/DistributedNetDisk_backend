@@ -16,7 +16,6 @@ class FileSearch extends Controller
     public function search(){
         $se_name = $_GET["se_name"];
         $fileSearch = new FileSearchMod();
-
         $fileSearch->search($se_name);
 
     }

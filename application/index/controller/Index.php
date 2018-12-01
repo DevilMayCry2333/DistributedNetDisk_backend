@@ -35,8 +35,11 @@ class Index extends Controller
         }
     }
     public function showDefault(){
+        header('Content-Type:text/html; charset=utf-8');
+        $username=$_GET["username"];
+        //var_dump($username);
         $user_file=new DistModller();
-        return $user_file->getUserFile("admin",2);
+        return $user_file->getUserFile($username,1);
     }
     public function showPic(){
 
