@@ -50,20 +50,22 @@ class DistModller extends Model{
         return urldecode($json);
     }
 
-    public function getUserFile($username,$pageid){
+    public function getUserFile($username,$pageid,$file_type){
         header("Content-Type: text/html;charset=utf-8");
         $this->execute('SET NAMES utf8');
-        $select_res=$this->where('username',$username)->select();
-        echo "!!!______________________!!!";
-        var_dump($select_res[0]->filetype);
-       // var_dump($file_num);
-        echo "*******";
-         var_dump($select_res);
 
-        echo "*******";
+        if($file_type!=null){
+            $select_res=$this->where('username',$username)->where('filetype',$file_type)->select();
+        }
+        else{
+            $select_res=$this->where('username',$username)->select();
+        }
+
+       // var_dump($file_num);
+
         $page_num=$this->page($select_res);
 
-        //var_dump($page_num);
+
         if($page_num==1){
             $page_index=0;
             $page_file=count($select_res);
@@ -91,13 +93,11 @@ class DistModller extends Model{
 
             $file_info_json=array();
             $file_info_json["name"]=$select_res[$page_index]->filename;
-            echo "------------------------";
-            var_dump($select_res[$page_index]->filename);
+
             $file_info_json["extension"]=$select_res[$page_index]->ext;
             $file_info_json["date"]=$select_res[$page_index]->mod_date;
             $file_info_json["type"]=$select_res[$page_index]->filetype;
-            echo "------------------------";
-            var_dump($select_res[$page_index]->filetype);
+
             $file_info_json["id"]=$select_res[$page_index]->id;
             $file_info_json["size"]=$select_res[$page_index]->size;
             $file_info_json["crc"]=$select_res[$page_index]->crc;
@@ -105,22 +105,19 @@ class DistModller extends Model{
 
             $user_json[$i]=$file_info_json;
             $i=$i+1;
-            //var_dump($i);
-            //$res_array[$page_index]['id']=$select_res[$page_index]->id;
-            //echo $select_res[$page_index]->id;
+
         }
 
             $res_array['directory']=$user_json;
 
 
-              // var_dump($this->json1($res_array));
 
-            //var_dump($res_array);
-//            $res_array=json_encode($res_array);
 
             return $res_array;
 
     }
+
+
     public function page($array){
         $page_num=count($array);
         if($page_num<=10){

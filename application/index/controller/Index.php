@@ -42,7 +42,9 @@ class Index extends Controller
         return $user_file->getUserFile($username,1);
     }
     public function showPic(){
-
-        return "OK";
+        header('Content-Type:text/html; charset=utf-8');
+        $username=$_GET["username"];
+        $user_file=new DistModller();
+        return $user_file->getUserFile($username,1);
     }
 }
