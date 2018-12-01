@@ -49,7 +49,7 @@ class FileUpload extends Controller
 
         $FileUploadMod->upload($session_user,$_FILES["file"]["name"],$_FILES["file"]["type"],$_FILES["file"]["size"] / 1024,"DistributedNetDisk/public/upload",$mod_date);
 
-
+        cookie('usercookie',$username);
         $this->redirect("http://localhost/DistributedNetDisk/public/static/login/page/netdisk/index.html?username=$username",302);
 
     }

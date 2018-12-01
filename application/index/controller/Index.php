@@ -39,12 +39,36 @@ class Index extends Controller
         $username=$_GET["username"];
         //var_dump($username);
         $user_file=new DistModller();
-        return $user_file->getUserFile($username,1);
+        return $user_file->getUserFile($username,1,null);
     }
     public function showPic(){
         header('Content-Type:text/html; charset=utf-8');
         $username=$_GET["username"];
         $user_file=new DistModller();
-        return $user_file->getUserFile($username,1);
+        return $user_file->getUserFile($username,1,'pic');
+    }
+    public function showDoc(){
+        header('Content-Type:text/html; charset=utf-8');
+        $username=$_GET["username"];
+        $user_file=new DistModller();
+        return $user_file->getUserFile($username,1,'doc');
+    }
+    public function showMov(){
+        header('Content-Type:text/html; charset=utf-8');
+        $username=$_GET["username"];
+        $user_file=new DistModller();
+        return $user_file->getUserFile($username,1,'mov');
+    }
+    public function showMus(){
+        header('Content-Type:text/html; charset=utf-8');
+        $username=$_GET["username"];
+        $user_file=new DistModller();
+        return $user_file->getUserFile($username,1,'mus');
+    }
+    public function showOth(){
+        header('Content-Type:text/html; charset=utf-8');
+        $username=$_GET["username"];
+        $user_file=new DistModller();
+        return $user_file->getUserFile($username,1,'oth');
     }
 }
