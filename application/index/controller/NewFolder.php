@@ -17,8 +17,14 @@ class NewFolder extends Controller
         $username = $_GET["username"];
         $folder = $_GET["folder"];
         $newFolder = $_GET["newFolder"];
-        $pathname = "/Library/WebServer/Documents/DistributedNetDisk/public/upload/";
-        $allpath= $pathname.$username."/".$folder."/".$newFolder;
+        $pathname = "D:\\xampp\htdocs\\DistributedNetDisk\\public\\upload\\";
+        //$pathname='/public/upload/';
+        if($folder==""){
+            $allpath= $pathname.$username."\\".$newFolder;
+        }
+        else{
+            $allpath= $pathname.$username."\\".$folder."\\".$newFolder;
+        }
         mkdir($allpath);
         if(chmod($allpath, 0777)){
             return "SUCCESS";

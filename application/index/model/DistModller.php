@@ -55,13 +55,13 @@ class DistModller extends Model{
         $this->execute('SET NAMES utf8');
 
         if($file_type!=null){
-            $select_res=$this->where('username',$username)->where('filetype',$file_type)->select();
+            $select_res=$this->where('username',$username)->where('filetype',$file_type)->order('sort desc')->select();
         }
         else{
-            $select_res=$this->where('username',$username)->select();
+            $select_res=$this->where('username',$username)->order('sort desc')->select();
         }
 
-       // var_dump($file_num);
+        //var_dump($select_res);
 
         $page_num=$this->page($select_res);
 
