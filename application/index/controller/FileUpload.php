@@ -28,29 +28,33 @@ class FileUpload extends Controller
 
     public function upload(){
         header("Content-Type: text/html;charset=utf-8");
-        echo "Upload: " . $_FILES["file"]["name"] . "<br />";
-        echo "Type: " . $_FILES["file"]["type"] . "<br />";
-        echo "Size: " . ($_FILES["file"]["size"]) . " Bytes<br />";
-        echo "Temp file: " . $_FILES["file"]["tmp_name"] . "<br />";
+//        echo "Upload: " . $_FILES["file"]["name"] . "<br />";
+//        echo "Type: " . $_FILES["file"]["type"] . "<br />";
+//        echo "Size: " . ($_FILES["file"]["size"]) . " Bytes<br />";
+//        echo "Temp file: " . $_FILES["file"]["tmp_name"] . "<br />";
         $username = $_POST["username"];
-
-        if (file_exists("upload/" . $_FILES["file"]["name"]))
+        $curdir = $_POST["curdir"];
+        if($curdir==""){
+            $allpath="upload/" . $username. "/".$_FILES["file"]["name"];
+        }else{
+            $allpath="upload/" . $username. "/". $curdir."/".$_FILES["file"]["name"];
+        }
+        if (file_exists($allpath))
         {
-            echo $_FILES["file"]["name"] . " already exists. ";
+            echo "already exists.";
         }
         else
         {
-            move_uploaded_file($_FILES["file"]["tmp_name"],
-                "upload/" . $username. "/".$_FILES["file"]["name"]);
-            echo "Stored in: " . "upload/" . $username."/" .$_FILES["file"]["name"];
+            move_uploaded_file($_FILES["file"]["tmp_name"],$allpath);
+            $FileUploadMod =new \app\index\model\FileUploadMod();
+
+            $session_user =file_get_contents('test.txt');
+            $mod_date = date("Y-M-D",time());
+
+
+            $FileUploadMod->upload($username,$_FILES["file"]["name"],$_FILES["file"]["type"],$_FILES["file"]["size"] / 1024,"DistributedNetDisk/public/upload/". $username. "/". $curdir,$mod_date,0);
         }
-        $FileUploadMod =new \app\index\model\FileUploadMod();
 
-        $session_user =file_get_contents('test.txt');
-        $mod_date = date("Y-M-D",time());
-
-
-        $FileUploadMod->upload($session_user,$_FILES["file"]["name"],$_FILES["file"]["type"],$_FILES["file"]["size"] / 1024,"DistributedNetDisk/public/upload",$mod_date);
 
         cookie('usercookie',$username);
 

@@ -50,15 +50,24 @@ class DistModller extends Model{
         return urldecode($json);
     }
 
-    public function getUserFile($username,$pageid,$file_type){
+    public function getUserFile($username,$pageid,$file_type,$curdir){
         header("Content-Type: text/html;charset=utf-8");
         $this->execute('SET NAMES utf8');
+        if($curdir==""){
+            $filepath="DistributedNetDisk/public/upload/". $username. "/";
 
+        }else{
+            $filepath="DistributedNetDisk/public/upload/". $username. "/". $curdir."/";
+            //  var_dump($filepath);
+
+        }
         if($file_type!=null){
-            $select_res=$this->where('username',$username)->where('filetype',$file_type)->order('sort desc')->select();
+            $select_res=$this->where('username',$username)->order('sort desc')->select();
         }
         else{
-            $select_res=$this->where('username',$username)->order('sort desc')->select();
+            $select_res=$this->where('username',$username)->where('abs_path','=',$filepath)->order('sort desc')->select();
+            //var_dump($select_res);
+
         }
 
         //var_dump($select_res);
@@ -86,6 +95,7 @@ class DistModller extends Model{
         $res_array['username']=$username;
         $res_array['pageNum']=$page_num;
         $res_array['pageid']=$pageid;
+        $res_array['curdir']=$curdir;
        //
 
         for($i=0,$page_index;$page_index<$page_file;$page_index++)
@@ -112,7 +122,7 @@ class DistModller extends Model{
 
 
 
-
+            //var_dump($res_array);
             return $res_array;
 
     }

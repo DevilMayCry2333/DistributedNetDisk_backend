@@ -39,7 +39,16 @@ class Index extends Controller
         $username=$_GET["username"];
         //var_dump($username);
         $user_file=new DistModller();
-        return $user_file->getUserFile($username,1,null);
+        return $user_file->getUserFile($username,1,null,"");
+    }
+    public function enterDir(){
+        header('Content-Type:text/html; charset=utf-8');
+        $username=$_GET["username"];
+        $curdir=$_GET['curdir'];
+        //var_dump($username);
+        $user_file=new DistModller();
+        return $user_file->getUserFile($username,1,null,$curdir);
+
     }
     public function showPic(){
         header('Content-Type:text/html; charset=utf-8');
