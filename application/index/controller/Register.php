@@ -16,16 +16,19 @@ class Register extends  Controller
 {
 
     public function register(){
-        $username = $_GET["username"];
-        $password = $_GET["password"];
+        $username = $_POST["username"];
+        $password = $_POST["password"];
         $model = new \app\index\model\RegisterModller();
         if( $model->register($username,$password)){
 
             mkdir("upload/".$username);
-            $this->redirect("http://localhost/DistributedNetDisk/public/static/login/page/login/index.html",302);
+            $this->redirect("http://localhost/netDisk_View/DistributedNetDisk_backend/View/page/login/index.html",302);
         }
         else{
-           echo false;
+           echo "<script>
+                        alert('用户已存在！请重新注册');
+                        window.location.href='http://localhost/netDisk_View/DistributedNetDisk_backend/View/page/register/register.html';
+                </script>";
         }
     }
 
