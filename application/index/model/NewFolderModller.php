@@ -21,6 +21,7 @@ class NewFolderModller extends Model
         $newFolder->size = $filesize;
         $newFolder->filetype = $filetype;
         $newFolder->abs_path = $filepath;
+//        echo $filepath;
         $newFolder->mod_date = $modtime;
         $newFolder->sort=$sort;
         $newFolder->save();

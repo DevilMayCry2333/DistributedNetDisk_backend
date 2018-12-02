@@ -9,7 +9,8 @@ class Index extends Controller
 
     public function index()
     {
-        return '<script>window.location.href = "http://localhost/DistributedNetDisk/public/static/login/index.html" </script>';
+//        echo "OK";
+        return '<script>window.location.href = "https://hifafu.com/DistributedNetDisk/public/static/View/page/login/index.html" </script>';
     }
 
     public function hello($name = 'ThinkPHP5')
