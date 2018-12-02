@@ -26,7 +26,8 @@ class LoginController extends Controller
 {
 
 
-    public function login(){
+    public function login()
+    {
         header("Content-Type: text/html;charset=utf-8");
         header("Access-Control-Allow-Origin: * ");
         header("Access-Control-Allow-Methods: POST, GET, OPTIONS, PUT, DELETE");
@@ -35,22 +36,23 @@ class LoginController extends Controller
 
         $username = $_POST["username"];
         $password = $_POST["password"];
-        if($username!=null && $password!=null){
-
-
+//        echo $username;
+//        echo $password;
+        if ($username != null && $password != null) {
             $user_res = new \app\index\model\LoginModller();
-            if($user_res->login($username,$password))
-//                    $this->redirect("http://www.baidu.com",302);
+            if ($user_res->login($username, $password))
             {
-                cookie('usercookie',$username);
-                $user_cookie=cookie('usercookie');
-                $this->redirect("http://localhost/netDisk_View/DistributedNetDisk_backend/View/page/netdisk/index.html",302);
+                echo "OK";
+                cookie('usercookie', $username);
+                $user_cookie = cookie('usercookie');
+                var_dump($user_cookie);
+                $this->redirect("https://hifafu.com/DistributedNetDisk/public/static/View/page/netdisk/index.html", 302);
+            } else {
+                echo "FAIL";
+                $this->redirect("https://hifafu.com/DistributedNetDisk/public/static/View/page/login/index.html", 302);
             }
 
-            else
-                $this->redirect("http://localhost/netDisk_View/DistributedNetDisk_backend/View/page/login/index.html",302);
         }
 
     }
-
 }

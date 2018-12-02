@@ -21,13 +21,22 @@ class LoginModller extends Model
         $passwordEncrypt = new PasswordEncryt();
 
         $res=$this->where('username',$username)->find();
-        $passwd_right=$res['password'];
-        $salt=$res['salt'];
-        //var_dump($salt);
-        $passwdmd5 = $passwordEncrypt->md5encrypt($password,$salt);
 
-        $login_res = $passwd_right==$passwdmd5;
-        //var_dump($login_res);
+
+        $passwd_right=$res['password'];
+//        var_dump($passwd_right);
+        $salt=$res['salt'];
+//        var_dump($salt);
+        $passwdmd5 = $passwordEncrypt->md5encrypt($password,$salt);
+//        var_dump($passwdmd5);
+        if(strcmp($passwd_right,$passwdmd5)==0){
+            $login_res = true;
+        }else{
+            $login_res = false;
+        }
+//        var_dump($login_res);
+//        $login_res = ($passwd_right==$passwdmd5);
+//        var_dump($login_res);
         if($login_res){
 
             //写入session

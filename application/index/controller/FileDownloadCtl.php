@@ -21,7 +21,7 @@ class FileDownloadCtl extends Controller
             $filetmp[$i] = $_GET["userfile".$i];
             $zip = new ZipArchive;
             $zipname = "test.zip";
-            $pathname = "/Library/WebServer/Documents/DistributedNetDisk/public/upload/";
+            $pathname = "/var/www/html/DistributedNetDisk/public/upload/";
             $relPathName = $pathname.$username."/".$filetmp[$i];
 //            var_dump($pathname.$filetmp[$i]);
             $myfile = fopen($relPathName, "r") or die("Unable to open file!");

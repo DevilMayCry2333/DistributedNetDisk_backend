@@ -18,16 +18,20 @@ class Register extends  Controller
     public function register(){
         $username = $_POST["username"];
         $password = $_POST["password"];
+//        var_dump($username);
+//        var_dump($password);
         $model = new \app\index\model\RegisterModller();
-        if( $model->register($username,$password)){
-
+        $res = $model->register($username,$password);
+//        var_dump($res);
+        if($res==true){
             mkdir("upload/".$username);
-            $this->redirect("http://localhost/netDisk_View/DistributedNetDisk_backend/View/page/login/index.html",302);
+            chmod("upload/".$username, 0777);
+            $this->redirect("https://hifafu.com/DistributedNetDisk/public/static/View/page/login/index.html",302);
         }
         else{
            echo "<script>
                         alert('用户已存在！请重新注册');
-                        window.location.href='http://localhost/netDisk_View/DistributedNetDisk_backend/View/page/register/register.html';
+                        window.location.href='https://hifafu.com/DistributedNetDisk/public/static/View/page/register/register.html';
                 </script>";
         }
     }

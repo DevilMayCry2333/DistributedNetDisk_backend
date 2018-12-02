@@ -16,6 +16,7 @@ class RegisterModller extends Model
 
     public function register($username,$password){
         $isRegisted=$this->where('username',$username)->find();
+//        echo $isRegisted;
         if($isRegisted==null){
             $passwordEncrypt = new PasswordEncryt();
             $salt=$passwordEncrypt->set_salt();
