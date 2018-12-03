@@ -18,14 +18,14 @@ class NewFolder extends Controller
         $username = $_GET["username"];
         $newFolder = $_GET["newFolder"];
         $curdir=$_GET["curdir"];
-        $pathname = "D:\\xampp\htdocs\\DistributedNetDisk\\public\\upload\\";
+        $pathname = "/var/www/html/DistributedNetDisk/public/upload/";
         $filetype="dir";
         //$pathname='/public/upload/';
         if( $curdir==""){
-            $allpath= $pathname.$username."\\".$newFolder;
+            $allpath= $pathname.$username."/".$newFolder;
         }
         else{
-            $allpath= $pathname.$username."\\". $curdir."\\".$newFolder;
+            $allpath= $pathname.$username."/". $curdir."/".$newFolder;
         }
         if (file_exists($allpath))
         {
@@ -35,7 +35,14 @@ class NewFolder extends Controller
             mkdir($allpath);
             $mod_date = date("Y-M-D",time());
             $newFolderMod= new NewFolderModller();
-            $newFolderMod->newfolder($username,$newFolder,$filetype,'0',"DistributedNetDisk/public/upload/". $username. "/". $curdir."/",$mod_date,1);
+            if($curdir==null){
+                $datapath = "DistributedNetDisk/public/upload/". $username. "/";
+            }else{
+                $datapath = "DistributedNetDisk/public/upload/". $username. "/" .$curdir."/";
+            }
+
+
+            $newFolderMod->newfolder($username,$newFolder,$filetype,'0',$datapath,$mod_date,1);
         }
 
         if(chmod($allpath, 0777)){

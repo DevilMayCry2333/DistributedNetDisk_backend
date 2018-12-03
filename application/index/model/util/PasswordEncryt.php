@@ -37,7 +37,7 @@ class PasswordEncryt extends Model
         header("Content-Type: text/html;charset=utf-8");
         try {
             $salt =bin2hex(random_bytes(64));
-            $salt = md5($salt);
+//            $salt = md5($salt);
 //            var_dump($salt);
         } catch (\Exception $e) {
         }
