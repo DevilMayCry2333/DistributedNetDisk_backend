@@ -1,41 +1,67 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: SV
- * Date: 2018/11/28
- * Time: 19:41
+ * User: Joker
+ * Date: 2018/11/29
+ * Time: 20:52
+ * * PHP version 7
+ *
+ * @category PHP_Class
+ *
+ * @package Default
+ *
+ * @author Joker <joker@jokerl.com>
+ *
+ * @license MIT https://www.baidu.com
+ *
+ * @link https://www.baidu.com
  */
-
 namespace app\index\model;
 
 use think\Model;
 header('Content-Type:text/html; charset=utf-8');
-class DistModller extends Model{
+/**
+ * Class Index
+ * Index控制器
+ *
+ * @category PHP_Class
+ *
+ * @package Default
+ *
+ * @author Joker <joker@jokerl.com>
+ *
+ * @license MIT https://www.baidu.com
+ *
+ * @link https://www.baidu.com
+ */
+class DistModller extends Model
+{
 
     protected $table = "netdisk_userfile";
-
+    /**
+     * Login的控制器方法
+     *
+     * @param string $array              要进行操作的字符串
+     * @param string $function           要进行什么操作
+     * @param string $apply_to_keys_also 对键是否进行操作
+     *
+     * @return string null
+     */
     public function arrayRecursive(&$array, $function, $apply_to_keys_also = false)
     {
         static $recursive_counter = 0;
-        if (++$recursive_counter > 1000)
-        {
+        if (++$recursive_counter > 1000) {
             die('possible deep recursion attack');
         }
-        foreach ($array as $key => $value)
-        {
-            if (is_array($value))
-            {
+        foreach ($array as $key => $value) {
+            if (is_array($value)) {
                 $this->arrayRecursive($array[$key], $function, $apply_to_keys_also);
-            }
-            else
-            {
+            } else {
                 $array[$key] = $function($value);
             }
-            if ($apply_to_keys_also && is_string($key))
-            {
+            if ($apply_to_keys_also && is_string($key)) {
                 $new_key = $function($key);
-                if ($new_key != $key)
-                {
+                if ($new_key != $key) {
                     $array[$new_key] = $array[$key];
                     unset($array[$key]);
                 }
@@ -43,29 +69,45 @@ class DistModller extends Model{
         }
         $recursive_counter--;
     }
+    /**
+     * Login的控制器方法
+     *
+     * @param string $array 要进行json化的字符串
+     *
+     * @return string null
+     */
     public function json1($array)
     {
         $this->arrayRecursive($array, 'urlencode', true);
         $json = json_encode($array);
         return urldecode($json);
     }
-
-    public function getUserFile($username,$pageid,$file_type,$curdir){
+    /**
+     * Login的控制器方法
+     *
+     * @param string $username  用户名
+     * @param string $pageid    当前的页数
+     * @param string $file_type 文件类型
+     * @param string $curdir    当前的目录
+     *
+     * @return string null
+     */
+    public function getUserFile($username,$pageid,$file_type,$curdir)
+    {
         header("Content-Type: text/html;charset=utf-8");
         $this->execute('SET NAMES utf8');
-        if($curdir==""){
+        if ($curdir=="") {
             $filepath="DistributedNetDisk/public/upload/". $username. "/";
 
-        }else{
+        } else {
             $filepath="DistributedNetDisk/public/upload/". $username. "/". $curdir."/";
             //  var_dump($filepath);
 
         }
-        if($file_type!=null){
-            $select_res=$this->where('username',$username)->order('sort desc')->select();
-        }
-        else{
-            $select_res=$this->where('username',$username)->where('abs_path','=',$filepath)->order('sort desc')->select();
+        if ($file_type!=null) {
+            $select_res=$this->where('username', $username)->order('sort desc')->select();
+        } else {
+            $select_res=$this->where('username', $username)->where('abs_path', '=', $filepath)->order('sort desc')->select();
             //var_dump($select_res);
 
         }
@@ -75,16 +117,14 @@ class DistModller extends Model{
         $page_num=$this->page($select_res);
 
 
-        if($page_num==1){
+        if ($page_num==1) {
             $page_index=0;
             $page_file=count($select_res);
 
-        }
-        else if($pageid==$page_num){
+        } else if ($pageid==$page_num) {
             $page_index=$pageid*10;
             $page_file=count($select_res);
-        }
-        else{
+        } else {
             $page_index=($pageid-1)*10;
             $page_file=$page_index+10;
         }
@@ -96,10 +136,9 @@ class DistModller extends Model{
         $res_array['pageNum']=$page_num;
         $res_array['pageid']=$pageid;
         $res_array['curdir']=$curdir;
-       //
+        //
 
-        for($i=0,$page_index;$page_index<$page_file;$page_index++)
-        {
+        for ($i=0,$page_index;$page_index<$page_file;$page_index++) {
 
             $file_info_json=array();
             $file_info_json["name"]=$select_res[$page_index]->filename;
@@ -126,18 +165,21 @@ class DistModller extends Model{
             return $res_array;
 
     }
-
-
-    public function page($array){
+    /**
+     * Login的控制器方法
+     *
+     * @param string $array 进行分页的字符串
+     * @return string null
+     */
+    public function page($array)
+    {
         $page_num=count($array);
-        if($page_num<=10){
+        if ($page_num<=10) {
             return 1;
-        }
-        else{
-            if($page_num%10==0){
+        } else {
+            if($page_num%10==0) {
                 return $page_num/10;
-            }
-            else{
+            } else {
                 return (int)($page_num/10+1);
             }
         }

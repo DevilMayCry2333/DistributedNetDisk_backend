@@ -1,0 +1,22 @@
+
+PHP CODE SNIFFER REPORT SUMMARY
+---------------------------------------------------------------------------------------------------------------------
+FILE                                                                                                 ERRORS  WARNINGS
+---------------------------------------------------------------------------------------------------------------------
+/Library/WebServer/Documents/DistributedNetDisk/application/index/controller/FileDownloadCtl.php     1       0
+/Library/WebServer/Documents/DistributedNetDisk/application/index/controller/FileUpload.php          0       1
+/Library/WebServer/Documents/DistributedNetDisk/application/index/controller/LoginController.php     0       4
+/Library/WebServer/Documents/DistributedNetDisk/application/index/controller/Register.php            0       2
+/Library/WebServer/Documents/DistributedNetDisk/application/index/model/DistModller.php              25      4
+/Library/WebServer/Documents/DistributedNetDisk/application/index/model/FileSearchMod.php            8       1
+/Library/WebServer/Documents/DistributedNetDisk/application/index/model/FileUploadMod.php            7       2
+/Library/WebServer/Documents/DistributedNetDisk/application/index/model/LoginModller.php             11      1
+/Library/WebServer/Documents/DistributedNetDisk/application/index/model/NewFolderModller.php         7       2
+/Library/WebServer/Documents/DistributedNetDisk/application/index/model/RegisterModller.php          9       2
+/Library/WebServer/Documents/DistributedNetDisk/application/index/model/util/PasswordEncryt.php      9       1
+---------------------------------------------------------------------------------------------------------------------
+A TOTAL OF 77 ERRORS AND 20 WARNINGS WERE FOUND IN 11 FILES
+---------------------------------------------------------------------------------------------------------------------
+
+Time: 100ms; Memory: 6Mb
+

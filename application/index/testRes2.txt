@@ -1,0 +1,434 @@
+
+FILE: /Library/WebServer/Documents/DistributedNetDisk/application/index/controller/Index.php
+--------------------------------------------------------------------------------------------------------------------------------------------------
+FOUND 44 ERRORS AFFECTING 24 LINES
+--------------------------------------------------------------------------------------------------------------------------------------------------
+  2 | ERROR | [ ] Missing file doc comment
+  7 | ERROR | [ ] Missing doc comment for class Index
+ 10 | ERROR | [ ] Missing doc comment for function index()
+ 12 | ERROR | [x] Line indented incorrectly; expected at least 8 spaces, found 0
+ 18 | ERROR | [ ] Missing doc comment for function hello()
+ 22 | ERROR | [ ] Missing doc comment for function hey()
+ 22 | ERROR | [x] Opening brace should be on a new line
+ 26 | ERROR | [ ] Missing doc comment for function showPage()
+ 26 | ERROR | [x] Opening brace should be on a new line
+ 31 | ERROR | [ ] Missing doc comment for function yes()
+ 31 | ERROR | [x] Opening brace should be on a new line
+ 33 | ERROR | [ ] Expected "if (...) {\n"; found "if(...){\n"
+ 33 | ERROR | [x] There must be a single space between the closing parenthesis and the opening brace of a multi-line IF statement; found 0 spaces
+ 36 | ERROR | [ ] Expected "} else {\n"; found "}else{\n"
+ 40 | ERROR | [ ] Missing doc comment for function showDefault()
+ 40 | ERROR | [x] Opening brace should be on a new line
+ 45 | ERROR | [x] No space found after comma in function call
+ 45 | ERROR | [x] No space found after comma in function call
+ 45 | ERROR | [x] No space found after comma in function call
+ 47 | ERROR | [ ] Missing doc comment for function enterDir()
+ 47 | ERROR | [x] Opening brace should be on a new line
+ 53 | ERROR | [x] No space found after comma in function call
+ 53 | ERROR | [x] No space found after comma in function call
+ 53 | ERROR | [x] No space found after comma in function call
+ 56 | ERROR | [ ] Missing doc comment for function showPic()
+ 56 | ERROR | [x] Opening brace should be on a new line
+ 60 | ERROR | [x] No space found after comma in function call
+ 60 | ERROR | [x] No space found after comma in function call
+ 62 | ERROR | [ ] Missing doc comment for function showDoc()
+ 62 | ERROR | [x] Opening brace should be on a new line
+ 66 | ERROR | [x] No space found after comma in function call
+ 66 | ERROR | [x] No space found after comma in function call
+ 68 | ERROR | [ ] Missing doc comment for function showMov()
+ 68 | ERROR | [x] Opening brace should be on a new line
+ 72 | ERROR | [x] No space found after comma in function call
+ 72 | ERROR | [x] No space found after comma in function call
+ 74 | ERROR | [ ] Missing doc comment for function showMus()
+ 74 | ERROR | [x] Opening brace should be on a new line
+ 78 | ERROR | [x] No space found after comma in function call
+ 78 | ERROR | [x] No space found after comma in function call
+ 80 | ERROR | [ ] Missing doc comment for function showOth()
+ 80 | ERROR | [x] Opening brace should be on a new line
+ 84 | ERROR | [x] No space found after comma in function call
+ 84 | ERROR | [x] No space found after comma in function call
+--------------------------------------------------------------------------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 28 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+FILE: /Library/WebServer/Documents/DistributedNetDisk/application/index/controller/LgTest.php
+---------------------------------------------------------------------------------------------
+FOUND 8 ERRORS AND 1 WARNING AFFECTING 3 LINES
+---------------------------------------------------------------------------------------------
+  7 | WARNING | [ ] PHP version not specified
+  7 | ERROR   | [ ] Missing @category tag in file comment
+  7 | ERROR   | [ ] Missing @package tag in file comment
+  7 | ERROR   | [ ] Missing @author tag in file comment
+  7 | ERROR   | [ ] Missing @license tag in file comment
+  7 | ERROR   | [ ] Missing @link tag in file comment
+ 14 | ERROR   | [ ] Missing doc comment for class LgTest
+ 16 | ERROR   | [ ] Missing doc comment for function test()
+ 16 | ERROR   | [x] Opening brace should be on a new line
+---------------------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+---------------------------------------------------------------------------------------------
+
+
+FILE: /Library/WebServer/Documents/DistributedNetDisk/application/index/controller/LoginController.php
+----------------------------------------------------------------------------------------------------------------------------------------------------
+FOUND 17 ERRORS AND 3 WARNINGS AFFECTING 13 LINES
+----------------------------------------------------------------------------------------------------------------------------------------------------
+  7 | WARNING | [ ] PHP version not specified
+  7 | ERROR   | [ ] Missing @category tag in file comment
+  7 | ERROR   | [ ] Missing @package tag in file comment
+  7 | ERROR   | [ ] Missing @author tag in file comment
+  7 | ERROR   | [ ] Missing @license tag in file comment
+  7 | ERROR   | [ ] Missing @link tag in file comment
+ 13 | WARNING | [ ] Line exceeds 85 characters; contains 125 characters
+ 20 | ERROR   | [ ] Expected "if (...) {\n"; found "if(...){\n"
+ 20 | ERROR   | [x] There must be a single space between the closing parenthesis and the opening brace of a multi-line IF statement; found 0 spaces
+ 25 | ERROR   | [ ] Missing doc comment for class LoginController
+ 29 | ERROR   | [ ] Missing doc comment for function login()
+ 34 | WARNING | [ ] Line exceeds 85 characters; contains 133 characters
+ 39 | ERROR   | [x] Line indented incorrectly; expected at least 8 spaces, found 0
+ 40 | ERROR   | [x] Line indented incorrectly; expected at least 8 spaces, found 0
+ 43 | ERROR   | [ ] Expected "if (...) {\n"; found "if (...)\n            {\n"
+ 43 | ERROR   | [x] There must be a single space between the closing parenthesis and the opening brace of a multi-line IF statement; found newline
+ 49 | ERROR   | [x] Opening parenthesis of a multi-line function call must be the last content on the line
+ 50 | ERROR   | [x] Closing parenthesis of a multi-line function call must be on a line by itself
+ 53 | ERROR   | [x] Opening parenthesis of a multi-line function call must be the last content on the line
+ 54 | ERROR   | [x] Closing parenthesis of a multi-line function call must be on a line by itself
+----------------------------------------------------------------------------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 8 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+FILE: /Library/WebServer/Documents/DistributedNetDisk/application/index/controller/FileSearch.php
+-------------------------------------------------------------------------------------------------
+FOUND 12 ERRORS AND 1 WARNING AFFECTING 7 LINES
+-------------------------------------------------------------------------------------------------
+  7 | WARNING | [ ] PHP version not specified
+  7 | ERROR   | [ ] Missing @category tag in file comment
+  7 | ERROR   | [ ] Missing @package tag in file comment
+  7 | ERROR   | [ ] Missing @author tag in file comment
+  7 | ERROR   | [ ] Missing @license tag in file comment
+  7 | ERROR   | [ ] Missing @link tag in file comment
+ 14 | ERROR   | [ ] Missing doc comment for class FileSearch
+ 17 | ERROR   | [x] Line indented incorrectly; expected at least 4 spaces, found 0
+ 18 | ERROR   | [x] Line indented incorrectly; expected at least 4 spaces, found 0
+ 19 | ERROR   | [x] Line indented incorrectly; expected at least 4 spaces, found 0
+ 20 | ERROR   | [ ] You must use "/**" style comments for a function comment
+ 20 | ERROR   | [x] Opening brace should be on a new line
+ 21 | ERROR   | [x] Line indented incorrectly; expected at least 8 spaces, found 0
+-------------------------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 5 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+-------------------------------------------------------------------------------------------------
+
+
+FILE: /Library/WebServer/Documents/DistributedNetDisk/application/index/controller/Register.php
+----------------------------------------------------------------------------------------------------------------------------------------------------
+FOUND 13 ERRORS AND 2 WARNINGS AFFECTING 9 LINES
+----------------------------------------------------------------------------------------------------------------------------------------------------
+  7 | WARNING | [ ] PHP version not specified
+  7 | ERROR   | [ ] Missing @category tag in file comment
+  7 | ERROR   | [ ] Missing @package tag in file comment
+  7 | ERROR   | [ ] Missing @author tag in file comment
+  7 | ERROR   | [ ] Missing @license tag in file comment
+  7 | ERROR   | [ ] Missing @link tag in file comment
+ 13 | WARNING | [ ] Line exceeds 85 characters; contains 125 characters
+ 17 | ERROR   | [ ] Missing doc comment for class Register
+ 24 | ERROR   | [ ] There must be no blank lines after the function comment
+ 31 | ERROR   | [x] No space found after comma in function call
+ 32 | ERROR   | [x] Line indented incorrectly; expected at least 8 spaces, found 0
+ 33 | ERROR   | [ ] Expected "if (...) {\n"; found "if(...){\n"
+ 33 | ERROR   | [x] There must be a single space between the closing parenthesis and the opening brace of a multi-line IF statement; found 0 spaces
+ 45 | ERROR   | [ ] Expected "} else {\n"; found "}\n        else{\n"
+ 46 | ERROR   | [x] Line indented incorrectly; expected at least 12 spaces, found 11
+----------------------------------------------------------------------------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 4 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+FILE: /Library/WebServer/Documents/DistributedNetDisk/application/index/controller/NewFolder.php
+-----------------------------------------------------------------------------------------------------------
+FOUND 13 ERRORS AND 1 WARNING AFFECTING 6 LINES
+-----------------------------------------------------------------------------------------------------------
+  7 | WARNING | [ ] PHP version not specified
+  7 | ERROR   | [ ] Missing @category tag in file comment
+  7 | ERROR   | [ ] Missing @package tag in file comment
+  7 | ERROR   | [ ] Missing @author tag in file comment
+  7 | ERROR   | [ ] Missing @license tag in file comment
+  7 | ERROR   | [ ] Missing @link tag in file comment
+ 16 | ERROR   | [ ] Missing doc comment for class NewFolder
+ 40 | ERROR   | [x] No space found after comma in function call
+ 50 | ERROR   | [x] Opening parenthesis of a multi-line function call must be the last content on the line
+ 51 | ERROR   | [x] No space found after comma in function call
+ 52 | ERROR   | [x] Multi-line function call not indented correctly; expected 12 spaces but found 16
+ 52 | ERROR   | [x] No space found after comma in function call
+ 52 | ERROR   | [x] No space found after comma in function call
+ 52 | ERROR   | [x] Closing parenthesis of a multi-line function call must be on a line by itself
+-----------------------------------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 7 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+-----------------------------------------------------------------------------------------------------------
+
+
+FILE: /Library/WebServer/Documents/DistributedNetDisk/application/index/controller/FileDownloadCtl.php
+------------------------------------------------------------------------------------------------------
+FOUND 13 ERRORS AND 1 WARNING AFFECTING 9 LINES
+------------------------------------------------------------------------------------------------------
+  7 | WARNING | [ ] PHP version not specified
+  7 | ERROR   | [ ] Missing @category tag in file comment
+  7 | ERROR   | [ ] Missing @package tag in file comment
+  7 | ERROR   | [ ] Missing @author tag in file comment
+  7 | ERROR   | [ ] Missing @license tag in file comment
+  7 | ERROR   | [ ] Missing @link tag in file comment
+ 15 | ERROR   | [ ] Missing doc comment for class FileDownloadCtl
+ 19 | ERROR   | [x] There must be exactly one blank line before the tags in a doc comment
+ 20 | ERROR   | [ ] There must be no blank lines after the function comment
+ 22 | ERROR   | [ ] Public method name "FileDownloadCtl::Download_File" is not in camel caps format
+ 25 | ERROR   | [x] Line indented incorrectly; expected at least 8 spaces, found 7
+ 26 | ERROR   | [ ] Expected "for (...) {\n"; found "for (...){\n"
+ 33 | ERROR   | [x] No space found after comma in function call
+ 36 | ERROR   | [x] TRUE, FALSE and NULL must be lowercase; expected "true" but found "TRUE"
+------------------------------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 4 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+------------------------------------------------------------------------------------------------------
+
+
+FILE: /Library/WebServer/Documents/DistributedNetDisk/application/index/controller/FileUpload.php
+----------------------------------------------------------------------------------------------------------------------------------------------------
+FOUND 21 ERRORS AND 2 WARNINGS AFFECTING 15 LINES
+----------------------------------------------------------------------------------------------------------------------------------------------------
+  7 | WARNING | [ ] PHP version not specified
+  7 | ERROR   | [ ] Missing @category tag in file comment
+  7 | ERROR   | [ ] Missing @package tag in file comment
+  7 | ERROR   | [ ] Missing @author tag in file comment
+  7 | ERROR   | [ ] Missing @license tag in file comment
+  7 | ERROR   | [ ] Missing @link tag in file comment
+ 15 | WARNING | [ ] Line exceeds 85 characters; contains 125 characters
+ 17 | ERROR   | [ ] Missing doc comment for class FileUpload
+ 20 | ERROR   | [ ] Missing short description in doc comment
+ 29 | ERROR   | [ ] Missing doc comment for function upload()
+ 29 | ERROR   | [x] Opening brace should be on a new line
+ 31 | ERROR   | [x] Line indented incorrectly; expected at least 8 spaces, found 0
+ 32 | ERROR   | [x] Line indented incorrectly; expected at least 8 spaces, found 0
+ 33 | ERROR   | [x] Line indented incorrectly; expected at least 8 spaces, found 0
+ 34 | ERROR   | [x] Line indented incorrectly; expected at least 8 spaces, found 0
+ 37 | ERROR   | [ ] Expected "if (...) {\n"; found "if(...){\n"
+ 37 | ERROR   | [x] There must be a single space between the closing parenthesis and the opening brace of a multi-line IF statement; found 0 spaces
+ 39 | ERROR   | [ ] Expected "} else {\n"; found "}else{\n"
+ 52 | ERROR   | [x] Opening parenthesis of a multi-line function call must be the last content on the line
+ 53 | ERROR   | [x] No space found after comma in function call
+ 55 | ERROR   | [x] Multi-line function call not indented correctly; expected 12 spaces but found 16
+ 55 | ERROR   | [x] Closing parenthesis of a multi-line function call must be on a line by itself
+ 59 | ERROR   | [x] No space found after comma in function call
+----------------------------------------------------------------------------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 11 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+FILE: /Library/WebServer/Documents/DistributedNetDisk/application/index/model/FileUploadMod.php
+-----------------------------------------------------------------------------------------------
+FOUND 8 ERRORS AND 2 WARNINGS AFFECTING 3 LINES
+-----------------------------------------------------------------------------------------------
+  7 | WARNING | [ ] PHP version not specified
+  7 | ERROR   | [ ] Missing @category tag in file comment
+  7 | ERROR   | [ ] Missing @package tag in file comment
+  7 | ERROR   | [ ] Missing @author tag in file comment
+  7 | ERROR   | [ ] Missing @license tag in file comment
+  7 | ERROR   | [ ] Missing @link tag in file comment
+ 14 | ERROR   | [ ] Missing doc comment for class FileUploadMod
+ 17 | ERROR   | [ ] Missing doc comment for function upload()
+ 17 | WARNING | [ ] Line exceeds 85 characters; contains 93 characters
+ 17 | ERROR   | [x] Opening brace should be on a new line
+-----------------------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+-----------------------------------------------------------------------------------------------
+
+
+FILE: /Library/WebServer/Documents/DistributedNetDisk/application/index/model/LoginModller.php
+----------------------------------------------------------------------------------------------------------------------------------------------------
+FOUND 24 ERRORS AND 1 WARNING AFFECTING 16 LINES
+----------------------------------------------------------------------------------------------------------------------------------------------------
+  7 | WARNING | [ ] PHP version not specified
+  7 | ERROR   | [ ] Missing @category tag in file comment
+  7 | ERROR   | [ ] Missing @package tag in file comment
+  7 | ERROR   | [ ] Missing @author tag in file comment
+  7 | ERROR   | [ ] Missing @license tag in file comment
+  7 | ERROR   | [ ] Missing @link tag in file comment
+ 15 | ERROR   | [ ] Missing doc comment for class LoginModller
+ 19 | ERROR   | [ ] Missing doc comment for function login()
+ 19 | ERROR   | [x] Opening brace should be on a new line
+ 23 | ERROR   | [x] No space found after comma in function call
+ 27 | ERROR   | [x] Line indented incorrectly; expected at least 8 spaces, found 0
+ 29 | ERROR   | [x] Line indented incorrectly; expected at least 8 spaces, found 0
+ 30 | ERROR   | [x] No space found after comma in function call
+ 31 | ERROR   | [x] Line indented incorrectly; expected at least 8 spaces, found 0
+ 32 | ERROR   | [ ] Expected "if (...) {\n"; found "if(...){\n"
+ 32 | ERROR   | [x] No space found after comma in function call
+ 32 | ERROR   | [x] There must be a single space between the closing parenthesis and the opening brace of a multi-line IF statement; found 0 spaces
+ 34 | ERROR   | [ ] Expected "} else {\n"; found "}else{\n"
+ 37 | ERROR   | [x] Line indented incorrectly; expected at least 8 spaces, found 0
+ 38 | ERROR   | [x] Line indented incorrectly; expected at least 8 spaces, found 0
+ 39 | ERROR   | [x] Line indented incorrectly; expected at least 8 spaces, found 0
+ 40 | ERROR   | [ ] Expected "if (...) {\n"; found "if(...){\n"
+ 40 | ERROR   | [x] There must be a single space between the closing parenthesis and the opening brace of a multi-line IF statement; found 0 spaces
+ 44 | ERROR   | [x] Line indented incorrectly; expected at least 12 spaces, found 0
+ 47 | ERROR   | [ ] Expected "} else {\n"; found "}else{\n"
+----------------------------------------------------------------------------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 13 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+FILE: /Library/WebServer/Documents/DistributedNetDisk/application/index/model/util/PasswordEncryt.php
+-----------------------------------------------------------------------------------------------------
+FOUND 14 ERRORS AND 1 WARNING AFFECTING 8 LINES
+-----------------------------------------------------------------------------------------------------
+  7 | WARNING | [ ] PHP version not specified
+  7 | ERROR   | [ ] Missing @category tag in file comment
+  7 | ERROR   | [ ] Missing @package tag in file comment
+  7 | ERROR   | [ ] Missing @author tag in file comment
+  7 | ERROR   | [ ] Missing @license tag in file comment
+  7 | ERROR   | [ ] Missing @link tag in file comment
+ 14 | ERROR   | [ ] Missing doc comment for class PasswordEncryt
+ 21 | ERROR   | [ ] Missing doc comment for function md5encrypt()
+ 31 | ERROR   | [x] Line indented incorrectly; expected at least 8 spaces, found 0
+ 35 | ERROR   | [ ] Missing doc comment for function set_salt()
+ 35 | ERROR   | [ ] Public method name "PasswordEncryt::set_salt" is not in camel caps format
+ 35 | ERROR   | [x] Opening brace should be on a new line
+ 40 | ERROR   | [x] Line indented incorrectly; expected at least 12 spaces, found 0
+ 41 | ERROR   | [x] Line indented incorrectly; expected at least 12 spaces, found 0
+ 45 | ERROR   | [x] Line indented incorrectly; expected at least 8 spaces, found 0
+-----------------------------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 5 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+-----------------------------------------------------------------------------------------------------
+
+
+FILE: /Library/WebServer/Documents/DistributedNetDisk/application/index/model/FileSearchMod.php
+-----------------------------------------------------------------------------------------------
+FOUND 16 ERRORS AND 1 WARNING AFFECTING 8 LINES
+-----------------------------------------------------------------------------------------------
+  7 | WARNING | [ ] PHP version not specified
+  7 | ERROR   | [ ] Missing @category tag in file comment
+  7 | ERROR   | [ ] Missing @package tag in file comment
+  7 | ERROR   | [ ] Missing @author tag in file comment
+  7 | ERROR   | [ ] Missing @license tag in file comment
+  7 | ERROR   | [ ] Missing @link tag in file comment
+ 17 | ERROR   | [ ] Missing doc comment for class FileSearchMod
+ 21 | ERROR   | [ ] Missing doc comment for function search()
+ 21 | ERROR   | [x] Opening brace should be on a new line
+ 23 | ERROR   | [x] No space found after comma in function call
+ 28 | ERROR   | [x] Line indented incorrectly; expected at least 8 spaces, found 7
+ 28 | ERROR   | [x] No space found after comma in function call
+ 29 | ERROR   | [x] Line indented incorrectly; expected at least 8 spaces, found 0
+ 30 | ERROR   | [x] No space found after comma in function call
+ 39 | ERROR   | [ ] Expected "for (...) {\n"; found "for (...){\n"
+ 39 | ERROR   | [x] No space found after comma in function call
+ 39 | ERROR   | [x] Space after closing parenthesis of function call prohibited
+-----------------------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 8 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+-----------------------------------------------------------------------------------------------
+
+
+FILE: /Library/WebServer/Documents/DistributedNetDisk/application/index/model/NewFolderModller.php
+--------------------------------------------------------------------------------------------------
+FOUND 9 ERRORS AND 2 WARNINGS AFFECTING 4 LINES
+--------------------------------------------------------------------------------------------------
+  7 | WARNING | [ ] PHP version not specified
+  7 | ERROR   | [ ] Missing @category tag in file comment
+  7 | ERROR   | [ ] Missing @package tag in file comment
+  7 | ERROR   | [ ] Missing @author tag in file comment
+  7 | ERROR   | [ ] Missing @license tag in file comment
+  7 | ERROR   | [ ] Missing @link tag in file comment
+ 14 | ERROR   | [ ] Missing doc comment for class NewFolderModller
+ 17 | ERROR   | [ ] Missing doc comment for function newfolder()
+ 17 | WARNING | [ ] Line exceeds 85 characters; contains 96 characters
+ 17 | ERROR   | [x] Opening brace should be on a new line
+ 24 | ERROR   | [x] Line indented incorrectly; expected at least 8 spaces, found 0
+--------------------------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 2 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------------------------
+
+
+FILE: /Library/WebServer/Documents/DistributedNetDisk/application/index/model/DistModller.php
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+FOUND 47 ERRORS AND 4 WARNINGS AFFECTING 28 LINES
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+   7 | WARNING | [ ] PHP version not specified
+   7 | ERROR   | [ ] Missing @category tag in file comment
+   7 | ERROR   | [ ] Missing @package tag in file comment
+   7 | ERROR   | [ ] Missing @author tag in file comment
+   7 | ERROR   | [ ] Missing @license tag in file comment
+   7 | ERROR   | [ ] Missing @link tag in file comment
+  13 | ERROR   | [ ] Missing doc comment for class DistModller
+  13 | ERROR   | [x] Opening brace of a class must be on the line after the definition
+  17 | ERROR   | [ ] Missing doc comment for function arrayRecursive()
+  20 | ERROR   | [ ] Expected "if (...) {\n"; found "if (...)\n        {\n"
+  20 | ERROR   | [x] There must be a single space between the closing parenthesis and the opening brace of a multi-line IF statement; found newline
+  24 | ERROR   | [ ] Expected "foreach (...) {\n"; found "foreach (...)\n        {\n"
+  26 | ERROR   | [ ] Expected "if (...) {\n"; found "if (...)\n            {\n"
+  26 | ERROR   | [x] There must be a single space between the closing parenthesis and the opening brace of a multi-line IF statement; found newline
+  30 | ERROR   | [ ] Expected "} else {\n"; found "}\n            else\n            {\n"
+  34 | ERROR   | [ ] Expected "if (...) {\n"; found "if (...)\n            {\n"
+  34 | ERROR   | [x] There must be a single space between the closing parenthesis and the opening brace of a multi-line IF statement; found newline
+  37 | ERROR   | [ ] Expected "if (...) {\n"; found "if (...)\n                {\n"
+  37 | ERROR   | [x] There must be a single space between the closing parenthesis and the opening brace of a multi-line IF statement; found newline
+  46 | ERROR   | [ ] Missing doc comment for function json1()
+  53 | ERROR   | [ ] Missing doc comment for function getUserFile()
+  53 | ERROR   | [x] Opening brace should be on a new line
+  56 | ERROR   | [ ] Expected "if (...) {\n"; found "if(...){\n"
+  56 | ERROR   | [x] There must be a single space between the closing parenthesis and the opening brace of a multi-line IF statement; found 0 spaces
+  59 | ERROR   | [ ] Expected "} else {\n"; found "}else{\n"
+  60 | WARNING | [ ] Line exceeds 85 characters; contains 87 characters
+  64 | ERROR   | [ ] Expected "if (...) {\n"; found "if(...){\n"
+  64 | ERROR   | [x] There must be a single space between the closing parenthesis and the opening brace of a multi-line IF statement; found 0 spaces
+  65 | ERROR   | [x] No space found after comma in function call
+  65 | WARNING | [ ] Line exceeds 85 characters; contains 89 characters
+  67 | ERROR   | [ ] Expected "} else {\n"; found "}\n        else{\n"
+  68 | ERROR   | [x] No space found after comma in function call
+  68 | ERROR   | [x] No space found after comma in function call
+  68 | ERROR   | [x] No space found after comma in function call
+  68 | WARNING | [ ] Line exceeds 85 characters; contains 122 characters
+  78 | ERROR   | [ ] Expected "if (...) {\n"; found "if(...){\n"
+  78 | ERROR   | [x] There must be a single space between the closing parenthesis and the opening brace of a multi-line IF statement; found 0 spaces
+  83 | ERROR   | [ ] Expected "} else if (...) {\n"; found "}\n        else if(...){\n"
+  83 | ERROR   | [ ] Expected "if (...) {\n"; found "if(...){\n"
+  83 | ERROR   | [x] There must be a single space between the closing parenthesis and the opening brace of a multi-line IF statement; found 0 spaces
+  87 | ERROR   | [ ] Expected "} else {\n"; found "}\n        else{\n"
+  99 | ERROR   | [x] Line indented incorrectly; expected at least 8 spaces, found 7
+ 101 | ERROR   | [ ] Expected "for (...) {\n"; found "for(...)\n        {\n"
+ 131 | ERROR   | [ ] Missing doc comment for function page()
+ 131 | ERROR   | [x] Opening brace should be on a new line
+ 133 | ERROR   | [ ] Expected "if (...) {\n"; found "if(...){\n"
+ 133 | ERROR   | [x] There must be a single space between the closing parenthesis and the opening brace of a multi-line IF statement; found 0 spaces
+ 136 | ERROR   | [ ] Expected "} else {\n"; found "}\n        else{\n"
+ 137 | ERROR   | [ ] Expected "if (...) {\n"; found "if(...){\n"
+ 137 | ERROR   | [x] There must be a single space between the closing parenthesis and the opening brace of a multi-line IF statement; found 0 spaces
+ 140 | ERROR   | [ ] Expected "} else {\n"; found "}\n            else{\n"
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 18 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+FILE: /Library/WebServer/Documents/DistributedNetDisk/application/index/model/RegisterModller.php
+----------------------------------------------------------------------------------------------------------------------------------------------------
+FOUND 14 ERRORS AND 2 WARNINGS AFFECTING 9 LINES
+----------------------------------------------------------------------------------------------------------------------------------------------------
+  7 | WARNING | [ ] PHP version not specified
+  7 | ERROR   | [ ] Missing @category tag in file comment
+  7 | ERROR   | [ ] Missing @package tag in file comment
+  7 | ERROR   | [ ] Missing @author tag in file comment
+  7 | ERROR   | [ ] Missing @license tag in file comment
+  7 | ERROR   | [ ] Missing @link tag in file comment
+ 13 | ERROR   | [ ] Missing doc comment for class RegisterModller
+ 17 | ERROR   | [ ] Missing doc comment for function register()
+ 17 | ERROR   | [x] Opening brace should be on a new line
+ 18 | ERROR   | [x] No space found after comma in function call
+ 19 | ERROR   | [x] Line indented incorrectly; expected at least 8 spaces, found 0
+ 20 | ERROR   | [ ] Expected "if (...) {\n"; found "if(...){\n"
+ 20 | ERROR   | [x] There must be a single space between the closing parenthesis and the opening brace of a multi-line IF statement; found 0 spaces
+ 23 | ERROR   | [x] No space found after comma in function call
+ 24 | WARNING | [ ] Line exceeds 85 characters; contains 87 characters
+ 28 | ERROR   | [ ] Expected "} else {\n"; found "}\n        else{\n"
+----------------------------------------------------------------------------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 5 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Time: 96ms; Memory: 6Mb
+

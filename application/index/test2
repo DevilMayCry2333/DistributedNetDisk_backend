@@ -1,0 +1,28 @@
+
+PHP CODE SNIFFER REPORT SUMMARY
+---------------------------------------------------------------------------------------------------------------------
+FILE                                                                                                 ERRORS  WARNINGS
+---------------------------------------------------------------------------------------------------------------------
+/Library/WebServer/Documents/DistributedNetDisk/application/index/controller/FileDownloadCtl.php     7       1
+/Library/WebServer/Documents/DistributedNetDisk/application/index/controller/FileSearch.php          12      1
+/Library/WebServer/Documents/DistributedNetDisk/application/index/controller/FileUpload.php          21      2
+/Library/WebServer/Documents/DistributedNetDisk/application/index/controller/Index.php               51      0
+/Library/WebServer/Documents/DistributedNetDisk/application/index/controller/LgTest.php              8       1
+/Library/WebServer/Documents/DistributedNetDisk/application/index/controller/LoginController.php     14      5
+/Library/WebServer/Documents/DistributedNetDisk/application/index/controller/NewFolder.php           13      1
+/Library/WebServer/Documents/DistributedNetDisk/application/index/controller/Register.php            17      2
+/Library/WebServer/Documents/DistributedNetDisk/application/index/model/DistModller.php              47      4
+/Library/WebServer/Documents/DistributedNetDisk/application/index/model/FileSearchMod.php            16      1
+/Library/WebServer/Documents/DistributedNetDisk/application/index/model/FileUploadMod.php            8       2
+/Library/WebServer/Documents/DistributedNetDisk/application/index/model/LoginModller.php             24      1
+/Library/WebServer/Documents/DistributedNetDisk/application/index/model/NewFolderModller.php         9       2
+/Library/WebServer/Documents/DistributedNetDisk/application/index/model/RegisterModller.php          14      2
+/Library/WebServer/Documents/DistributedNetDisk/application/index/model/util/PasswordEncryt.php      14      1
+---------------------------------------------------------------------------------------------------------------------
+A TOTAL OF 275 ERRORS AND 26 WARNINGS WERE FOUND IN 15 FILES
+---------------------------------------------------------------------------------------------------------------------
+PHPCBF CAN FIX 128 OF THESE SNIFF VIOLATIONS AUTOMATICALLY
+---------------------------------------------------------------------------------------------------------------------
+
+Time: 95ms; Memory: 6Mb
+
