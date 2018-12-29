@@ -66,8 +66,6 @@ class FileDownloadCtl extends Controller
         }
 
         echo $zipname;
-
-
     }
 
 
