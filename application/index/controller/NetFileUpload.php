@@ -1,17 +1,23 @@
 <?php
-class NetFileUpload extends \think\Controller {
-    private $filepath = './upload'; //上传目录
+namespace app\index\controller;
+use think\Controller;
+
+class NetFileUpload extends Controller {
+    private $filepath = './upload/13720815215/'; //上传目录
     private $tmpPath; //PHP文件临时目录
     private $blobNum; //第几个文件块
     private $totalBlobNum; //文件块总数
     private $fileName; //文件名
-    public function __construct($tmpPath,$blobNum,$totalBlobNum,$fileName){
-        $this->tmpPath = $tmpPath;
-        $this->blobNum = $blobNum;
-        $this->totalBlobNum = $totalBlobNum;
-        $this->fileName = $fileName;
+    public function index(){
+        $this->tmpPath = $_FILES['file']['tmp_name'];
+        $this->blobNum = $_POST['blob_num'];
+        $this->totalBlobNum = $_POST['total_blob_num'];
+        $this->fileName = $_POST['file_name'];
+        $FileUploadMod =new \app\index\model\FileUploadMod();
+        $FileUploadMod->upload('13720815215', $_POST['file_name'], 'file', $_POST["filesize"], $_POST["filepath"], $_POST['mod_date'], 0);
         $this->moveFile();
         $this->fileMerge();
+        $this->apiReturn();
     }
     //判断是否是最后一块，如果是则进行文件合成并且删除文件块
     private function fileMerge(){
@@ -69,9 +75,9 @@ class NetFileUpload extends \think\Controller {
 }
 //实例化并获取系统变量传参
 //echo $_POST['file_name'];
-$upload = new NetFileUpload($_FILES['file']['tmp_name'],$_POST['blob_num'],$_POST['total_blob_num'],$_POST['file_name']);
-//$FileUploadMod =new \app\index\model\FileUploadMod();
+//$upload = new NetFileUpload($_FILES['file']['tmp_name'],$_POST['blob_num'],$_POST['total_blob_num'],$_POST['file_name']);
+$FileUploadMod =new \app\index\model\FileUploadMod();
 //echo $this->filepath.$this->fileName;
 //调用方法，返回结果
-//$FileUploadMod->upload($username, $_POST['file_name'], $_FILES["file"]["type"], $_POST["filesize"], $_POST["filepath"], $mod_date, 0);
-$upload->apiReturn();
+$FileUploadMod->upload('13720815215', $_POST['file_name'], 'file', $_POST["filesize"], $_POST["filepath"], $_POST['mod_date'], 0);
+//$upload->apiReturn();
